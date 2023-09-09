@@ -51,7 +51,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, ref, onBeforeMount, watch } from "vue";
+import { onBeforeMount } from "vue";
 import { useEpisodeStore } from "@/stores/episode";
 
 var episodeStore = useEpisodeStore();
@@ -59,8 +59,6 @@ var episodeStore = useEpisodeStore();
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
   episodeStore.initialiseEpisodeData();
-  //hintText.value = questionStore.currentQuestion.hints.toString();
-  //questionIcon.value = questionStore.currentQuestion.icon;
 });
 </script>
 
@@ -70,7 +68,11 @@ onBeforeMount(async () => {
   font-size: 1.25em;
   background-color: var(--simpsons-blue);
   color: var(--simpsons-yellow);
-  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+  text-shadow:
+    0 0 2px black,
+    0 0 2px black,
+    0 0 2px black,
+    0 0 2px black;
 }
 
 .title {

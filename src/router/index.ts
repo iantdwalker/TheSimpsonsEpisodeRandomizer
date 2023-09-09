@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+import EpisodeRandomizerView from "@/views/EpisodeRandomizerView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,12 +7,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: HomeView,
-    },
-    {
-      path: "/episode-randomizer",
-      name: "episode-randomizer",
-      component: () => import("../views/EpisodeRandomizerView.vue"),
+      component: EpisodeRandomizerView,
     },
   ],
 });
