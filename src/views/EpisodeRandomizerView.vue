@@ -3,6 +3,7 @@
     <v-container class="container">
       <v-main class="main">
         <v-row no-gutters>
+          <v-spacer></v-spacer>
           <v-col>
             <img
               alt="Simpsons Image"
@@ -11,6 +12,7 @@
               height="125"
             />
           </v-col>
+          <v-spacer></v-spacer>
         </v-row>
         <v-row no-gutters>
           <v-spacer></v-spacer>
@@ -25,11 +27,14 @@
           <v-spacer></v-spacer>
         </v-row>
         <v-row>
+          <v-spacer></v-spacer>
           <v-col>
             <p class="title">"{{ episodeStore.currentEpisode.title }}"</p>
           </v-col>
+          <v-spacer></v-spacer>
         </v-row>
         <v-row>
+          <v-spacer></v-spacer>
           <v-col>
             <p>Season: {{ episodeStore.currentEpisode.season }}</p>
             <p>Episode: {{ episodeStore.currentEpisode.episode }}</p>
@@ -44,6 +49,7 @@
               >Wiki Simpsons Episode Link</a
             >
           </v-col>
+          <v-spacer></v-spacer>
         </v-row>
       </v-main>
     </v-container>
@@ -84,13 +90,5 @@ a {
   color: var(--simpsons-yellow);
   font-weight: 550;
   text-decoration: underline;
-}
-
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
 }
 </style>
