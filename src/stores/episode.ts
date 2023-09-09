@@ -24,7 +24,6 @@ export const useEpisodeStore = defineStore("episode", () => {
     for (const path in modules) {
       await modules[path]().then((mod: any) => {
         episodeData = mod.default as Episode[];
-        console.log(episodeData);
       });
     }
   }
@@ -51,5 +50,5 @@ export const useEpisodeStore = defineStore("episode", () => {
     currentEpisode.productionCode = newEpisode.productionCode;
   }
 
-  return { importEpisodeData, initialiseEpisodeData, next, updateEpisode };
+  return { importEpisodeData, initialiseEpisodeData, next, currentEpisode };
 });
