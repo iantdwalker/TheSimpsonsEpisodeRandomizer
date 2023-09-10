@@ -50,7 +50,7 @@
         <v-row>
           <v-col cols="12" lg="8">
             <v-row :column="mdAndDown">
-              <v-col cols="12" md="6">
+              <v-col cols="12" md="6" :class="computedInfoFontSize">
                 <p>Season {{ episodeStore.currentEpisode.season }}</p>
                 <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
                 <p>
@@ -65,7 +65,7 @@
                   >
                 </p>
               </v-col>
-              <v-col cols="12" md="6">
+              <v-col cols="12" md="6" :class="computedSynopsisFontSize">
                 <p>
                   {{ episodeStore.currentEpisode.synopsis }}
                 </p>
@@ -102,6 +102,14 @@ onBeforeMount(async () => {
 
 const computedTitleFontSize = computed(() => {
   return createStyleForDisplay("title-font-size");
+});
+
+const computedInfoFontSize = computed(() => {
+  return createStyleForDisplay("info-font-size");
+});
+
+const computedSynopsisFontSize = computed(() => {
+  return createStyleForDisplay("synopsis-font-size");
 });
 
 function onNextRandomEpisodeBtnClicked() {
@@ -150,9 +158,25 @@ function createStyleForDisplay(style: string): string {
   font-size: 1.4em;
 }
 
+.info-font-size {
+  font-size: 1.1em;
+}
+
+.synopsis-font-size {
+  font-size: 0.8em;
+}
+
 /* small - small to medium tablet */
 .title-font-size-sm {
   font-size: 1.6em;
+}
+
+.info-font-size-sm {
+  font-size: 1.2em;
+}
+
+.synopsis-font-size-sm {
+  font-size: 0.9em;
 }
 
 /* medium - large tablet to laptop */
@@ -160,9 +184,25 @@ function createStyleForDisplay(style: string): string {
   font-size: 2em;
 }
 
+.info-font-size-md {
+  font-size: 1.3em;
+}
+
+.synopsis-font-size-md {
+  font-size: 1em;
+}
+
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
 .title-font-size-lgPlus {
   font-size: 2.25em;
+}
+
+.info-font-size-lgPlus {
+  font-size: 1.5em;
+}
+
+.synopsis-font-size-lgPlus {
+  font-size: 1.1em;
 }
 
 a {
