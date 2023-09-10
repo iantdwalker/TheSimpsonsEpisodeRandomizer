@@ -42,7 +42,9 @@
         </v-row>
         <v-row>
           <v-col>
-            <p class="title">"{{ episodeStore.currentEpisode.title }}"</p>
+            <p :class="computedTitleFontSize">
+              "{{ episodeStore.currentEpisode.title }}"
+            </p>
           </v-col>
         </v-row>
         <v-row>
@@ -81,9 +83,11 @@
 </template>
 
 <script setup lang="ts">
-import { onBeforeMount } from "vue";
+import { computed, onBeforeMount } from "vue";
+import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 
+const { name } = useDisplay();
 var episodeStore = useEpisodeStore();
 
 onBeforeMount(async () => {
@@ -91,8 +95,27 @@ onBeforeMount(async () => {
   episodeStore.getRandomEpisode();
 });
 
+const computedTitleFontSize = computed(() => {
+  return createStyleForDisplay("title-font-size");
+});
+
 function onNextRandomEpisodeBtnClicked() {
   episodeStore.getRandomEpisode();
+}
+
+function createStyleForDisplay(style: string): string {
+  switch (name.value) {
+    case "sm":
+      return `${style}-sm`;
+    case "md":
+      return `${style}-md`;
+    case "lg":
+    case "xl":
+    case "xxl":
+      return `${style}-lgPlus`;
+    default:
+      return style;
+  }
 }
 </script>
 
@@ -113,8 +136,24 @@ function onNextRandomEpisodeBtnClicked() {
   background-color: aquamarine;
 }
 
-.title {
+/* extra small - small to large phone */
+.title-font-size {
+  font-size: 1.4em;
+}
+
+/* small - small to medium tablet */
+.title-font-size-sm {
+  font-size: 1.6em;
+}
+
+/* medium - large tablet to laptop */
+.title-font-size-md {
   font-size: 2em;
+}
+
+/* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
+.title-font-size-lgPlus {
+  font-size: 2.25em;
 }
 
 a {
