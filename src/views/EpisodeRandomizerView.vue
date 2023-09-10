@@ -48,28 +48,33 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col>
-            <p>
-              {{ episodeStore.currentEpisode.synopsis }}
-            </p>
+          <v-col cols="12" lg="8">
+            <v-row :column="mdAndDown">
+              <v-col cols="12" md="6">
+                <p>Season {{ episodeStore.currentEpisode.season }}</p>
+                <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
+                <p>
+                  Episode {{ episodeStore.currentEpisode.totalEpisode }} overall
+                </p>
+                <p>
+                  {{ episodeStore.currentEpisode.originalAirDate }}
+                </p>
+                <p>
+                  <a :href="episodeStore.currentEpisode.url" target="_blank"
+                    >Wiki Simpsons Episode Link</a
+                  >
+                </p>
+              </v-col>
+              <v-col cols="12" md="6">
+                <p>
+                  {{ episodeStore.currentEpisode.synopsis }}
+                </p>
+              </v-col>
+            </v-row>
           </v-col>
-          <v-col>
-            <p>Season {{ episodeStore.currentEpisode.season }}</p>
-            <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
-            <p>
-              Episode {{ episodeStore.currentEpisode.totalEpisode }} overall
-            </p>
-            <p>
-              {{ episodeStore.currentEpisode.originalAirDate }}
-            </p>
-            <p>
-              <a :href="episodeStore.currentEpisode.url" target="_blank"
-                >Wiki Simpsons Episode Link</a
-              >
-            </p>
-          </v-col>
-          <v-col>
+          <v-col cols="12" lg="4">
             <v-img
+              class="episode-image"
               alt="Episode Image"
               :src="episodeStore.currentEpisode.imageUrl"
               width="320"
@@ -87,7 +92,7 @@ import { computed, onBeforeMount } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 
-const { name } = useDisplay();
+const { name, mdAndDown } = useDisplay();
 var episodeStore = useEpisodeStore();
 
 onBeforeMount(async () => {
@@ -106,14 +111,18 @@ function onNextRandomEpisodeBtnClicked() {
 function createStyleForDisplay(style: string): string {
   switch (name.value) {
     case "sm":
+      console.log("sm");
       return `${style}-sm`;
     case "md":
+      console.log("md");
       return `${style}-md`;
     case "lg":
     case "xl":
     case "xxl":
+      console.log("lg & up");
       return `${style}-lgPlus`;
     default:
+      console.log("xs");
       return style;
   }
 }
@@ -160,6 +169,10 @@ a {
   background-color: var(--simpsons-blue);
   color: var(--simpsons-yellow);
   font-weight: 550;
+  text-decoration: none;
+}
+
+a:hover {
   text-decoration: underline;
 }
 
@@ -170,5 +183,10 @@ p {
 .next-epsiode-btn {
   color: black;
   background-color: var(--simpsons-yellow);
+}
+
+.episode-image {
+  display: block;
+  margin: auto;
 }
 </style>
