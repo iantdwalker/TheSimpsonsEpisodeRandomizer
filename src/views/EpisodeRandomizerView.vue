@@ -29,6 +29,20 @@
         <v-row>
           <v-spacer></v-spacer>
           <v-col>
+            <v-btn
+              block
+              rounded="xl"
+              elevation="8"
+              class="next-epsiode-btn"
+              @click="onNextRandomEpisodeBtnClicked"
+              >Next Random Episode</v-btn
+            >
+          </v-col>
+          <v-spacer></v-spacer>
+        </v-row>
+        <v-row>
+          <v-spacer></v-spacer>
+          <v-col cols="10">
             <p class="title">"{{ episodeStore.currentEpisode.title }}"</p>
           </v-col>
           <v-spacer></v-spacer>
@@ -63,20 +77,6 @@
               height="179"
             />
           </v-col>
-        </v-row>
-        <v-row>
-          <v-spacer></v-spacer>
-          <v-col>
-            <v-btn
-              block
-              rounded="xl"
-              elevation="8"
-              class="next-epsiode-btn"
-              @click="onNextRandomEpisodeBtnClicked"
-              >Next Random Episode</v-btn
-            >
-          </v-col>
-          <v-spacer></v-spacer>
         </v-row>
       </v-main>
     </v-container>

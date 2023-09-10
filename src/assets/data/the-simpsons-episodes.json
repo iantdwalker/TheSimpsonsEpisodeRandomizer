@@ -6,7 +6,9 @@
    "title": "Simpsons Roasting on an Open Fire",
    "url": "http://simpsonswiki.com/wiki/Simpsons_Roasting_on_an_Open_Fire",
    "originalAirDate": "December 17, 1989",
-   "productionCode": "7G08"
+   "productionCode": "7G08",
+   "synopsis": "It's a not-so-merry Christmas for the Simpsons, when Mr. Burns decides to cut the Christmas bonuses, and Marge has to spend the family's Christmas savings to erase a tattoo Bart thought will make a great Christmas present. In order to hide the fact he didn't get the bonus, Homer takes a second job as a mall Santa",
+   "imageUrl": "https://static.simpsonswiki.com/images/5/5b/Simpsons_Roasting_on_an_Open_Fire_promo.png"
  },
  {
    "season": 1,
@@ -15,7 +17,9 @@
    "title": "Bart the Genius",
    "url": "http://simpsonswiki.com/wiki/Bart_the_Genius",
    "originalAirDate": "January 14, 1990",
-   "productionCode": "7G02"
+   "productionCode": "7G02",
+   "synopsis": "Bart swaps papers with Martin Prince during an intelligence test at school. When the school psychologist compiles the test results, he believes the switch and refers Bart to the Enriched Learning Center for Gifted Children. The new school's laid-back liberal ethos suits Bart just fine - until he's asked to show evidence of his neglected genius",
+   "imageUrl": "https://static.simpsonswiki.com/images/a/a0/Bart_in_class.png"
  },
  {
    "season": 1,
@@ -24,7 +28,9 @@
    "title": "Homer's Odyssey",
    "url": "http://simpsonswiki.com/wiki/Homer%27s_Odyssey",
    "originalAirDate": "January 21, 1990",
-   "productionCode": "7G03"
+   "productionCode": "7G03",
+   "synopsis": "Homer's fired from his job as technical supervisor at the Springfield Nuclear Plant. Unable to provide for his family, he contemplates ending it all - until he discovers a new life path as a campaigner for safety",
+   "imageUrl": "https://static.simpsonswiki.com/images/e/ed/Homer%27s_Odyssey_%28Mr._Burns_Looking_Out_the_Window%29.png"
  },
  {
    "season": 1,
@@ -33,7 +39,9 @@
    "title": "There's No Disgrace Like Home",
    "url": "http://simpsonswiki.com/wiki/There%27s_No_Disgrace_Like_Home",
    "originalAirDate": "January 28, 1990",
-   "productionCode": "7G04"
+   "productionCode": "7G04",
+   "synopsis": "After an embarrassing experience at the company picnic, Homer begins to wonder if his family's too dysfunctional. Homer, Marge, Bart, Lisa and Maggie attend family therapy sessions with Dr. Marvin Monroe, an unorthodox psychotherapist who uses shock therapy to \"cure\" them",
+   "imageUrl": "https://static.simpsonswiki.com/images/2/22/Bart_is_shocked.png"
  },
  {
    "season": 1,
@@ -42,7 +50,9 @@
    "title": "Bart the General",
    "url": "http://simpsonswiki.com/wiki/Bart_the_General",
    "originalAirDate": "February 4, 1990",
-   "productionCode": "7G05"
+   "productionCode": "7G05",
+   "synopsis": "After defending Lisa from school bully Nelson Muntz, Bart becomes Nelson's latest school bullying target. Sick of the harassment and torment, Bart, Abraham Simpson, and Herman Hermann (a slightly deranged military antique store dealer with a missing arm) rally the town's children into fighting back against Nelson and his cronies",
+   "imageUrl": "https://static.simpsonswiki.com/images/5/5f/General_Bart_%28Bart_the_General%29.png"
  },
  {
    "season": 1,
@@ -51,7 +61,9 @@
    "title": "Moaning Lisa",
    "url": "http://simpsonswiki.com/wiki/Moaning_Lisa",
    "originalAirDate": "February 11, 1990",
-   "productionCode": "7G06"
+   "productionCode": "7G06",
+   "synopsis": "Lisa meets a new friend, Bleeding Gums Murphy, a jazz musician who helps her cope with the blues. Meanwhile, Bart and Homer duke it out in video game boxing",
+   "imageUrl": "https://static.simpsonswiki.com/images/6/65/Moaning_Lisa.jpg"
  },
  {
    "season": 1,
@@ -60,7 +72,9 @@
    "title": "The Call of the Simpsons",
    "url": "http://simpsonswiki.com/wiki/The_Call_of_the_Simpsons",
    "originalAirDate": "February 18, 1990",
-   "productionCode": "7G09"
+   "productionCode": "7G09",
+   "synopsis": "It's a camping misadventure for the Simpsons. First, they're lost in the woods and lose all of their camping equipment. Bart and Homer try to get help, but are washed down a waterfall, and lose all of their clothes. Meanwhile, Maggie meets up with some bears, while Homer's confused for Bigfoot after he goes in a mud pile",
+   "imageUrl": "https://static.simpsonswiki.com/images/7/7d/The_Call_of_the_Simpsons.png"
  },
  {
    "season": 1,
@@ -69,7 +83,9 @@
    "title": "The Telltale Head",
    "url": "http://simpsonswiki.com/wiki/The_Telltale_Head",
    "originalAirDate": "February 25, 1990",
-   "productionCode": "7G07"
+   "productionCode": "7G07",
+   "synopsis": "Bart Simpson cuts off Jebediah Springfield's statue's head to be cool to some bullies, but the whole city gets angry and starts looking for the vandal",
+   "imageUrl": "https://static.simpsonswiki.com/images/d/da/Bart_Worried_About_the_Statue_%28The_Telltale_Head%29.png"
  },
  {
    "season": 1,
@@ -78,7 +94,9 @@
    "title": "Life on the Fast Lane",
    "url": "http://simpsonswiki.com/wiki/Life_on_the_Fast_Lane",
    "originalAirDate": "March 18, 1990",
-   "productionCode": "7G11"
+   "productionCode": "7G11",
+   "synopsis": "Homer buys Marge a bowling ball for her birthday, but she accuses him of only buying it for himself - true, right down to the Homer engraving on the ball. To spite him, she begins to learn how to bowl, helped by Jacques, with whom she becomes quite attached to. Homer suspects something when Jacques invites Marge to his apartment, but Marge changes her plans and goes to the power plant to see her husband instead",
+   "imageUrl": "https://static.simpsonswiki.com/images/1/1e/Life_on_the_Fast_Lane.jpg"
  },
  {
    "season": 1,
@@ -87,7 +105,9 @@
    "title": "Homer's Night Out",
    "url": "http://simpsonswiki.com/wiki/Homer%27s_Night_Out",
    "originalAirDate": "March 25, 1990",
-   "productionCode": "7G10"
+   "productionCode": "7G10",
+   "synopsis": "Bart purchases a spy camera through a catalog, and Homer goes to a stag party at a local restaurant. The rest of the family also go to the restaurant coincidentally, and Bart snaps a picture of Homer dancing with a belly dancer, named Princess Kashmir. Soon, all of Springfield sees the picture, and Marge orders him out of the house. Homer takes Bart to a burlesque show to explain how he shouldn't take advantage of women",
+   "imageUrl": "https://static.simpsonswiki.com/images/c/cc/Princess_Kashmir_%26_Homer.png"
  },
  {
    "season": 1,
@@ -96,7 +116,9 @@
    "title": "The Crepes of Wrath",
    "url": "http://simpsonswiki.com/wiki/The_Crepes_of_Wrath",
    "originalAirDate": "April 15, 1990",
-   "productionCode": "7G13"
+   "productionCode": "7G13",
+   "synopsis": "When Bart flushes a cherry bomb down the toilet, Principal Skinner suggests he should partake in a foreign exchange scheme. Bart ends up in France, working for some crooks who want to put antifreeze in wine. Meanwhile, back in Springfield, Adil Hoxha, an Albanian boy, is exchanged to the Simpsons to receive in the scheme, shows an interest in the power plant, and sends information back to the Albanian government",
+   "imageUrl": "https://static.simpsonswiki.com/images/d/d3/The_Crepes_of_Wrath.png"
  },
  {
    "season": 1,
@@ -105,7 +127,9 @@
    "title": "Krusty Gets Busted",
    "url": "http://simpsonswiki.com/wiki/Krusty_Gets_Busted",
    "originalAirDate": "April 29, 1990",
-   "productionCode": "7G12"
+   "productionCode": "7G12",
+   "synopsis": "No one's sadder than Bart when his TV hero Krusty the Clown's arrested for a convenience-store robbery, and witness Homer has to testify against the clown",
+   "imageUrl": "https://static.simpsonswiki.com/images/6/6d/Krusty_Gets_Busted_title_card.png"
  },
  {
    "season": 1,
@@ -114,7 +138,9 @@
    "title": "Some Enchanted Evening",
    "url": "http://simpsonswiki.com/wiki/Some_Enchanted_Evening",
    "originalAirDate": "May 13, 1990",
-   "productionCode": "7G01"
+   "productionCode": "7G01",
+   "synopsis": "Homer and Marge go out for dinner one night while having Bart, Lisa and Maggie watched by a babysitter named Ms. Botz. Unbeknownst to the family, Botz is known as a wanted bandit for babysitting and she's covering her identity while Homer and Marge spend their time fairly",
+   "imageUrl": "https://static.simpsonswiki.com/images/b/b7/Some_Enchanted_Evening.png"
  },
  {
    "season": 2,
@@ -123,7 +149,9 @@
    "title": "Bart Gets an F",
    "url": "http://simpsonswiki.com/wiki/Bart_Gets_an_%22F%22",
    "originalAirDate": "October 11, 1990",
-   "productionCode": "7F03"
+   "productionCode": "7F03",
+   "synopsis": "Mrs. Krabappel warns Bart his grades are slipping, and if he fails another test, he may probably have to repeat the fourth grade. In a last-ditch effort to avoid being held back, Bart enlists the aid of the class brain and nerd (Martin Prince) to help him pass a history test",
+   "imageUrl": "https://static.simpsonswiki.com/images/e/e7/Martin_%26_Bart_-_Bart_Gets_an_%22F%22.png"
  },
  {
    "season": 2,
@@ -132,7 +160,9 @@
    "title": "Simpson and Delilah",
    "url": "http://simpsonswiki.com/wiki/Simpson_and_Delilah",
    "originalAirDate": "October 18, 1990",
-   "productionCode": "7F02"
+   "productionCode": "7F02",
+   "synopsis": "Homer tries a new hair growth formula - Dimoxinil - and wakes up with a head full of hair",
+   "imageUrl": "https://static.simpsonswiki.com/images/d/dc/Simpson_and_Delilah.jpg"
  },
  {
    "season": 2,
@@ -141,7 +171,9 @@
    "title": "Treehouse of Horror",
    "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror",
    "originalAirDate": "October 25, 1990",
-   "productionCode": "7F04"
+   "productionCode": "7F04",
+   "synopsis": "The first of the annual Halloween spook-fest. In \"Bad Dream House\", the family move into an old haunted house, are possessed by an evil spirit, and attempt to kill each other. In \"Hungry are the Damned\", the family's abducted by aliens Kang and Kodos and are fattened up to the extent Lisa questions their motives. In \"The Raven\", a poem by Edgar Allan Poe is recited with the family as characters",
+   "imageUrl": "https://static.simpsonswiki.com/images/d/d7/Treehouse_of_Horror_%28Title_Card%29.png"
  },
  {
    "season": 2,
@@ -150,7 +182,9 @@
    "title": "Two Cars in Every Garage and Three Eyes on Every Fish",
    "url": "http://simpsonswiki.com/wiki/Two_Cars_in_Every_Garage_and_Three_Eyes_on_Every_Fish",
    "originalAirDate": "November 1, 1990",
-   "productionCode": "7F01"
+   "productionCode": "7F01",
+   "synopsis": "Bart catches a three-eyed fish named Blinky in the river by the power plant, and it makes headlines. State nuclear inspectors find numerous safety violations, and order Mr. Burns to fix them or face having the plant closed down. Burns decides to run for governor so he can pass laws which will keep the plant open (by doing away with the regulations costing him so much money). Burns comes very close to having enough support to win the election, and his advisors propose a publicity stunt to put him over the top. As the TV cameras roll, Burns visits the Simpson house for a meal, but the plan backfires when he is presented with Blinky as the main course, and he takes a bite and spits it out",
+   "imageUrl": "https://static.simpsonswiki.com/images/8/84/Two_Cars.png"
  },
  {
    "season": 2,
@@ -159,7 +193,9 @@
    "title": "Dancin' Homer",
    "url": "http://simpsonswiki.com/wiki/Dancin%27_Homer",
    "originalAirDate": "November 8, 1990",
-   "productionCode": "7F05"
+   "productionCode": "7F05",
+   "synopsis": "Homer becomes a baseball mascot for a local team, thanks to his butt-swinging dance to The Baby Elephant Walk. The team's subsequent high scores bring him to the attention of the major league head hunters and big commercial sponsors. But will success spoil Homer?",
+   "imageUrl": "https://static.simpsonswiki.com/images/3/3e/Dancin%27_Homer.png"
  },
  {
    "season": 2,
@@ -168,7 +204,9 @@
    "title": "Dead Putting Society",
    "url": "http://simpsonswiki.com/wiki/Dead_Putting_Society",
    "originalAirDate": "November 15, 1990",
-   "productionCode": "7F08"
+   "productionCode": "7F08",
+   "synopsis": "When Homer and Bart bump into Ned and Todd Flanders at the mini golf course, Homer is convinced that his son could beat Todd in the upcoming miniature golf tournament. They both enter, and they place a bet on who will win - the loser having to mow the lawn in his wife's Sunday dress. Lisa researches and helps Bart, but when it comes down to the final, the pair give up and split the prize in half",
+   "imageUrl": "https://static.simpsonswiki.com/images/f/f3/Dead_Putting_Society.png"
  },
  {
    "season": 2,
@@ -177,7 +215,9 @@
    "title": "Bart vs. Thanksgiving",
    "url": "http://simpsonswiki.com/wiki/Bart_vs._Thanksgiving",
    "originalAirDate": "November 22, 1990",
-   "productionCode": "7F07"
+   "productionCode": "7F07",
+   "synopsis": "It's Thanksgiving at the Simpsons place-with Homer betting on football and Marge's mother criticizing everything. Bart gets the entire family mad at him and he runs away from home. When he sees what life is like on the seedy side of town (and ends up on the evening news), he realizes how good things are for him and returns home",
+   "imageUrl": "https://static.simpsonswiki.com/images/c/c6/Bart_vs_Thanksgiving.png"
  },
  {
    "season": 2,
@@ -186,7 +226,9 @@
    "title": "Bart the Daredevil",
    "url": "http://simpsonswiki.com/wiki/Bart_the_Daredevil",
    "originalAirDate": "December 6, 1990",
-   "productionCode": "7F06"
+   "productionCode": "7F06",
+   "synopsis": "Bart attempts to follow in the footsteps of his hero, a daredevil named Captain Lance Murdock. As part of becoming a daredevil himself Bart does increasingly dangerous stunts leading to his final stunt: jumping the Springfield Gorge",
+   "imageUrl": "https://static.simpsonswiki.com/images/6/68/Bart_the_Daredevil.png"
  },
  {
    "season": 2,
@@ -195,7 +237,9 @@
    "title": "Itchy & Scratchy & Marge",
    "url": "http://simpsonswiki.com/wiki/Itchy_%26_Scratchy_%26_Marge",
    "originalAirDate": "December 20, 1990",
-   "productionCode": "7F09"
+   "productionCode": "7F09",
+   "synopsis": "After watching an Itchy and Scratchy cartoon, Maggie strikes Homer with a mallet. Horrified, Marge vows to put a stop to violence on children's television. But when the ball of censorship starts to roll, where will it all end?",
+   "imageUrl": "https://static.simpsonswiki.com/images/2/2c/Itchy_%26_Scratchy_%26_Marge.png"
  },
  {
    "season": 2,
@@ -204,7 +248,9 @@
    "title": "Bart Gets Hit by a Car",
    "url": "http://simpsonswiki.com/wiki/Bart_Gets_Hit_by_a_Car",
    "originalAirDate": "January 10, 1991",
-   "productionCode": "7F10"
+   "productionCode": "7F10",
+   "synopsis": "Bart is knocked off his skateboard by Mr. Burns in his car. After a brief trip to Heaven, and a slightly less brief visit to Hell, he falls to Earth. With the help of dodgy lawyer Lionel Hutz, Homer tries to sue Burns for a million dollars. And Marge and Lisa discover there are many ways you can arrive at the truth",
+   "imageUrl": "https://static.simpsonswiki.com/images/0/09/Bart_Gets_Hit_by_a_Car.png"
  },
  {
    "season": 2,
@@ -213,7 +259,9 @@
    "title": "One Fish, Two Fish, Blowfish, Blue Fish",
    "url": "http://simpsonswiki.com/wiki/One_Fish,_Two_Fish,_Blowfish,_Blue_Fish",
    "originalAirDate": "January 24, 1991",
-   "productionCode": "7F11"
+   "productionCode": "7F11",
+   "synopsis": "Lisa convinces the family to try a new Sushi restaurant, The Happy Sumo. A menu mix-up leads to Homer eating a poisoned blowfish. Dr. Hibbert gives him twenty-four hours to live. He sets about placing his affairs in order",
+   "imageUrl": "https://static.simpsonswiki.com/images/6/6b/One_Fish%2C_Two_Fish%2C_Blowfish%2C_Blue_Fish.png"
  },
  {
    "season": 2,
@@ -222,7 +270,9 @@
    "title": "The Way We Was",
    "url": "http://simpsonswiki.com/wiki/The_Way_We_Was",
    "originalAirDate": "January 31, 1991",
-   "productionCode": "7F12"
+   "productionCode": "7F12",
+   "synopsis": "When the TV breaks down, Marge and Homer decide to tell their children a story. After refusing to tell the story of how Bart was born, they decide to tell the story of how Homer and Marge met in high school—and how Marge almost went out with a nerd named Artie Ziff",
+   "imageUrl": "https://static.simpsonswiki.com/images/5/52/Homer_meets_Marge.png"
  },
  {
    "season": 2,
@@ -231,7 +281,9 @@
    "title": "Homer vs. Lisa and the 8th Commandment",
    "url": "http://simpsonswiki.com/wiki/Homer_vs._Lisa_and_the_8th_Commandment",
    "originalAirDate": "February 7, 1991",
-   "productionCode": "7F13"
+   "productionCode": "7F13",
+   "synopsis": "Homer becomes the most popular guy in town when he gets an illegal cable hook-up. But Lisa doesn't approve and fears that Homer will go to hell for violating the Eighth Commandment (\"Thou shalt not steal\")",
+   "imageUrl": "https://static.simpsonswiki.com/images/3/3d/Homer_vs._Lisa_and_the_8th_Commandment.png"
  },
  {
    "season": 2,
@@ -240,7 +292,9 @@
    "title": "Principal Charming",
    "url": "http://simpsonswiki.com/wiki/Principal_Charming",
    "originalAirDate": "February 14, 1991",
-   "productionCode": "7F15"
+   "productionCode": "7F15",
+   "synopsis": "Marge enlists Homer's help to find Aunt Selma a husband—and ends up pairing Principal Skinner with Aunt Patty. Meanwhile, Bart gets in trouble for using sodium tetrasulfate (a potent herbicide) to spell his name out in the grass and gets sentenced to reseed the field",
+   "imageUrl": "https://static.simpsonswiki.com/images/e/e3/Principal_Charming.png"
  },
  {
    "season": 2,
@@ -249,7 +303,9 @@
    "title": "Oh Brother, Where Art Thou?",
    "url": "http://simpsonswiki.com/wiki/Oh_Brother,_Where_Art_Thou%3F",
    "originalAirDate": "February 21, 1991",
-   "productionCode": "7F16"
+   "productionCode": "7F16",
+   "synopsis": "Fearing death, Grampa tells Homer that he has a half-brother. This half-brother, Herb Powell, is a carmaker in Detroit, and wants Homer to design a car for the average man to save his car company",
+   "imageUrl": "https://static.simpsonswiki.com/images/3/34/Oh_Brother%2C_Where_Art_Thou.png"
  },
  {
    "season": 2,
@@ -258,7 +314,9 @@
    "title": "Bart's Dog Gets an F",
    "url": "http://simpsonswiki.com/wiki/Bart%27s_Dog_Gets_an_%22F%22",
    "originalAirDate": "March 7, 1991",
-   "productionCode": "7F14"
+   "productionCode": "7F14",
+   "synopsis": "After Santa's Little Helper gets in trouble for destroying Homer's new sneakers, Homer's large macadamia nut cookie, and Marge's heirloom quilt, Bart enrolls the dog into an obedience school, which Santa's Little Helper must pass if he wants to continue being The Simpsons' pet",
+   "imageUrl": "https://static.simpsonswiki.com/images/1/1e/Bart%27s_Dog_Gets_an_F.png"
  },
  {
    "season": 2,
@@ -267,7 +325,9 @@
    "title": "Old Money",
    "url": "http://simpsonswiki.com/wiki/Old_Money",
    "originalAirDate": "March 28, 1991",
-   "productionCode": "7F17"
+   "productionCode": "7F17",
+   "synopsis": "Grampa falls in love with Bea Simmons, a fellow resident of the Springfield Retirement Castle. During the course of their brief romance, Bea passes away and leaves Grandpa her entire savings, $100,000. Grandpa decides to give the money to charity but can't decide which one is worthiest, but when he can't decide, Grampa heads for a casino to gamble it away",
+   "imageUrl": "https://static.simpsonswiki.com/images/0/0c/Old_Money.png"
  },
  {
    "season": 2,
@@ -276,7 +336,9 @@
    "title": "Brush with Greatness",
    "url": "http://simpsonswiki.com/wiki/Brush_with_Greatness",
    "originalAirDate": "April 11, 1991",
-   "productionCode": "7F18"
+   "productionCode": "7F18",
+   "synopsis": "Marge's interest in art is reawakened when Homer finds old portraits of Ringo Starr that Marge painted when she was a teenager. She takes an art class at the local college, wins an art competition, and is commissioned to paint a portrait of Mr. Burns. Meanwhile, Homer begins exercising after getting stuck in a water park ride and humiliated on the evening news",
+   "imageUrl": "https://static.simpsonswiki.com/images/9/9d/Brush_with_Greatness_promo.jpg"
  },
  {
    "season": 2,
@@ -285,7 +347,9 @@
    "title": "Lisa's Substitute",
    "url": "http://simpsonswiki.com/wiki/Lisa%27s_Substitute",
    "originalAirDate": "April 25, 1991",
-   "productionCode": "7F19"
+   "productionCode": "7F19",
+   "synopsis": "When Lisa's teacher Miss Hoover gets Lyme Disease, Mr. Bergstrom takes over the class. Lisa finds Mr. Bergstrom's teaching methods incredibly inspiring and discovers an entirely new love for learning, but when Mr. Bergstrom leaves, Lisa doubts that anyone else in her life (including her own father) can be the man that Mr. Bergstrom was. Meanwhile, Bart runs against Martin Prince for class president",
+   "imageUrl": "https://static.simpsonswiki.com/images/b/bd/L_Substitute.png"
  },
  {
    "season": 2,
@@ -294,7 +358,9 @@
    "title": "The War of the Simpsons",
    "url": "http://simpsonswiki.com/wiki/The_War_of_the_Simpsons",
    "originalAirDate": "May 2, 1991",
-   "productionCode": "7F20"
+   "productionCode": "7F20",
+   "synopsis": "Marge and Homer host a dinner party, and Homer gets drunk and makes an oaf of himself. Angry and embarrassed, Marge signs the two of them up for a marriage retreat. When Homer learns the retreat is being held at a popular fishing spot, he tries to bail out of the retreat to go fishing. Meanwhile, Grampa babysits Bart and Lisa, who trick the old man into letting them do whatever they want—including throwing their own party",
+   "imageUrl": "https://static.simpsonswiki.com/images/4/48/Homer_Leers_-_The_War_of_the_Simpsons.png"
  },
  {
    "season": 2,
@@ -303,7 +369,9 @@
    "title": "Three Men and a Comic Book",
    "url": "http://simpsonswiki.com/wiki/Three_Men_and_a_Comic_Book",
    "originalAirDate": "May 9, 1991",
-   "productionCode": "7F21"
+   "productionCode": "7F21",
+   "synopsis": "Bart becomes obsessed with buying the first issue of Radioactive Man, but can't scrape together the $100 he needs to make it his own. Enlisting Milhouse and Martin Prince, Bart is finally able to buy the comic, but ends up fighting with his two best friends over who gets to keep it",
+   "imageUrl": "https://static.simpsonswiki.com/images/8/86/Three_Men_and_a_Comic_Book.png"
  },
  {
    "season": 2,
@@ -312,7 +380,9 @@
    "title": "Blood Feud",
    "url": "http://simpsonswiki.com/wiki/Blood_Feud",
    "originalAirDate": "July 11, 1991",
-   "productionCode": "7F22"
+   "productionCode": "7F22",
+   "synopsis": "Homer discovers that Bart has a rare blood type that can save Mr. Burns' life, Homer convinces Bart to give blood (in the hopes that Burns will give The Simpsons a cash reward), but when all Mr. Burns gives Bart is a \"Thank You\" card, Homer writes a nasty letter to his boss...which ends up getting sent to Burns by Bart",
+   "imageUrl": "https://static.simpsonswiki.com/images/b/bf/7F22.png"
  },
  {
    "season": 3,
