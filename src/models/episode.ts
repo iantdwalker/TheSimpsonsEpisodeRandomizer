@@ -6,4 +6,6 @@ export interface Episode {
   url: string;
   originalAirDate: string;
   productionCode: string;
+  synopsis: string;
+  imageUrl: string;
 }

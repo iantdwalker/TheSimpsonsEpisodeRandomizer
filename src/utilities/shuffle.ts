@@ -14,3 +14,8 @@ export default function shuffle(array: any): any {
   }
   return array;
 }
+
+export function getRandomElement(array: any): any {
+  const randomElement = Math.floor(Math.random() * array.length);
+  return array[randomElement];
+}

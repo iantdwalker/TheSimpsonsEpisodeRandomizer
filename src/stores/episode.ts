@@ -1,12 +1,14 @@
-import { reactive, ref } from "vue";
+import { reactive } from "vue";
 import { defineStore } from "pinia";
 import type { Episode } from "@/models/episode";
-import shuffle from "@/utilities/shuffle";
+import { getRandomElement } from "@/utilities/shuffle";
 
 export const useEpisodeStore = defineStore("episode", () => {
+  const placeholderSynopsis =
+    "This is a placeholder synopsis while the episode data is being updated...";
+  const placeholderImage =
+    "https://static.simpsonswiki.com/images/0/08/The_Leader.png";
   let episodeData: Episode[];
-  const episodes = ref<Episode[]>();
-  const episodeIndex = ref(0);
   const currentEpisode: Episode = reactive({
     season: 0,
     episode: 0,
@@ -15,6 +17,8 @@ export const useEpisodeStore = defineStore("episode", () => {
     url: "",
     originalAirDate: "",
     productionCode: "",
+    synopsis: placeholderSynopsis,
+    imageUrl: placeholderImage,
   });
 
   async function importEpisodeData(): Promise<void> {
@@ -28,16 +32,9 @@ export const useEpisodeStore = defineStore("episode", () => {
     }
   }
 
-  function initialiseEpisodeData(): void {
-    episodes.value = shuffle(episodeData) as Episode[];
-    next();
-  }
-
-  function next(): void {
-    if (episodes.value && episodeIndex.value < episodes.value.length) {
-      updateEpisode(episodes.value[episodeIndex.value]);
-      episodeIndex.value++;
-    }
+  function getRandomEpisode(): void {
+    const randomEpisode = getRandomElement(episodeData) as Episode;
+    updateEpisode(randomEpisode);
   }
 
   function updateEpisode(newEpisode: Episode): void {
@@ -48,7 +45,9 @@ export const useEpisodeStore = defineStore("episode", () => {
     currentEpisode.url = newEpisode.url;
     currentEpisode.originalAirDate = newEpisode.originalAirDate;
     currentEpisode.productionCode = newEpisode.productionCode;
+    currentEpisode.synopsis = newEpisode.synopsis ?? placeholderSynopsis;
+    currentEpisode.imageUrl = newEpisode.imageUrl ?? placeholderImage;
   }
 
-  return { importEpisodeData, initialiseEpisodeData, next, currentEpisode };
+  return { importEpisodeData, getRandomEpisode, currentEpisode };
 });
