@@ -128,7 +128,7 @@ p {
 }
 
 .next-epsiode-btn {
-  color: var(--color-text);
+  color: black;
   background-color: var(--simpsons-yellow);
 }
 </style>
