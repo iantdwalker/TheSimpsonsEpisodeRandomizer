@@ -54,14 +54,13 @@
             </p>
           </v-col>
           <v-col>
-            <p>Season: {{ episodeStore.currentEpisode.season }}</p>
-            <p>Episode: {{ episodeStore.currentEpisode.episode }}</p>
-            <p># Overall: {{ episodeStore.currentEpisode.totalEpisode }}</p>
+            <p>Season {{ episodeStore.currentEpisode.season }}</p>
+            <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
             <p>
-              First Aired: {{ episodeStore.currentEpisode.originalAirDate }}
+              Episode {{ episodeStore.currentEpisode.totalEpisode }} overall
             </p>
             <p>
-              Production Code: {{ episodeStore.currentEpisode.productionCode }}
+              {{ episodeStore.currentEpisode.originalAirDate }}
             </p>
             <p>
               <a :href="episodeStore.currentEpisode.url" target="_blank"
