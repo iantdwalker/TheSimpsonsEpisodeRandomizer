@@ -41,11 +41,9 @@
           <v-spacer></v-spacer>
         </v-row>
         <v-row>
-          <v-spacer></v-spacer>
-          <v-col cols="10">
+          <v-col>
             <p class="title">"{{ episodeStore.currentEpisode.title }}"</p>
           </v-col>
-          <v-spacer></v-spacer>
         </v-row>
         <v-row>
           <v-col>
@@ -109,6 +107,10 @@ function onNextRandomEpisodeBtnClicked() {
     0 0 2px black,
     0 0 2px black,
     0 0 2px black;
+}
+
+.spacer {
+  background-color: aquamarine;
 }
 
 .title {
