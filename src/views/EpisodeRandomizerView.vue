@@ -4,12 +4,12 @@
       <v-main>
         <v-row no-gutters>
           <v-col>
-            <p :class="computedAppTitleFontSize">The Simpsons</p>
+            <p :class="computedAppTitleFont">The Simpsons</p>
           </v-col>
         </v-row>
         <v-row no-gutters>
           <v-col>
-            <p :class="computedAppSubTitleFontSize">Episode Randomizer</p>
+            <p :class="computedAppSubTitleFont">Episode Randomizer</p>
           </v-col>
         </v-row>
         <v-row>
@@ -28,7 +28,7 @@
         </v-row>
         <v-row>
           <v-col>
-            <p :class="computedEpisodeTitleFontSize">
+            <p :class="computedEpisodeTitleFont">
               "{{ episodeStore.currentEpisode.title }}"
             </p>
           </v-col>
@@ -36,7 +36,7 @@
         <v-row>
           <v-col cols="12" lg="8">
             <v-row :column="mdAndDown">
-              <v-col cols="12" md="6" :class="computedEpisodeInfoFontSize">
+              <v-col cols="12" md="6" :class="computedEpisodeInfoFont">
                 <p>Season {{ episodeStore.currentEpisode.season }}</p>
                 <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
                 <p>
@@ -51,9 +51,9 @@
                   >
                 </p>
               </v-col>
-              <v-col cols="12" md="6" :class="computedEpisodeSynopsisFontSize">
-                <p>
-                  {{ episodeStore.currentEpisode.synopsis }}
+              <v-col cols="12" md="6">
+                <p :class="computedEpisodeSynopsisFont" class="synopsis">
+                  {{ episodeStore.currentEpisode.synopsis }}.
                 </p>
               </v-col>
             </v-row>
@@ -99,24 +99,24 @@ onBeforeMount(async () => {
   episodeStore.getRandomEpisode();
 });
 
-const computedAppTitleFontSize = computed(() => {
-  return createStyleForDisplay("app-title-font-size");
+const computedAppTitleFont = computed(() => {
+  return createStyleForDisplay("app-title-font");
 });
 
-const computedAppSubTitleFontSize = computed(() => {
-  return createStyleForDisplay("app-sub-title-font-size");
+const computedAppSubTitleFont = computed(() => {
+  return createStyleForDisplay("app-sub-title-font");
 });
 
-const computedEpisodeTitleFontSize = computed(() => {
-  return createStyleForDisplay("episode-title-font-size");
+const computedEpisodeTitleFont = computed(() => {
+  return createStyleForDisplay("episode-title-font");
 });
 
-const computedEpisodeInfoFontSize = computed(() => {
-  return createStyleForDisplay("episode-info-font-size");
+const computedEpisodeInfoFont = computed(() => {
+  return createStyleForDisplay("episode-info-font");
 });
 
-const computedEpisodeSynopsisFontSize = computed(() => {
-  return createStyleForDisplay("episode-synopsis-font-size");
+const computedEpisodeSynopsisFont = computed(() => {
+  return createStyleForDisplay("episode-synopsis-font");
 });
 
 function onNextRandomEpisodeBtnClicked() {
@@ -160,7 +160,7 @@ function createStyleForDisplay(style: string): string {
 }
 
 /* extra small - small to large phone */
-.app-title-font-size {
+.app-title-font {
   font-size: 3.25em;
   text-shadow:
     2px 2px 3px black,
@@ -169,7 +169,7 @@ function createStyleForDisplay(style: string): string {
     2px 3px 2px black;
 }
 
-.app-sub-title-font-size {
+.app-sub-title-font {
   font-size: 2em;
   text-shadow:
     1px 1px 3px black,
@@ -178,20 +178,20 @@ function createStyleForDisplay(style: string): string {
     1px 1px 2px black;
 }
 
-.episode-title-font-size {
+.episode-title-font {
   font-size: 1.4em;
 }
 
-.episode-info-font-size {
+.episode-info-font {
   font-size: 1.1em;
 }
 
-.episode-synopsis-font-size {
+.episode-synopsis-font {
   font-size: 0.8em;
 }
 
 /* small - small to medium tablet */
-.app-title-font-size-sm {
+.app-title-font-sm {
   font-size: 3.5em;
   text-shadow:
     2px 2px 3px black,
@@ -200,7 +200,7 @@ function createStyleForDisplay(style: string): string {
     2px 3px 2px black;
 }
 
-.app-sub-title-font-size-sm {
+.app-sub-title-font-sm {
   font-size: 2.25em;
   text-shadow:
     1px 1px 3px black,
@@ -209,20 +209,20 @@ function createStyleForDisplay(style: string): string {
     1px 1px 2px black;
 }
 
-.episode-title-font-size-sm {
+.episode-title-font-sm {
   font-size: 1.6em;
 }
 
-.episode-info-font-size-sm {
+.episode-info-font-sm {
   font-size: 1.2em;
 }
 
-.episode-synopsis-font-size-sm {
+.episode-synopsis-font-sm {
   font-size: 0.9em;
 }
 
 /* medium - large tablet to laptop */
-.app-title-font-size-md {
+.app-title-font-md {
   font-size: 3.75em;
   text-shadow:
     2px 2px 4px black,
@@ -231,7 +231,7 @@ function createStyleForDisplay(style: string): string {
     2px 3px 2px black;
 }
 
-.app-sub-title-font-size-md {
+.app-sub-title-font-md {
   font-size: 2.5em;
   text-shadow:
     2px 1px 3px black,
@@ -240,20 +240,20 @@ function createStyleForDisplay(style: string): string {
     1px 1px 2px black;
 }
 
-.episode-title-font-size-md {
+.episode-title-font-md {
   font-size: 2em;
 }
 
-.episode-info-font-size-md {
+.episode-info-font-md {
   font-size: 1.3em;
 }
 
-.episode-synopsis-font-size-md {
+.episode-synopsis-font-md {
   font-size: 1em;
 }
 
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
-.app-title-font-size-lgPlus {
+.app-title-font-lgPlus {
   font-size: 4em;
   text-shadow:
     2px 2px 4px black,
@@ -262,7 +262,7 @@ function createStyleForDisplay(style: string): string {
     2px 4px 2px black;
 }
 
-.app-sub-title-font-size-lgPlus {
+.app-sub-title-font-lgPlus {
   font-size: 2.75em;
   text-shadow:
     2px 1px 3px black,
@@ -271,16 +271,22 @@ function createStyleForDisplay(style: string): string {
     1px 1px 2px black;
 }
 
-.episode-title-font-size-lgPlus {
+.episode-title-font-lgPlus {
   font-size: 2.25em;
 }
 
-.episode-info-font-size-lgPlus {
+.episode-info-font-lgPlus {
   font-size: 1.5em;
 }
 
-.episode-synopsis-font-size-lgPlus {
+.episode-synopsis-font-lgPlus {
   font-size: 1.1em;
+}
+
+/******/
+
+.synopsis {
+  font-family: "consolas";
 }
 
 a {
