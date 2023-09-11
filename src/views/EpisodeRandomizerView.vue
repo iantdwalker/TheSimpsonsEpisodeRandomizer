@@ -149,10 +149,10 @@ function createStyleForDisplay(style: string): string {
   background-color: var(--simpsons-blue);
   color: var(--simpsons-yellow);
   text-shadow:
-    0 0 2px black,
-    0 0 2px black,
-    0 0 2px black,
-    0 0 2px black;
+    1px 1px 2px black,
+    1px 1px 2px black,
+    0px 0px 2px black,
+    0px 0px 2px black;
 }
 
 .spacer {
