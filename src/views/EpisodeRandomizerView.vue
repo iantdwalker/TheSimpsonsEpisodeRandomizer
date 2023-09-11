@@ -184,7 +184,7 @@ function createStyleForDisplay(style: string): string {
 }
 
 .episode-synopsis-font {
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 /* small - small to medium tablet */
@@ -215,7 +215,7 @@ function createStyleForDisplay(style: string): string {
 }
 
 .episode-synopsis-font-sm {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 /* medium - large tablet to laptop */
@@ -246,7 +246,7 @@ function createStyleForDisplay(style: string): string {
 }
 
 .episode-synopsis-font-md {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
@@ -277,7 +277,7 @@ function createStyleForDisplay(style: string): string {
 }
 
 .episode-synopsis-font-lgPlus {
-  font-size: 1.1em;
+  font-size: 1.2em;
 }
 
 /******/
