@@ -65,7 +65,19 @@
               :src="episodeStore.currentEpisode.imageUrl"
               width="320"
               height="179"
-            />
+            >
+              <template v-slot:placeholder>
+                <div class="d-flex align-center justify-center fill-height">
+                  <v-progress-circular
+                    :color="simpsonsYellow"
+                    indeterminate
+                  ></v-progress-circular>
+                </div>
+              </template>
+              <template v-slot:error>
+                <p>Episode image not found 😔</p>
+              </template>
+            </v-img>
           </v-col>
         </v-row>
       </v-main>
@@ -78,6 +90,7 @@ import { computed, onBeforeMount } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 
+const simpsonsYellow = "#ffd920";
 const { name, mdAndDown } = useDisplay();
 var episodeStore = useEpisodeStore();
 
