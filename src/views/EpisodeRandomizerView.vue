@@ -47,7 +47,7 @@
                 </p>
                 <p>
                   <a :href="episodeStore.currentEpisode.url" target="_blank"
-                    >Wiki Simpsons Episode Link</a
+                    >View In Wiki Simpsons 👁️</a
                   >
                 </p>
               </v-col>
