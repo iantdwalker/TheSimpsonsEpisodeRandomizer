@@ -8,6 +8,7 @@ export const useEpisodeStore = defineStore("episode", () => {
     "This is a placeholder synopsis while the episode data is being updated..";
   const placeholderImage =
     "https://static.simpsonswiki.com/images/0/08/The_Leader.png";
+  const localStorageKeyPrefix = "the-simpsons-episode-randomizer-";
   let episodeData: Episode[];
   const currentEpisode: Episode = reactive({
     season: 0,
@@ -19,6 +20,7 @@ export const useEpisodeStore = defineStore("episode", () => {
     productionCode: "",
     synopsis: placeholderSynopsis,
     imageUrl: placeholderImage,
+    rating: 0,
   });
 
   async function importEpisodeData(): Promise<void> {
@@ -34,10 +36,10 @@ export const useEpisodeStore = defineStore("episode", () => {
 
   function getRandomEpisode(): void {
     const randomEpisode = getRandomElement(episodeData) as Episode;
-    updateEpisode(randomEpisode);
+    updateCurrentEpisode(randomEpisode);
   }
 
-  function updateEpisode(newEpisode: Episode): void {
+  function updateCurrentEpisode(newEpisode: Episode): void {
     currentEpisode.season = newEpisode.season;
     currentEpisode.episode = newEpisode.episode;
     currentEpisode.totalEpisode = newEpisode.totalEpisode;
@@ -47,7 +49,28 @@ export const useEpisodeStore = defineStore("episode", () => {
     currentEpisode.productionCode = newEpisode.productionCode;
     currentEpisode.synopsis = newEpisode.synopsis ?? placeholderSynopsis;
     currentEpisode.imageUrl = newEpisode.imageUrl ?? placeholderImage;
+    currentEpisode.rating = getCurrentEpisodeRating(
+      currentEpisode.productionCode,
+    );
   }
 
-  return { importEpisodeData, getRandomEpisode, currentEpisode };
+  function saveCurrentEpisodeRating(newRating: number): void {
+    currentEpisode.rating = newRating;
+    localStorage.setItem(
+      localStorageKeyPrefix + currentEpisode.productionCode,
+      currentEpisode.rating.toString(),
+    );
+  }
+
+  function getCurrentEpisodeRating(productionCode: string): number {
+    const rating = localStorage.getItem(localStorageKeyPrefix + productionCode);
+    return rating ? parseInt(rating) : 0;
+  }
+
+  return {
+    importEpisodeData,
+    getRandomEpisode,
+    saveCurrentEpisodeRating,
+    currentEpisode,
+  };
 });
