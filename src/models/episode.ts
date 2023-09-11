@@ -8,4 +8,5 @@ export interface Episode {
   productionCode: string;
   synopsis: string;
   imageUrl: string;
+  rating: number;
 }
