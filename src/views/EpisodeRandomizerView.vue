@@ -1,30 +1,16 @@
 <template>
   <v-layout>
     <v-container class="container">
-      <v-main class="main">
+      <v-main>
         <v-row no-gutters>
-          <v-spacer></v-spacer>
           <v-col>
-            <v-img
-              alt="Simpsons Image"
-              src="@/assets/images/the-simpsons.png"
-              width="600"
-              height="125"
-            />
+            <p :class="computedAppTitleFontSize">The Simpsons</p>
           </v-col>
-          <v-spacer></v-spacer>
         </v-row>
         <v-row no-gutters>
-          <v-spacer></v-spacer>
           <v-col>
-            <v-img
-              alt="Episode Randomizer Image"
-              src="@/assets/images/episode-randomizer.png"
-              width="500"
-              height="70"
-            />
+            <p :class="computedAppSubTitleFontSize">Episode Randomizer</p>
           </v-col>
-          <v-spacer></v-spacer>
         </v-row>
         <v-row>
           <v-spacer></v-spacer>
@@ -42,7 +28,7 @@
         </v-row>
         <v-row>
           <v-col>
-            <p :class="computedTitleFontSize">
+            <p :class="computedEpisodeTitleFontSize">
               "{{ episodeStore.currentEpisode.title }}"
             </p>
           </v-col>
@@ -50,7 +36,7 @@
         <v-row>
           <v-col cols="12" lg="8">
             <v-row :column="mdAndDown">
-              <v-col cols="12" md="6" :class="computedInfoFontSize">
+              <v-col cols="12" md="6" :class="computedEpisodeInfoFontSize">
                 <p>Season {{ episodeStore.currentEpisode.season }}</p>
                 <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
                 <p>
@@ -65,7 +51,7 @@
                   >
                 </p>
               </v-col>
-              <v-col cols="12" md="6" :class="computedSynopsisFontSize">
+              <v-col cols="12" md="6" :class="computedEpisodeSynopsisFontSize">
                 <p>
                   {{ episodeStore.currentEpisode.synopsis }}
                 </p>
@@ -100,16 +86,24 @@ onBeforeMount(async () => {
   episodeStore.getRandomEpisode();
 });
 
-const computedTitleFontSize = computed(() => {
-  return createStyleForDisplay("title-font-size");
+const computedAppTitleFontSize = computed(() => {
+  return createStyleForDisplay("app-title-font-size");
 });
 
-const computedInfoFontSize = computed(() => {
-  return createStyleForDisplay("info-font-size");
+const computedAppSubTitleFontSize = computed(() => {
+  return createStyleForDisplay("app-sub-title-font-size");
 });
 
-const computedSynopsisFontSize = computed(() => {
-  return createStyleForDisplay("synopsis-font-size");
+const computedEpisodeTitleFontSize = computed(() => {
+  return createStyleForDisplay("episode-title-font-size");
+});
+
+const computedEpisodeInfoFontSize = computed(() => {
+  return createStyleForDisplay("episode-info-font-size");
+});
+
+const computedEpisodeSynopsisFontSize = computed(() => {
+  return createStyleForDisplay("episode-synopsis-font-size");
 });
 
 function onNextRandomEpisodeBtnClicked() {
@@ -139,7 +133,6 @@ function createStyleForDisplay(style: string): string {
 <style scoped>
 .container {
   min-height: 100vh;
-  font-size: 1.25em;
   background-color: var(--simpsons-blue);
   color: var(--simpsons-yellow);
   text-shadow:
@@ -154,54 +147,126 @@ function createStyleForDisplay(style: string): string {
 }
 
 /* extra small - small to large phone */
-.title-font-size {
+.app-title-font-size {
+  font-size: 3.25em;
+  text-shadow:
+    2px 2px 3px black,
+    2px 2px 3px black,
+    2px 2px 2px black,
+    2px 3px 2px black;
+}
+
+.app-sub-title-font-size {
+  font-size: 2em;
+  text-shadow:
+    1px 1px 3px black,
+    1px 1px 3px black,
+    1px 1px 2px black,
+    1px 1px 2px black;
+}
+
+.episode-title-font-size {
   font-size: 1.4em;
 }
 
-.info-font-size {
+.episode-info-font-size {
   font-size: 1.1em;
 }
 
-.synopsis-font-size {
+.episode-synopsis-font-size {
   font-size: 0.8em;
 }
 
 /* small - small to medium tablet */
-.title-font-size-sm {
+.app-title-font-size-sm {
+  font-size: 3.5em;
+  text-shadow:
+    2px 2px 3px black,
+    2px 2px 3px black,
+    2px 2px 2px black,
+    2px 3px 2px black;
+}
+
+.app-sub-title-font-size-sm {
+  font-size: 2.25em;
+  text-shadow:
+    1px 1px 3px black,
+    1px 1px 3px black,
+    1px 1px 2px black,
+    1px 1px 2px black;
+}
+
+.episode-title-font-size-sm {
   font-size: 1.6em;
 }
 
-.info-font-size-sm {
+.episode-info-font-size-sm {
   font-size: 1.2em;
 }
 
-.synopsis-font-size-sm {
+.episode-synopsis-font-size-sm {
   font-size: 0.9em;
 }
 
 /* medium - large tablet to laptop */
-.title-font-size-md {
+.app-title-font-size-md {
+  font-size: 3.75em;
+  text-shadow:
+    2px 2px 4px black,
+    2px 2px 3px black,
+    2px 2px 2px black,
+    2px 3px 2px black;
+}
+
+.app-sub-title-font-size-md {
+  font-size: 2.5em;
+  text-shadow:
+    2px 1px 3px black,
+    1px 1px 3px black,
+    1px 1px 2px black,
+    1px 1px 2px black;
+}
+
+.episode-title-font-size-md {
   font-size: 2em;
 }
 
-.info-font-size-md {
+.episode-info-font-size-md {
   font-size: 1.3em;
 }
 
-.synopsis-font-size-md {
+.episode-synopsis-font-size-md {
   font-size: 1em;
 }
 
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
-.title-font-size-lgPlus {
+.app-title-font-size-lgPlus {
+  font-size: 4em;
+  text-shadow:
+    2px 2px 4px black,
+    2px 2px 4px black,
+    2px 2px 2px black,
+    2px 4px 2px black;
+}
+
+.app-sub-title-font-size-lgPlus {
+  font-size: 2.75em;
+  text-shadow:
+    2px 1px 3px black,
+    1px 1px 3px black,
+    1px 1px 2px black,
+    1px 1px 2px black;
+}
+
+.episode-title-font-size-lgPlus {
   font-size: 2.25em;
 }
 
-.info-font-size-lgPlus {
+.episode-info-font-size-lgPlus {
   font-size: 1.5em;
 }
 
-.synopsis-font-size-lgPlus {
+.episode-synopsis-font-size-lgPlus {
   font-size: 1.1em;
 }
 
