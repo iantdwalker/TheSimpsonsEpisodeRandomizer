@@ -63,8 +63,7 @@
               class="episode-image"
               alt="Episode Image"
               :src="episodeStore.currentEpisode.imageUrl"
-              width="320"
-              height="179"
+              max-height="250"
             >
               <template v-slot:placeholder>
                 <div class="d-flex align-center justify-center fill-height">
