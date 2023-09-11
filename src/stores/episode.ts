@@ -5,7 +5,7 @@ import { getRandomElement } from "@/utilities/shuffle";
 
 export const useEpisodeStore = defineStore("episode", () => {
   const placeholderSynopsis =
-    "This is a placeholder synopsis while the episode data is being updated...";
+    "This is a placeholder synopsis while the episode data is being updated..";
   const placeholderImage =
     "https://static.simpsonswiki.com/images/0/08/The_Leader.png";
   let episodeData: Episode[];
