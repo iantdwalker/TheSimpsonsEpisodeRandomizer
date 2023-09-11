@@ -47,7 +47,7 @@
                 </p>
                 <p>
                   <a :href="episodeStore.currentEpisode.url" target="_blank"
-                    >Wiki Simpsons Episode Link</a
+                    >View In Wiki Simpsons 👁️</a
                   >
                 </p>
               </v-col>
@@ -65,7 +65,19 @@
               :src="episodeStore.currentEpisode.imageUrl"
               width="320"
               height="179"
-            />
+            >
+              <template v-slot:placeholder>
+                <div class="d-flex align-center justify-center fill-height">
+                  <v-progress-circular
+                    :color="simpsonsYellow"
+                    indeterminate
+                  ></v-progress-circular>
+                </div>
+              </template>
+              <template v-slot:error>
+                <p>Episode image not found 😔</p>
+              </template>
+            </v-img>
           </v-col>
         </v-row>
       </v-main>
@@ -78,6 +90,7 @@ import { computed, onBeforeMount } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 
+const simpsonsYellow = "#ffd920";
 const { name, mdAndDown } = useDisplay();
 var episodeStore = useEpisodeStore();
 
@@ -136,10 +149,10 @@ function createStyleForDisplay(style: string): string {
   background-color: var(--simpsons-blue);
   color: var(--simpsons-yellow);
   text-shadow:
-    0 0 2px black,
-    0 0 2px black,
-    0 0 2px black,
-    0 0 2px black;
+    1px 1px 2px black,
+    1px 1px 2px black,
+    0px 0px 2px black,
+    0px 0px 2px black;
 }
 
 .spacer {
