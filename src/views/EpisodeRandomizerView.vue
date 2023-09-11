@@ -139,6 +139,8 @@ function createStyleForDisplay(style: string): string {
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
+
 .container {
   min-height: 100vh;
   background-color: var(--simpsons-blue);
@@ -281,7 +283,7 @@ function createStyleForDisplay(style: string): string {
 /******/
 
 .synopsis {
-  font-family: "consolas";
+  font-family: "Inconsolata", monospace;
 }
 
 a {
