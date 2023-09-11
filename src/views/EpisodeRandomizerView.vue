@@ -26,14 +26,29 @@
           </v-col>
           <v-spacer></v-spacer>
         </v-row>
-        <v-row>
+        <v-row class="mt-3">
           <v-col>
             <p :class="computedEpisodeTitleFont">
               "{{ episodeStore.currentEpisode.title }}"
             </p>
           </v-col>
         </v-row>
-        <v-row>
+        <v-row class="mt-1">
+          <v-col>
+            <star-rating
+              v-model:rating="episodeRating"
+              class="d-flex justify-center align-center"
+              :show-rating="false"
+              clearable
+              rounded-corners
+              :padding="5"
+              :star-size="35"
+              :active-color="simpsonsYellow"
+              inactive-color="black"
+            ></star-rating>
+          </v-col>
+        </v-row>
+        <v-row class="mt-1">
           <v-col cols="12" md="4" lg="4" :class="computedEpisodeInfoFont">
             <p>Season {{ episodeStore.currentEpisode.season }}</p>
             <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
@@ -81,13 +96,15 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onBeforeMount } from "vue";
+import { computed, onBeforeMount, ref } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
+import StarRating from "vue-star-rating";
 
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
 var episodeStore = useEpisodeStore();
+var episodeRating = ref(0);
 
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
