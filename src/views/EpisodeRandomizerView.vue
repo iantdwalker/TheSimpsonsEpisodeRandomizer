@@ -34,31 +34,27 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="12" lg="8">
-            <v-row :column="mdAndDown">
-              <v-col cols="12" md="6" :class="computedEpisodeInfoFont">
-                <p>Season {{ episodeStore.currentEpisode.season }}</p>
-                <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
-                <p>
-                  Episode {{ episodeStore.currentEpisode.totalEpisode }} overall
-                </p>
-                <p>
-                  {{ episodeStore.currentEpisode.originalAirDate }}
-                </p>
-                <p>
-                  <a :href="episodeStore.currentEpisode.url" target="_blank"
-                    >View In Wiki Simpsons 👁️</a
-                  >
-                </p>
-              </v-col>
-              <v-col cols="12" md="6">
-                <p :class="computedEpisodeSynopsisFont" class="synopsis">
-                  {{ episodeStore.currentEpisode.synopsis }}.
-                </p>
-              </v-col>
-            </v-row>
+          <v-col cols="12" md="4" lg="4" :class="computedEpisodeInfoFont">
+            <p>Season {{ episodeStore.currentEpisode.season }}</p>
+            <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
+            <p>
+              Episode {{ episodeStore.currentEpisode.totalEpisode }} overall
+            </p>
+            <p>
+              {{ episodeStore.currentEpisode.originalAirDate }}
+            </p>
+            <p>
+              <a :href="episodeStore.currentEpisode.url" target="_blank"
+                >View In Wiki Simpsons 👁️</a
+              >
+            </p>
           </v-col>
-          <v-col cols="12" lg="4">
+          <v-col cols="12" md="4" lg="4">
+            <p :class="computedEpisodeSynopsisFont" class="synopsis">
+              {{ episodeStore.currentEpisode.synopsis }}.
+            </p>
+          </v-col>
+          <v-col cols="12" md="4" lg="4">
             <v-img
               class="episode-image"
               alt="Episode Image"
@@ -90,7 +86,7 @@ import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 
 const simpsonsYellow = "#ffd920";
-const { name, mdAndDown } = useDisplay();
+const { name } = useDisplay();
 var episodeStore = useEpisodeStore();
 
 onBeforeMount(async () => {
