@@ -36,7 +36,7 @@
         <v-row class="mt-1">
           <v-col>
             <star-rating
-              v-model:rating="episodeRating"
+              v-model:rating="episodeStore.currentEpisode.rating"
               class="d-flex justify-center align-center"
               :show-rating="false"
               clearable
@@ -45,6 +45,7 @@
               :star-size="35"
               :active-color="simpsonsYellow"
               inactive-color="black"
+              @update:rating="setEpisodedRating"
             ></star-rating>
           </v-col>
         </v-row>
@@ -57,6 +58,9 @@
             </p>
             <p>
               {{ episodeStore.currentEpisode.originalAirDate }}
+            </p>
+            <p>
+              {{ episodeStore.currentEpisode.productionCode }}
             </p>
             <p>
               <a :href="episodeStore.currentEpisode.url" target="_blank"
@@ -96,7 +100,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onBeforeMount, ref } from "vue";
+import { computed, onBeforeMount } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 import StarRating from "vue-star-rating";
@@ -104,7 +108,6 @@ import StarRating from "vue-star-rating";
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
 var episodeStore = useEpisodeStore();
-var episodeRating = ref(0);
 
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
@@ -138,20 +141,20 @@ function onNextRandomEpisodeBtnClicked() {
 function createStyleForDisplay(style: string): string {
   switch (name.value) {
     case "sm":
-      console.log("sm");
       return `${style}-sm`;
     case "md":
-      console.log("md");
       return `${style}-md`;
     case "lg":
     case "xl":
     case "xxl":
-      console.log("lg & up");
       return `${style}-lgPlus`;
     default:
-      console.log("xs");
       return style;
   }
+}
+
+function setEpisodedRating(rating: number): void {
+  episodeStore.saveCurrentEpisodeRating(rating);
 }
 </script>
 
