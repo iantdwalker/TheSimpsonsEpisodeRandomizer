@@ -69,8 +69,19 @@
             </p>
           </v-col>
           <v-col cols="12" md="4" lg="4">
-            <p :class="computedEpisodeSynopsisFont" class="synopsis">
+            <p
+              :class="computedEpisodeSynopsisFont"
+              class="inconsolata-font synopsis-spacer"
+            >
               {{ episodeStore.currentEpisode.synopsis }}.
+            </p>
+            <p
+              :class="computedEpisodeSynopsisFont"
+              class="inconsolata-font quote-divider"
+              v-for="quote in getQuotes"
+              :key="quote"
+            >
+              {{ quote }}
             </p>
           </v-col>
           <v-col cols="12" md="4" lg="4">
@@ -132,6 +143,12 @@ const computedEpisodeInfoFont = computed(() => {
 
 const computedEpisodeSynopsisFont = computed(() => {
   return createStyleForDisplay("episode-synopsis-font");
+});
+
+const getQuotes = computed(() => {
+  return episodeStore.currentEpisode.quotes
+    ? episodeStore.currentEpisode.quotes.split("~")
+    : null;
 });
 
 function onNextRandomEpisodeBtnClicked() {
@@ -302,7 +319,7 @@ function setEpisodedRating(rating: number): void {
 
 /******/
 
-.synopsis {
+.inconsolata-font {
   font-family: "Inconsolata", monospace;
 }
 
@@ -329,5 +346,14 @@ p {
 .episode-image {
   display: block;
   margin: auto;
+}
+
+.synopsis-spacer {
+  padding-bottom: 15px;
+}
+
+.quote-divider {
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 </style>

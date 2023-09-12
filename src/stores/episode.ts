@@ -20,6 +20,7 @@ export const useEpisodeStore = defineStore("episode", () => {
     productionCode: "",
     synopsis: placeholderSynopsis,
     imageUrl: placeholderImage,
+    quotes: "",
     rating: 0,
   });
 
@@ -49,6 +50,7 @@ export const useEpisodeStore = defineStore("episode", () => {
     currentEpisode.productionCode = newEpisode.productionCode;
     currentEpisode.synopsis = newEpisode.synopsis ?? placeholderSynopsis;
     currentEpisode.imageUrl = newEpisode.imageUrl ?? placeholderImage;
+    currentEpisode.quotes = newEpisode.quotes;
     currentEpisode.rating = getCurrentEpisodeRating(
       currentEpisode.productionCode,
     );
