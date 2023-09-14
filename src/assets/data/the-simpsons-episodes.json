@@ -1553,7 +1553,8 @@
     "originalAirDate": "January 14, 1996",
     "productionCode": "3F09",
     "synopsis": "Homer's jealousy at all the attention his new neighbors, George and Barbara Bush, receive turns to rage when the former President gives Bart a spanking",
-    "imageUrl": "https://static.simpsonswiki.com/images/1/1a/Two_Bad_Neighbors.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1a/Two_Bad_Neighbors.png",
+    "quotes": "\"Hello Mr Bush!\" (Bart)~\"I'm going to do something your daddy should have done a long time ago\" (George Bush Snr)"
   },
   {
     "season": 7,
@@ -1813,7 +1814,7 @@
     "episode": 12,
     "totalEpisode": 165,
     "title": "Mountain of Madness",
-    "url": "Loading...",
+    "url": "http://simpsonswiki.com/wiki/Mountain_of_Madness",
     "originalAirDate": "February 2, 1997",
     "productionCode": "4F10",
     "synopsis": "After the plant fails miserably at a routine fire drill, Mr. Burns organizes a retreat to promote teamwork. Homer misunderstands and brings his family, having to leave them to roam the park looking for things to do. The employees are paired up and race for a cabin at the top of the mountain. Last one there is fired",
@@ -1883,7 +1884,8 @@
     "originalAirDate": "March 16, 1997",
     "productionCode": "4F15",
     "synopsis": "When Prohibition hits the town of Springfield, Homer, with Bart's help, goes into the booze making business",
-    "imageUrl": "https://static.simpsonswiki.com/images/e/e3/Homer_vs._the_Eighteenth_Amendment.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e3/Homer_vs._the_Eighteenth_Amendment.png",
+    "quotes": "\"All this drinking, violence, destruction of property. Are these the things we think of, when we think of the Irish?\" (Kent Brockman)~\"Won't somebody please think of the children!\" (Helen Lovejoy)~\"You're out there somewhere Beer Baron and I'll find you\" (Rex Banner)~\"To alcohol; the cause of and solution to all of life's problems\" (Homer)"
   },
   {
     "season": 8,
@@ -1969,7 +1971,9 @@
     "title": "The City of New York vs. Homer Simpson",
     "url": "http://simpsonswiki.com/wiki/The_City_of_New_York_vs._Homer_Simpson",
     "originalAirDate": "September 21, 1997",
-    "productionCode": "4F22"
+    "productionCode": "4F22",
+    "synopsis": "Driven to the brink of sanity by his appointed status as designated driver, Barney Gumble drives to downtown Manhattan in Homer's car, leaving it there. But when the family journeys to the big apple to retrieve their property, Homer faces a one-on-one showdown with the dreaded boot",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/fe/The_City_of_New_York_vs._Homer_Simpson_promo.gif"
   },
   {
     "season": 9,
@@ -1978,7 +1982,9 @@
     "title": "The Principal and the Pauper",
     "url": "http://simpsonswiki.com/wiki/The_Principal_and_the_Pauper",
     "originalAirDate": "September 28, 1997",
-    "productionCode": "4F23"
+    "productionCode": "4F23",
+    "synopsis": "During a surprise banquet to honor his twentieth anniversary as principal, Seymour Skinner's true identity is revealed to be Armin Tamzarian. Now established as an impostor, Tamzarian retires and relocates to his old neighborhood in Capitol City. Guest starring Martin Sheen as the real Seymour Skinner",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b2/The_Principal_and_the_Pauper.png"
   },
   {
     "season": 9,
@@ -1987,7 +1993,9 @@
     "title": "Lisa's Sax",
     "url": "http://simpsonswiki.com/wiki/Lisa%27s_Sax",
     "originalAirDate": "October 19, 1997",
-    "productionCode": "3G02"
+    "productionCode": "3G02",
+    "synopsis": "When Lisa's saxophone is destroyed during a scuffle with Bart, the family recounts the story of how she got her instrument during the terrible heat wave of 1990",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/cd/Lisa%27s_Sax_%28episode%29.png"
   },
   {
     "season": 9,
@@ -1996,7 +2004,9 @@
     "title": "Treehouse of Horror VIII",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_VIII",
     "originalAirDate": "October 26, 1997",
-    "productionCode": "5F02"
+    "productionCode": "5F02",
+    "synopsis": "In the eighth annual \"Treehouse of Horror\" episode, Homer discovers he is the last man left alive after a neutron bomb destroys Springfield in the segment \"The HΩmega Man\" (a spoof of The Omega Man). In \"Fly vs. Fly\" (a spoof of The Fly), Homer buys a transporter that Bart uses to switch bodies with a housefly, and \"Easy-Bake Coven'\" features Marge being accused of witchcraft in a Puritan rendition of 1649 Springfield",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/30/Mutants.png"
   },
   {
     "season": 9,
@@ -2005,7 +2015,9 @@
     "title": "The Cartridge Family",
     "url": "http://simpsonswiki.com/wiki/The_Cartridge_Family",
     "originalAirDate": "November 2, 1997",
-    "productionCode": "5F01"
+    "productionCode": "5F01",
+    "synopsis": "After a wild soccer riot tears up Springfield, Homer purchases a handgun to protect his family. But when Marge's repeated requests to dispose of the weapon go without notice, she whisks herself and the kids away to a seedy motel",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3c/The_Cartridge_Family.png"
   },
   {
     "season": 9,
@@ -2014,7 +2026,9 @@
     "title": "Bart Star",
     "url": "http://simpsonswiki.com/wiki/Bart_Star",
     "originalAirDate": "November 9, 1997",
-    "productionCode": "5F03"
+    "productionCode": "5F03",
+    "synopsis": "Springfield's youth join a pee-wee football team. With Ned Flanders at the helm and Nelson at quarterback the team is undefeated until Homer strong arms himself into Ned's job and puts all his faith in under qualified Bart as his quarterback",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f8/Bart_Star.png"
   },
   {
     "season": 9,
@@ -2023,7 +2037,9 @@
     "title": "The Two Mrs. Nahasapeemapetilons",
     "url": "http://simpsonswiki.com/wiki/The_Two_Mrs._Nahasapeemapetilons",
     "originalAirDate": "November 16, 1997",
-    "productionCode": "5F04"
+    "productionCode": "5F04",
+    "synopsis": "Just as he begins to enjoy his popularity as a swinging bachelor, Apu receives an unwelcome reminder of his pending arranged marriage. Desperate to escape the agreement, Apu claims to have already married Marge Simpson. Guest starring Jan Hooks as Manjula Nahasapeemapetilon and Andrea Martin as Apu's mother",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/10/The_Two_Mrs._Nahasapeemapetilons.png"
   },
   {
     "season": 9,
@@ -2032,7 +2048,9 @@
     "title": "Lisa the Skeptic",
     "url": "http://simpsonswiki.com/wiki/Lisa_the_Skeptic",
     "originalAirDate": "November 23, 1997",
-    "productionCode": "5F05"
+    "productionCode": "5F05",
+    "synopsis": "While Lisa and her classmates conduct an archaeological survey, a skeleton with abnormal bone structures growing from the shoulders is uncovered, leading the townspeople to conclude the remains are that of an angel",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e3/Lisa_the_Skeptic.png"
   },
   {
     "season": 9,
@@ -2041,7 +2059,9 @@
     "title": "Realty Bites",
     "url": "http://simpsonswiki.com/wiki/Realty_Bites",
     "originalAirDate": "December 7, 1997",
-    "productionCode": "5F06"
+    "productionCode": "5F06",
+    "synopsis": "When Marge becomes a real estate agent, her firm loses lucrative sales due to her total honesty. Meanwhile, Homer buys a 1960s hot-rod convertible at the local police auction. Unfortunately, the rod's former owner and convicted felon, Snake, wants his property returned post haste, and will do anything to get it back",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0c/Reality_Bites.png"
   },
   {
     "season": 9,
@@ -2050,7 +2070,9 @@
     "title": "Miracle on Evergreen Terrace",
     "url": "http://simpsonswiki.com/wiki/Miracle_on_Evergreen_Terrace",
     "originalAirDate": "December 21, 1997",
-    "productionCode": "5F07"
+    "productionCode": "5F07",
+    "synopsis": "People throughout Springfield open their hearts—and wallets—after Bart accidentally burns the family's Christmas presents and claims they were stolen by a burglar. But when the truth is alas revealed, the Simpsons find themselves pariahs",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f9/Miracle_on_Evergreen_Terrace.png"
   },
   {
     "season": 9,
@@ -2059,7 +2081,9 @@
     "title": "All Singing, All Dancing",
     "url": "http://simpsonswiki.com/wiki/All_Singing,_All_Dancing",
     "originalAirDate": "January 4, 1998",
-    "productionCode": "5F24"
+    "productionCode": "5F24",
+    "synopsis": "Anticipating a bloody Clint Eastwood-Lee Marvin shoot-'em-up, Bart and Homer are horrified to discover that their video rental, Paint Your Wagon, is actually a musical. Several song and dance moments from seasons past are recalled",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/90/All_Singing%2C_All_Dancing.png"
   },
   {
     "season": 9,
@@ -2068,7 +2092,9 @@
     "title": "Bart Carny",
     "url": "http://simpsonswiki.com/wiki/Bart_Carny",
     "originalAirDate": "January 11, 1998",
-    "productionCode": "5F08"
+    "productionCode": "5F08",
+    "synopsis": "When Homer costs a carnival worker and his son their jobs, Homer offers the pair a place to stay. But when the carnies lock the family out of their house and claim it as their own, Homer attempts to get it back by outsmarting the two",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/de/Bart_Carny.png"
   },
   {
     "season": 9,
@@ -2077,7 +2103,10 @@
     "title": "The Joy of Sect",
     "url": "http://simpsonswiki.com/wiki/The_Joy_of_Sect",
     "originalAirDate": "February 8, 1998",
-    "productionCode": "5F23"
+    "productionCode": "5F23",
+    "synopsis": "Along with the majority of Springfield, Homer and company are lured into the Movementarian cult by a slick pamphlet and tantalizing promises. But as Marge begins to realize that the cult only has money on its mind, she must try her hand at deprogramming to rescue her family",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/bf/The_Joy_of_Sect.png",
+    "quotes": "\"Out of my way jerk-ass!\" (Homer)~\"Na na na na na na na na leader!\" (The commune)"
   },
   {
     "season": 9,
@@ -2086,7 +2115,9 @@
     "title": "Das Bus",
     "url": "http://simpsonswiki.com/wiki/Das_Bus",
     "originalAirDate": "February 15, 1998",
-    "productionCode": "5F11"
+    "productionCode": "5F11",
+    "synopsis": "Homer incurs the full wrath of computer supremo Bill Gates with his very own dot com enterprise, while Lisa and Bart undergo a 'Lord of the Flies'-style scenario when they are stranded on a desert island with their schoolfellows",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d1/Das_Bus_promo.jpg"
   },
   {
     "season": 9,
@@ -2095,7 +2126,9 @@
     "title": "The Last Temptation of Krust",
     "url": "http://simpsonswiki.com/wiki/The_Last_Temptation_of_Krust",
     "originalAirDate": "February 22, 1998",
-    "productionCode": "5F10"
+    "productionCode": "5F10",
+    "synopsis": "After finally accepting that his comedic style is outdated, Krusty settles on more edgier material: what's wrong with today's crop of stand-up comedians",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/27/The_Last_Temptation_Of_Krust.jpg"
   },
   {
     "season": 9,
@@ -2104,7 +2137,9 @@
     "title": "Dumbbell Indemnity",
     "url": "http://simpsonswiki.com/wiki/Dumbbell_Indemnity",
     "originalAirDate": "March 1, 1998",
-    "productionCode": "5F12"
+    "productionCode": "5F12",
+    "synopsis": "When Moe breaks himself romancing a new love, he enlists the aid of Homer in an illegal scheme to collect $5,000 dollars from his automobile's insurance policy. But after Homer botches the scam, Moe must find a way to bust his best customer out of the pen. Guest starring Helen Hunt as Renee",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5e/Dumbbell_Indemnity.png"
   },
   {
     "season": 9,
@@ -2113,7 +2148,9 @@
     "title": "Lisa the Simpson",
     "url": "http://simpsonswiki.com/wiki/Lisa_the_Simpson",
     "originalAirDate": "March 8, 1998",
-    "productionCode": "4F24"
+    "productionCode": "4F24",
+    "synopsis": "Thanks to the unfounded predictions of Grampa Simpson, Lisa is convinced that she's genetically predisposed to lose her intelligence. Meanwhile, Apu discovers Jasper Beardsley frozen in his freezer, and turns the Kwik-E-Mart into a tourist's trap",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/ac/Simpson_relatives.png"
   },
   {
     "season": 9,
@@ -2122,7 +2159,9 @@
     "title": "This Little Wiggy",
     "url": "http://simpsonswiki.com/wiki/This_Little_Wiggy",
     "originalAirDate": "March 22, 1998",
-    "productionCode": "5F13"
+    "productionCode": "5F13",
+    "synopsis": "Taking pity on the hapless Ralph Wiggum, Marge pairs him with Bart. But his association with Ralph quickly turns out to be more beneficial than burdensome when Bart learns that his father holds the master key to every store in Springfield",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/23/This_Little_Wiggy.png"
   },
   {
     "season": 9,
@@ -2132,6 +2171,8 @@
     "url": "http://simpsonswiki.com/wiki/Simpson_Tide",
     "originalAirDate": "March 29, 1998",
     "productionCode": "3G04",
+    "synopsis": "Bored as usual, after another firing from the nuclear plant, Homer decides to take up a new career in the Navy, where he single-handedly cuts the ribbon on treason season by charting a submarine into Russian waters. Meanwhile, Bart gets his ear pierced",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d9/Song_And_Dance.png",
     "quotes": "\"My neck hurts and my shoulder hurts. I have two owies!\" (Ralph)~\"Is the poop deck really what I think it is?\" (Homer)~\"My Homer is not a communist. He may be a liar, a pig, a communist but he is NOT a pornstar\" (Abe)"
   },
   {
@@ -2141,7 +2182,9 @@
     "title": "The Trouble with Trillions",
     "url": "http://simpsonswiki.com/wiki/The_Trouble_with_Trillions",
     "originalAirDate": "April 5, 1998",
-    "productionCode": "5F14"
+    "productionCode": "5F14",
+    "synopsis": "When Homer's unfastidious tax return accidentally falls into the severe audit bin at the IRS, he is promptly nabbed by the government. Forced to go undercover for them, Homer finds himself on a mission to retrieve a trillion dollar bill stolen by Mr. Burns",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/7f/Trouble_with_Trillions_Escape.png"
   },
   {
     "season": 9,
@@ -2150,7 +2193,9 @@
     "title": "Girly Edition",
     "url": "http://simpsonswiki.com/wiki/Girly_Edition",
     "originalAirDate": "April 19, 1998",
-    "productionCode": "5F15"
+    "productionCode": "5F15",
+    "synopsis": "Bart attempts to upstage his sister when the pair land anchor seats on a Children's educational news program. Meanwhile, Homer exploits his elderly father to obtain a helper monkey, which he quickly puts to work looting donut shops",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/4e/Lisa_on_Kidz_News_%28Girly_Edition%29.png"
   },
   {
     "season": 9,
@@ -2159,7 +2204,9 @@
     "title": "Trash of the Titans",
     "url": "http://simpsonswiki.com/wiki/Trash_of_the_Titans",
     "originalAirDate": "April 26, 1998",
-    "productionCode": "5F09"
+    "productionCode": "5F09",
+    "synopsis": "After a confrontation with the Sanitation Commissioner, Homer decides to run against him in the next election. Homer's campaign, based on outlandish promises and elaborate services that the garbage men will perform, wins him the election. But being in charge of Springfield's sanitation turns out to be a bit more challenging than Homer anticipates",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9c/Trash_of_the_Titans_promo_1.jpg"
   },
   {
     "season": 9,
@@ -2168,7 +2215,9 @@
     "title": "King of the Hill",
     "url": "http://simpsonswiki.com/wiki/King_of_the_Hill",
     "originalAirDate": "May 3, 1998",
-    "productionCode": "5F16"
+    "productionCode": "5F16",
+    "synopsis": "Crestfallen by Bart's shame of his poor physical condition, Homer sets out to work out. But when a pair of publicity scouts offer him the job of climbing The Murderhorn to promote their product, Homer is too blindsided by lust for physical perfection to turn down the expedition",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6a/King_of_the_Hill_episode.png"
   },
   {
     "season": 9,
@@ -2177,7 +2226,9 @@
     "title": "Lost Our Lisa",
     "url": "http://simpsonswiki.com/wiki/Lost_Our_Lisa",
     "originalAirDate": "May 10, 1998",
-    "productionCode": "5F17"
+    "productionCode": "5F17",
+    "synopsis": "After hastily boarding the wrong bus to a limited engagement museum exhibit, Lisa finds herself lost in unfamiliar parts of Springfield. Meanwhile, Bart adheres novelty items to his face, only to later discover that the glue he was given—by Homer—is permanent",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/64/Lost_Our_Lisa.png"
   },
   {
     "season": 9,
@@ -2186,7 +2237,9 @@
     "title": "Natural Born Kissers",
     "url": "http://simpsonswiki.com/wiki/Natural_Born_Kissers",
     "originalAirDate": "May 17, 1998",
-    "productionCode": "5F18"
+    "productionCode": "5F18",
+    "synopsis": "When their anniversary dinner is a flop and their love life seems to lack luster, Homer and Marge try to spice it up, first by traveling to a bed & breakfast. At the B&B, Homer and Marge accidentally discover that the fear of getting caught is the spice they need. They enjoy their newly revved-up love life until they are caught baring it all. Meanwhile, Lisa and Bart use Grampa's mine detector to find treasure and they find an alternate ending to Casablanca",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0c/Natural_Born_Kissers.png"
   },
   {
     "season": 10,
@@ -2195,7 +2248,9 @@
     "title": "Lard of the Dance",
     "url": "http://simpsonswiki.com/wiki/Lard_of_the_Dance",
     "originalAirDate": "August 23, 1998",
-    "productionCode": "5F20"
+    "productionCode": "5F20",
+    "synopsis": "Homer and Bart team up to dip their hands in the grease recycling business. Meanwhile, Lisa is chosen to introduce a new student to Springfield Elementary, one who's years ahead of her age",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/89/Lard_of_the_Dance.png"
   },
   {
     "season": 10,
@@ -2204,7 +2259,9 @@
     "title": "The Wizard of Evergreen Terrace",
     "url": "http://simpsonswiki.com/wiki/The_Wizard_of_Evergreen_Terrace",
     "originalAirDate": "September 20, 1998",
-    "productionCode": "5F21"
+    "productionCode": "5F21",
+    "synopsis": "Homer experiences a mid-life crisis when he realizes, at 38.1 years of age, he hasn't accomplished anything meaningful. To curve his remorse, Homer decides to pattern himself after Thomas Edison and become the next great inventor",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b2/The_Wizard_of_Evergreen_Terrace.png"
   },
   {
     "season": 10,
@@ -2213,7 +2270,9 @@
     "title": "Bart the Mother",
     "url": "http://simpsonswiki.com/wiki/Bart_the_Mother",
     "originalAirDate": "September 27, 1998",
-    "productionCode": "5F22"
+    "productionCode": "5F22",
+    "synopsis": "Bart accidentally kills a mother bird with Nelson Muntz's BB gun, and tries his best to raise the mother's eggs on his own. But when the hatchlings turn out to be a pair of destructive lizards that harvest nests for their own survival, the town's bird population is placed at great risk",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/8f/Bart_the_Mother.png"
   },
   {
     "season": 10,
@@ -2222,7 +2281,9 @@
     "title": "Treehouse of Horror IX",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_IX",
     "originalAirDate": "October 25, 1998",
-    "productionCode": "AABF01"
+    "productionCode": "AABF01",
+    "synopsis": "Treehouse of Horror IX is an anthology episode that features mini-stories. In \"Hell Toupée,\" Homer receives a hair transplant from executed criminal Snake which possesses him and makes him go on a murder spree. In \"The Terror of Tiny Toon,\" a plutonium-powered TV remote zaps Bart and Lisa into an Itchy & Scratchy cartoon. \"Starship Poopers\" reveals that Maggie's real father is Kang, which leads to a custody dispute and an appearance on The Jerry Springer Show",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1f/Treehouse_of_Horror_IX.jpg"
   },
   {
     "season": 10,
@@ -2231,7 +2292,9 @@
     "title": "When You Dish Upon a Star",
     "url": "http://simpsonswiki.com/wiki/When_You_Dish_Upon_a_Star",
     "originalAirDate": "November 8, 1998",
-    "productionCode": "5F19"
+    "productionCode": "5F19",
+    "synopsis": "Keeping Hollywood secrets proves difficult for Homer when he scores a personal assistant job for the husband and wife team, Alec Baldwin & Kim Basinger. Also guest starring Ron Howard and Brian Grazer",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/38/When_You_Dish_Upon_a_Star_promo.jpg"
   },
   {
     "season": 10,
@@ -2240,7 +2303,9 @@
     "title": "D'oh-in' in the Wind",
     "url": "http://simpsonswiki.com/wiki/D%27oh-in%27_in_the_Wind",
     "originalAirDate": "November 15, 1998",
-    "productionCode": "AABF02"
+    "productionCode": "AABF02",
+    "synopsis": "Homer sets out to determine what his middle initial stands for. In the process, he meets up with two of his mother's old associates from her days as a radical in the 60s and decides to give the hippie lifestyle a try",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/92/Doh-in_In_the_Wind.png"
   },
   {
     "season": 10,
@@ -2249,7 +2314,9 @@
     "title": "Lisa Gets an A",
     "url": "http://simpsonswiki.com/wiki/Lisa_Gets_an_%22A%22",
     "originalAirDate": "November 22, 1998",
-    "productionCode": "AABF03"
+    "productionCode": "AABF03",
+    "synopsis": "In discovering the joy of video gaming, Lisa neglects to study for her upcoming test, which she later relents to cheating upon in order to pass. But when the resulting grade raises the school's state average and qualifies it for financial aid, she decides to keep the secret for the good of the school. Meanwhile, Homer raises a baby lobster to beat the high store prices of adults",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6a/Lisa_Gets_an_%22A%22.png"
   },
   {
     "season": 10,
@@ -2258,7 +2325,9 @@
     "title": "Homer Simpson in: Kidney Trouble",
     "url": "http://simpsonswiki.com/wiki/Homer_Simpson_in:_%22Kidney_Trouble%22",
     "originalAirDate": "December 6, 1998",
-    "productionCode": "AABF04"
+    "productionCode": "AABF04",
+    "synopsis": "On behalf of Homer's infamous ignorance, Grampa falls victim to a textbook kidney blowout. But when Homer steps up to offer a donor kidney, he quickly finds himself suffering from a much more common phenomenon: cold feet",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/37/Homer_Simpson_in_Kidney_Trouble.png"
   },
   {
     "season": 10,
@@ -2267,7 +2336,9 @@
     "title": "Mayored to the Mob",
     "url": "http://simpsonswiki.com/wiki/Mayored_to_the_Mob",
     "originalAirDate": "December 20, 1998",
-    "productionCode": "AABF05"
+    "productionCode": "AABF05",
+    "synopsis": "When Homer rescues Mark Hamill and Mayor Quimby from a rowdy mob of sci-fi fanatics, he is appointed the mayor's new bodyguard. But after convincing Quimby that he needs to stop Fat Tony's mob from selling rat's milk to the town's schools, the mayor's life is placed in jeopardy",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/7a/Mayored_to_the_Mob.jpg"
   },
   {
     "season": 10,
@@ -2276,7 +2347,9 @@
     "title": "Viva Ned Flanders",
     "url": "http://simpsonswiki.com/wiki/Viva_Ned_Flanders",
     "originalAirDate": "January 10, 1999",
-    "productionCode": "AABF06"
+    "productionCode": "AABF06",
+    "synopsis": "Discouraged by sixty years of minding his P's and Q's, Ned Flanders asks Homer to reveal the secret of his intoxicating lust for life. But Homer's plans to put the spice back into Ned's life go haywire when they land the pair in wedlock with two grubby casino cocktail waitresses",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/12/Viva_Ned_Flanders_promo.jpg"
   },
   {
     "season": 10,
@@ -2285,7 +2358,9 @@
     "title": "Wild Barts Can't Be Broken",
     "url": "http://simpsonswiki.com/wiki/Wild_Barts_Can%27t_Be_Broken",
     "originalAirDate": "January 17, 1999",
-    "productionCode": "AABF07"
+    "productionCode": "AABF07",
+    "synopsis": "Homer and his drunken cohorts celebrate an improbable victory by the Springfield Isotopes by trashing the local elementary school. But when the police force fails to locate the actual vandals, the town's children are hastily blamed for the rowdiness and punished with a new sunset curfew",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e2/AABF07.png"
   },
   {
     "season": 10,
@@ -2294,7 +2369,9 @@
     "title": "Sunday, Cruddy Sunday",
     "url": "http://simpsonswiki.com/wiki/Sunday,_Cruddy_Sunday",
     "originalAirDate": "January 31, 1999",
-    "productionCode": "AABF08"
+    "productionCode": "AABF08",
+    "synopsis": "Homer meets a travel agent named Wally Kogen who offers to send him to the Super Bowl for free if he can sign up all of his friends for a special travel package. Homer convinces Moe, Barney, Lenny, Carl, Kirk Van Houten and a bunch of other guys to sign up. All the men pile into a bus Wally furnishes for the trip and drink their way to Miami for the game. When they get there, however, they discover that the tickets Wally sold them were counterfeit",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f6/Sunday%2C_Cruddy_Sunday_promo_1.jpg"
   },
   {
     "season": 10,
@@ -2303,7 +2380,9 @@
     "title": "Homer to the Max",
     "url": "http://simpsonswiki.com/wiki/Homer_to_the_Max",
     "originalAirDate": "February 7, 1999",
-    "productionCode": "AABF09"
+    "productionCode": "AABF09",
+    "synopsis": "When the new television show, Police Cops, premiers with a savvy character holding Homer's full name, the real-life Homer enjoys mock-stardom en masse. But when the show is retooled to give the character a Gomer Pyle-like facade, Homer changes his name to Max Power to escape the laughing and taunts of fellow townspeople",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/fb/Homer%27s_new_name.png"
   },
   {
     "season": 10,
@@ -2312,7 +2391,9 @@
     "title": "I'm with Cupid",
     "url": "http://simpsonswiki.com/wiki/I%27m_with_Cupid",
     "originalAirDate": "February 14, 1999",
-    "productionCode": "AABF11"
+    "productionCode": "AABF11",
+    "synopsis": "As Kwik-E-Mart convenience store proprietor Apu showers his wife with glowing, outrageous Valentine's Day gifts, the other husbands of Springfield are made to look bad in his shadow. But as his gifts grow increasingly grand, the men attempt to foil his efforts, instigating a Valentine's massacre",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c0/I%27m_With_Cupid.jpg"
   },
   {
     "season": 10,
@@ -2321,7 +2402,9 @@
     "title": "Marge Simpson in: Screaming Yellow Honkers",
     "url": "http://simpsonswiki.com/wiki/Marge_Simpson_in:_%22Screaming_Yellow_Honkers%22",
     "originalAirDate": "February 21, 1999",
-    "productionCode": "AABF10"
+    "productionCode": "AABF10",
+    "synopsis": "Homer offers Marge a new Canyonero SUV after embarrassingly discovering that he bought a model marketed to women. But once in the driver's seat, Marge becomes increasingly intoxicated by the vehicle's dynamism, leading to a case of aggravated road rage",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/a9/Marge_Simpson_in_Screaming_Yellow_Honkers.png"
   },
   {
     "season": 10,
@@ -2330,7 +2413,9 @@
     "title": "Make Room for Lisa",
     "url": "http://simpsonswiki.com/wiki/Make_Room_for_Lisa",
     "originalAirDate": "February 28, 1999",
-    "productionCode": "AABF12"
+    "productionCode": "AABF12",
+    "synopsis": "Lisa experiences stress when forced to temporarily share a room with Bart. Meanwhile, Marge discovers the joys of eavesdropping on cellular telephone calls and becomes obsessed with the personal dramas of complete strangers",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/74/AABF12.png"
   },
   {
     "season": 10,
@@ -2339,7 +2424,9 @@
     "title": "Maximum Homerdrive",
     "url": "http://simpsonswiki.com/wiki/Maximum_Homerdrive",
     "originalAirDate": "March 28, 1999",
-    "productionCode": "AABF13"
+    "productionCode": "AABF13",
+    "synopsis": "Homer takes on a gruff truck driver in a beef-eating contest. But when the trucker pays the high price of trying to top Homer's bottomless stomach, Homer vows to deliver his cargo, leading to a cross-country truckin' adventure. Meanwhile, Marge and Lisa make the best of a troublesome new doorbell",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e8/AABF13.png"
   },
   {
     "season": 10,
@@ -2348,7 +2435,9 @@
     "title": "Simpsons Bible Stories",
     "url": "http://simpsonswiki.com/wiki/Simpsons_Bible_Stories",
     "originalAirDate": "April 4, 1999",
-    "productionCode": "AABF14"
+    "productionCode": "AABF14",
+    "synopsis": "A particularly boring sermon by Reverend Lovejoy sends each member of the Simpson family into his or her own biblical fantasy. Marge imagines herself and Homer as Adam and Eve, Lisa dreams of herself and the other kids of Springfield Elementary as the Israelites in ancient Egypt, and Homer dreams he is King Solomon, solving every dispute by cutting the contested object in half",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0b/Simpsons_Bible_Stories_promo.png"
   },
   {
     "season": 10,
@@ -2357,7 +2446,9 @@
     "title": "Mom and Pop Art",
     "url": "http://simpsonswiki.com/wiki/Mom_and_Pop_Art",
     "originalAirDate": "April 11, 1999",
-    "productionCode": "AABF15"
+    "productionCode": "AABF15",
+    "synopsis": "When Homer learns to vent his anger through home-grown artwork, he attracts the attention of a professional art dealer",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/ac/Mom_and_Pop_Art_promo.gif"
   },
   {
     "season": 10,
@@ -2366,7 +2457,9 @@
     "title": "The Old Man and the C Student",
     "url": "http://simpsonswiki.com/wiki/The_Old_Man_and_the_%22C%22_Student",
     "originalAirDate": "April 25, 1999",
-    "productionCode": "AABF16"
+    "productionCode": "AABF16",
+    "synopsis": "After causing his fellow townspeople to lose the Olympic Games, Bart is forced to slave away his time helping the elderly residents of the local retirement home",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/54/OldManCStudent.png"
   },
   {
     "season": 10,
@@ -2375,7 +2468,9 @@
     "title": "Monty Can't Buy Me Love",
     "url": "http://simpsonswiki.com/wiki/Monty_Can%27t_Buy_Me_Love",
     "originalAirDate": "May 2, 1999",
-    "productionCode": "AABF17"
+    "productionCode": "AABF17",
+    "synopsis": "Mr. Burns tries his hand at winning the public's admiration by taking part in blue collar radio talk shows and retrieving the legendary Loch Ness Monster",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/27/Monty_Can%27t_Buy_Me_Love.png"
   },
   {
     "season": 10,
@@ -2384,7 +2479,9 @@
     "title": "They Saved Lisa's Brain",
     "url": "http://simpsonswiki.com/wiki/They_Saved_Lisa%27s_Brain",
     "originalAirDate": "May 9, 1999",
-    "productionCode": "AABF18"
+    "productionCode": "AABF18",
+    "synopsis": "Lisa is invited to join the local MENSA society after penning an inspiring letter over Springfield's complete humiliation at the hands of her father",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3d/They_Saved_Lisa%27s_Brain.png"
   },
   {
     "season": 10,
@@ -2393,7 +2490,9 @@
     "title": "Thirty Minutes Over Tokyo",
     "url": "http://simpsonswiki.com/wiki/Thirty_Minutes_Over_Tokyo",
     "originalAirDate": "May 16, 1999",
-    "productionCode": "AABF20"
+    "productionCode": "AABF20",
+    "synopsis": "The Simpsons family visit Tokyo, Japan. After losing their last million yen, they agree to participate in a dangerous Japanese TV game show in exchange for air fare back home",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/76/Thirty_Minutes_Over_Tokyo.png"
   },
   {
     "season": 11,
@@ -5114,7 +5213,8 @@
     "title": "The Fabulous Faker Boy",
     "url": "http://simpsonswiki.com/wiki/The_Fabulous_Faker_Boy",
     "originalAirDate": "May 12, 2013",
-    "productionCode": "RABF12"
+    "productionCode": "RABF12",
+    "quotes": "\"Ah Mr Homer, I see you are wearing the bald man's beret\" (Apu)~\"I'm sorry, did my voice go all evil? It is common with Russian accent\" (Slava)"
   },
   {
     "season": 24,
