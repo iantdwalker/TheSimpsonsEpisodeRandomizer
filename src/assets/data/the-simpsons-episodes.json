@@ -1145,7 +1145,8 @@
     "originalAirDate": "September 4, 1994",
     "productionCode": "1F22",
     "synopsis": "After breaking his leg, Bart spends the Summer at his bedroom window, spying on the neighbors with a telescope. Bart finds the view boring until he sees Ned Flanders murdering his wife",
-    "imageUrl": "https://static.simpsonswiki.com/images/d/d0/Bart_of_Darkness_promo.jpg"
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d0/Bart_of_Darkness_promo.jpg",
+    "quotes": "\"Tis a fine barn but sure tis no pool English\" (Amish guy)~\"D'oh ith\" (Homer)~Oh my God what have I done? I've killed her!\" (Ned)~\"I'm a mur-diddly-urdler!\" (Ned)~\"Oh I see. Then everything is wrapped up in a neat little package\" (Homer)"
   },
   {
     "season": 6,
@@ -2501,7 +2502,9 @@
     "title": "Beyond Blunderdome",
     "url": "http://simpsonswiki.com/wiki/Beyond_Blunderdome",
     "originalAirDate": "September 26, 1999",
-    "productionCode": "AABF23"
+    "productionCode": "AABF23",
+    "synopsis": "Homer and Marge get to go to a preview screening of Mel Gibson's latest film, and everyone but Homer loves it. After reading his response card, Mel lands at the Simpsons house and asks him to help make the movie good",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/96/Beyond_Blunderdome_-_Promotional_art.png"
   },
   {
     "season": 11,
@@ -2510,7 +2513,9 @@
     "title": "Brother's Little Helper",
     "url": "http://simpsonswiki.com/wiki/Brother%27s_Little_Helper",
     "originalAirDate": "October 3, 1999",
-    "productionCode": "AABF22"
+    "productionCode": "AABF22",
+    "synopsis": "After Bart continually acts up in school, Principal Skinner recommends to Marge and Homer that Bart take some behavior medication. The drug initially shows promise, but it quickly alters Bart's psychosis and turns him into a paranoid conspiracy theorist",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/94/Brother%27s_Little_Helper.png"
   },
   {
     "season": 11,
@@ -2519,7 +2524,9 @@
     "title": "Guess Who's Coming to Criticize Dinner?",
     "url": "http://simpsonswiki.com/wiki/Guess_Who%27s_Coming_to_Criticize_Dinner%3F",
     "originalAirDate": "October 24, 1999",
-    "productionCode": "AABF21"
+    "productionCode": "AABF21",
+    "synopsis": "Homer gets the perfect side job when he becomes the chief restaurant critic for The Springfield Shopper newspaper. He loves the perks, but can barely write a complete sentence. When Lisa helps out by ghosting his columns, Homer becomes the most powerful—and feared—critic in town. Soon Homer earns the wrath of every restaurant owner in Springfield and they join together in a plot to kill him with a poisonous éclair. Can Homer survive this death by chocolate (and butter, and custard)?",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/69/Guess_Who%27s_Coming_to_Criticize_Dinner_promo.png"
   },
   {
     "season": 11,
@@ -2528,7 +2535,9 @@
     "title": "Treehouse of Horror X",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_X",
     "originalAirDate": "October 31, 1999",
-    "productionCode": "BABF01"
+    "productionCode": "BABF01",
+    "synopsis": "In \"I Know What You Diddily-Iddly-Did\" The family (with Marge driving) runs over and believes that they've killed Ned Flanders, in \"Desperately Xeeking Xena\" Bart and Lisa become super-heroes and in \"Life's a Glitch, Then You Die\" Y2K destroys the world and Springfield",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/dc/Werewolf_Flanders_-_Treehouse_of_Horror_X.png"
   },
   {
     "season": 11,
@@ -2537,7 +2546,9 @@
     "title": "E-I-E-I-(Annoyed Grunt)",
     "url": "http://simpsonswiki.com/wiki/E-I-E-I-%28Annoyed_Grunt%29",
     "originalAirDate": "November 7, 1999",
-    "productionCode": "AABF19"
+    "productionCode": "AABF19",
+    "synopsis": "Homer begins challenging everyone around him to duels after seeing it happen in a film. Most people back down, until Homer meets an old-fashioned Colonel who takes him up on his dare. Unable to get out of the contest with the Colonel, Homer and his family flee to the country, where they become farmers. Farm life is difficult until Homer creates a new crop called Tomacco",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0f/E-I-E-I-%28Annoyed_Grunt%29.png"
   },
   {
     "season": 11,
@@ -2546,7 +2557,9 @@
     "title": "Hello Gutter, Hello Fadder",
     "url": "http://simpsonswiki.com/wiki/Hello_Gutter,_Hello_Fadder",
     "originalAirDate": "November 14, 1999",
-    "productionCode": "BABF02"
+    "productionCode": "BABF02",
+    "synopsis": "Homer blows off work and goes bowling with Carl and Lenny. When he bowls a 300 game, he becomes a local celebrity. But when his fleeting fame begins to fade, he finds little comfort in anything. Suicidal thoughts and a brush with death lead him to spend more time with Maggie, who learns to bowl and nearly upstages him",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e2/Hello_Gutter%2C_Hello_Fadder_promo.png"
   },
   {
     "season": 11,
@@ -2555,7 +2568,9 @@
     "title": "Eight Misbehavin'",
     "url": "http://simpsonswiki.com/wiki/Eight_Misbehavin%27",
     "originalAirDate": "November 21, 1999",
-    "productionCode": "BABF03"
+    "productionCode": "BABF03",
+    "synopsis": "Apu's wife Manjula gives birth to octuplets. Everyone in Springfield soon pitches in to help, until a couple in Shelbyville gives birth to nine, causing everyone to forget about Apu and Manjula",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3c/Octuplets.png"
   },
   {
     "season": 11,
@@ -2564,7 +2579,9 @@
     "title": "Take My Wife, Sleaze",
     "url": "http://simpsonswiki.com/wiki/Take_My_Wife,_Sleaze",
     "originalAirDate": "November 28, 1999",
-    "productionCode": "BABF05"
+    "productionCode": "BABF05",
+    "synopsis": "Homer and Marge win a motorcycle in a dance contest. Homer decides to form his own motorcycle gang called \"Hell's Satans\". But there's just one problem - the name is already taken, and when the two gangs encounter one another, trouble ensues",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/55/Take_My_Wife%2C_Sleaze.png"
   },
   {
     "season": 11,
@@ -2573,7 +2590,9 @@
     "title": "Grift of the Magi",
     "url": "http://simpsonswiki.com/wiki/Grift_of_the_Magi",
     "originalAirDate": "December 19, 1999",
-    "productionCode": "BABF07"
+    "productionCode": "BABF07",
+    "synopsis": "A sinister toy company unveils Funzo, the next \"Tickle Me Elmo\"-style fad to Springfield's Christmas shoppers. The toy is a huge success, in part because it is programmed to destroy other toys",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/35/Grift_of_the_Magi_promo.png"
   },
   {
     "season": 11,
@@ -2582,7 +2601,9 @@
     "title": "Little Big Mom",
     "url": "http://simpsonswiki.com/wiki/Little_Big_Mom",
     "originalAirDate": "January 9, 2000",
-    "productionCode": "BABF04"
+    "productionCode": "BABF04",
+    "synopsis": "After suffering an accident at a local skiing attraction, Marge relinquishes control of the household to the next-most responsible member of the family, Lisa",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/cd/Homer_bart_leprosy.png"
   },
   {
     "season": 11,
@@ -2591,7 +2612,9 @@
     "title": "Faith Off",
     "url": "http://simpsonswiki.com/wiki/Faith_Off",
     "originalAirDate": "January 16, 2000",
-    "productionCode": "BABF06"
+    "productionCode": "BABF06",
+    "synopsis": "Bart becomes hooked on the art of faith healing after witnessing the spin of a traveling revivalist. Meanwhile, Homer prepares for the homecoming game of his old college-days chums",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5d/Faith_Off.png"
   },
   {
     "season": 11,
@@ -2600,7 +2623,9 @@
     "title": "The Mansion Family",
     "url": "http://simpsonswiki.com/wiki/The_Mansion_Family",
     "originalAirDate": "January 23, 2000",
-    "productionCode": "BABF08"
+    "productionCode": "BABF08",
+    "synopsis": "After receiving an award for oldest citizen of Springfield, Mr. Burns checks into the Mayo Clinic, leaving The Simpsons in charge of his luxurious mansion",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6c/The_Mansion_Family_promo.png"
   },
   {
     "season": 11,
@@ -2609,7 +2634,9 @@
     "title": "Saddlesore Galactica",
     "url": "http://simpsonswiki.com/wiki/Saddlesore_Galactica",
     "originalAirDate": "February 6, 2000",
-    "productionCode": "BABF09"
+    "productionCode": "BABF09",
+    "synopsis": "Homer and Bart adopt an abandoned racehorse, named Duncan, and soon discover the ups and downs of horse racing",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/7e/Saddlesore_Galactica.png"
   },
   {
     "season": 11,
@@ -2618,7 +2645,9 @@
     "title": "Alone Again, Natura-Diddily",
     "url": "http://simpsonswiki.com/wiki/Alone_Again,_Natura-Diddily",
     "originalAirDate": "February 13, 2000",
-    "productionCode": "BABF10"
+    "productionCode": "BABF10",
+    "synopsis": "When Maude Flanders dies in a freak accident, Homer takes it upon himself to help Ned rebuild his life and gets him back into the dating game. After several unsuccessful dates, Ned walks into church and finds himself interested in the lead singer of a Christian rock band",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/52/Alone_Again%2C_Natura-Diddily.png"
   },
   {
     "season": 11,
@@ -2627,7 +2656,9 @@
     "title": "Missionary: Impossible",
     "url": "http://simpsonswiki.com/wiki/Missionary:_Impossible",
     "originalAirDate": "February 20, 2000",
-    "productionCode": "BABF11"
+    "productionCode": "BABF11",
+    "synopsis": "Homer becomes a missionary on a remote, tropical island as part of his effort to evade the local PBS affiliate's pledge drive collection officials",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e6/Misionary_Impossible.png"
   },
   {
     "season": 11,
@@ -2636,7 +2667,9 @@
     "title": "Pygmoelian",
     "url": "http://simpsonswiki.com/wiki/Pygmoelian",
     "originalAirDate": "February 27, 2000",
-    "productionCode": "BABF12"
+    "productionCode": "BABF12",
+    "synopsis": "After winning the chance for his photo to appear on a Duff beer calendar, but losing out when the calendar appears with stickers covering his face, Moe gets a face lift. The resulting surgery makes him handsome and then Moe takes revenge on those who wronged him because of his looks in the past, including the producer of a soap opera. Of course his new looks get him the part, until he and Homer become privy to some plot lines that threaten to write him out of the show. In anticipation, they decide to go out \"in a blaze of sour grapes",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c5/Pygmoelian_promo.png"
   },
   {
     "season": 11,
@@ -2645,7 +2678,9 @@
     "title": "Bart to the Future",
     "url": "http://simpsonswiki.com/wiki/Bart_to_the_Future",
     "originalAirDate": "March 19, 2000",
-    "productionCode": "BABF13"
+    "productionCode": "BABF13",
+    "synopsis": "While visiting an Indian casino with his family, Bart encounters an Indian who foretells of his future. Bart learns that in the future he is a ne'er-do-well musician with Ralph Wiggum as a roommate. He goes to see Lisa to borrow money, but Lisa has her own problems, being the newly-elected President of the United States and facing a tax crisis",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0b/Bart_to_the_Future.png"
   },
   {
     "season": 11,
@@ -2654,7 +2689,9 @@
     "title": "Days of Wine and D'oh'ses",
     "url": "http://simpsonswiki.com/wiki/Days_of_Wine_and_D%27oh%27ses",
     "originalAirDate": "April 9, 2000",
-    "productionCode": "BABF14"
+    "productionCode": "BABF14",
+    "synopsis": "After seeing a videotape of himself intoxicated, Barney turns over a new leaf and goes the sober route. Meanwhile, Bart and Lisa learn the ups and downs of photography in a contest held by the local telephone company",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/27/Barney_helicopter.png"
   },
   {
     "season": 11,
@@ -2663,7 +2700,9 @@
     "title": "Kill the Alligator and Run",
     "url": "http://simpsonswiki.com/wiki/Kill_the_Alligator_and_Run",
     "originalAirDate": "April 30, 2000",
-    "productionCode": "BABF16"
+    "productionCode": "BABF16",
+    "synopsis": "Homer is suffering from insomnia due to stress. In an attempt to heal, the family takes a vacation to Florida. Little do they know, it is spring break when they arrive. After Homer accidentally kills the beloved town alligator, the family must go into hiding to avoid being arrested",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/29/Kill_the_Alligator_and_Run.png"
   },
   {
     "season": 11,
@@ -2672,7 +2711,9 @@
     "title": "Last Tap Dance in Springfield",
     "url": "http://simpsonswiki.com/wiki/Last_Tap_Dance_in_Springfield",
     "originalAirDate": "May 7, 2000",
-    "productionCode": "BABF15"
+    "productionCode": "BABF15",
+    "synopsis": "After seeing \"Tango de la Muerto\" at the local theatre, Lisa is inspired to learn the art of the dance, tutored by none other than former child actress Little Miss Vicky Valentine. Meanwhile, Homer decides to increase his visual acuity with laser eye surgery",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e1/Last_Tap_Dance_in_Springfield_promo.png"
   },
   {
     "season": 11,
@@ -2681,7 +2722,9 @@
     "title": "It's a Mad, Mad, Mad, Mad Marge",
     "url": "http://simpsonswiki.com/wiki/It%27s_a_Mad,_Mad,_Mad,_Mad_Marge",
     "originalAirDate": "May 14, 2000",
-    "productionCode": "BABF18"
+    "productionCode": "BABF18",
+    "synopsis": "When Marge forces Otto to choose between rock 'n' roll and his bride to be, Marge quickly finds herself playing hostess to a now-single Becky. But when Becky's attempt to earn her keep upstages Marge's own homemaking abilities, Marge quickly finds herself losing her mind",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9c/It%27s_a_Mad%2C_Mad%2C_Mad%2C_Mad_Marge.png"
   },
   {
     "season": 11,
@@ -2690,7 +2733,9 @@
     "title": "Behind the Laughter",
     "url": "http://simpsonswiki.com/wiki/Behind_the_Laughter",
     "originalAirDate": "May 21, 2000",
-    "productionCode": "BABF19"
+    "productionCode": "BABF19",
+    "synopsis": "In the style of VH1 show \"Behind the Music\", this documentary takes us back to the beginning of the show. We see Homer's shoddily directed 'pilot' episode, before Homer becomes addicted to prescription drugs, Marge makes bizarre business investments, and Bart goes to rehab. The show is put on hiatus after the family split up, and Lisa writes a book about her ordeal. A phony awards show manages to reunite the Simpsons",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/32/Behind_the_Laughter.png"
   },
   {
     "season": 12,
@@ -2699,7 +2744,9 @@
     "title": "Treehouse of Horror XI",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XI",
     "originalAirDate": "November 1, 2000",
-    "productionCode": "BABF21"
+    "productionCode": "BABF21",
+    "synopsis": "In \"G-G-Ghost D-D-Dad\", Homer chokes to death on a piece of broccoli and his spirit must perform a good deed in order to enter heaven. \"Scary Tales Can Come True\" reveals the dark side of fairy tale characters and in \"Night of the Dolphin\" - The world is overtaken by dolphins after Lisa frees their leader from captivity",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f8/G-G-Ghost_D-D-Dad_-_Title_Card.png"
   },
   {
     "season": 12,
@@ -2708,7 +2755,9 @@
     "title": "A Tale of Two Springfields",
     "url": "http://simpsonswiki.com/wiki/A_Tale_of_Two_Springfields",
     "originalAirDate": "November 5, 2000",
-    "productionCode": "BABF20"
+    "productionCode": "BABF20",
+    "synopsis": "While calling Animal Control over a badger taking residence in Santa's Little Helper's doghouse, Homer discovers that Springfield has two different area codes—and ends up leading a revolt that splits the town in two",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/79/A_Tale_of_Two_Springfields.png"
   },
   {
     "season": 12,
@@ -2717,7 +2766,9 @@
     "title": "Insane Clown Poppy",
     "url": "http://simpsonswiki.com/wiki/Insane_Clown_Poppy",
     "originalAirDate": "November 12, 2000",
-    "productionCode": "BABF17"
+    "productionCode": "BABF17",
+    "synopsis": "During an outdoor book fair, Krusty finds out he has a daughter (from a one-night stand with a female soldier who fought in the Gulf War), but loses her trust after gambling away her violin to Fat Tony, prompting Homer and Krusty to retrieve it",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/7a/Insane_Clown_Poppy_promo.png"
   },
   {
     "season": 12,
@@ -2726,7 +2777,9 @@
     "title": "Lisa the Tree Hugger",
     "url": "http://simpsonswiki.com/wiki/Lisa_the_Tree_Hugger",
     "originalAirDate": "Novemer 19, 2000",
-    "productionCode": "CABF01"
+    "productionCode": "CABF01",
+    "synopsis": "Eager to join \"Dirt First\" after witnessing their pro-vegetarianism demonstration atop the local Krusty Burger franchise, Lisa attempts to prove her worth by camping out in a giant redwood destined for logging. Meanwhile, Bart joins the workforce in order to buy a new game console advertised on television",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/36/Lisa_the_Tree_Hugger_promo.jpg"
   },
   {
     "season": 12,
@@ -2735,7 +2788,9 @@
     "title": "Homer vs. Dignity",
     "url": "http://simpsonswiki.com/wiki/Homer_vs._Dignity",
     "originalAirDate": "November 26, 2000",
-    "productionCode": "CABF04"
+    "productionCode": "CABF04",
+    "synopsis": "Short on funds, Homer approaches the ever-wealthy Mr. Burns for a raise. But when Burns grants his request on the condition that Homer act as his personal jester, Homer finds himself in a series of degrading and embarrassing situations",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d7/Homer_vs._Dignity_homer.png"
   },
   {
     "season": 12,
@@ -2744,7 +2799,9 @@
     "title": "The Computer Wore Menace Shoes",
     "url": "http://simpsonswiki.com/wiki/The_Computer_Wore_Menace_Shoes",
     "originalAirDate": "December 3, 2000",
-    "productionCode": "CABF02"
+    "productionCode": "CABF02",
+    "synopsis": "Homer buys a computer and builds a web site where he anonymously spreads local rumor and innuendo, and makes things up when his sources run dry. When one of these fake stories turns out to be true, Homer is kidnapped and transported to \"The Island\", a place where those who know too much are taken out of society",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f1/Number_15.png"
   },
   {
     "season": 12,
@@ -2753,7 +2810,9 @@
     "title": "The Great Money Caper",
     "url": "http://simpsonswiki.com/wiki/The_Great_Money_Caper",
     "originalAirDate": "December 10, 2000",
-    "productionCode": "CABF03"
+    "productionCode": "CABF03",
+    "synopsis": "Strapped for cash, Homer and Bart thumb their way through A Child's Garden of Cons in search of the road to easy money",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6a/CABF03.png"
   },
   {
     "season": 12,
@@ -2762,7 +2821,9 @@
     "title": "Skinner's Sense of Snow",
     "url": "http://simpsonswiki.com/wiki/Skinner%27s_Sense_of_Snow",
     "originalAirDate": "December 17, 2000",
-    "productionCode": "CABF06"
+    "productionCode": "CABF06",
+    "synopsis": "When a large storm snows in Springfield Elementary, the children are trapped inside for the holidays and soon rebel against Principal Skinner - while Homer tries to rescue them, using Flanders' car",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/de/Skinners_Sense_of_Snow.gif"
   },
   {
     "season": 12,
@@ -2771,7 +2832,9 @@
     "title": "HOMЯ",
     "url": "https://simpsonswiki.com/wiki/HOM%D0%AF",
     "originalAirDate": "January 7, 2001",
-    "productionCode": "BABF22"
+    "productionCode": "BABF22",
+    "synopsis": "An X-ray reveals that Homer has a crayon lodged in his brain that has been there since childhood. Upon removal of the crayon, Homer's IQ suddenly jumps to a very high level; he and Lisa form a great new bond, but when his way of life changes drastically he wonders whether removing the crayon was a good idea",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/72/Crayon_in_Homer%27s_Brain_-_HOM%D0%AF.png"
   },
   {
     "season": 12,
@@ -2780,7 +2843,9 @@
     "title": "Pokey Mom",
     "url": "http://simpsonswiki.com/wiki/Pokey_Mom",
     "originalAirDate": "January 14, 2001",
-    "productionCode": "CABF05"
+    "productionCode": "CABF05",
+    "synopsis": "Marge feels sympathy for an inmate she meets at a prison rodeo, vouches for him at his parole hearing and tries to assist his reentry into the real world. Meanwhile, Homer starts his own chiropractic office",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d6/Pokey_Mom.png"
   },
   {
     "season": 12,
@@ -2789,7 +2854,9 @@
     "title": "Worst Episode Ever",
     "url": "http://simpsonswiki.com/wiki/Worst_Episode_Ever",
     "originalAirDate": "February 4, 2001",
-    "productionCode": "CABF08"
+    "productionCode": "CABF08",
+    "synopsis": "Despite being banned from life forever from the comic book store, Bart and Milhouse take over its management when the Comic Book Guy suffers from a cardiac episode, \"the worst episode ever\". Their management of the shop is fairly successful, until they discover the Comic Book Guy's secret stash of illegal video clips and begin charging admission for their viewing. Meanwhile, the Comic Book Guy on the road to recovery receives tips from Homer on making friends to no avail. Until a chance meeting with Principal Skinner's mother sparks an unusual relationship",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/03/Worst_Episode_Ever.png"
   },
   {
     "season": 12,
@@ -2798,7 +2865,9 @@
     "title": "Tennis the Menace",
     "url": "http://simpsonswiki.com/wiki/Tennis_the_Menace",
     "originalAirDate": "February 11, 2001",
-    "productionCode": "CABF07"
+    "productionCode": "CABF07",
+    "synopsis": "Instead of buying a casket for his father, Homer uses the money to build a tennis court instead. Springfield wants to use the court for a tennis tournament, which all of the family members enter. But when teams are divided, the family gets competitive with each other, and they recruit professional tennis players to play in their places",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3a/Tennis_the_Menace.jpg"
   },
   {
     "season": 12,
@@ -2807,7 +2876,9 @@
     "title": "Day of the Jackanapes",
     "url": "http://simpsonswiki.com/wiki/Day_of_the_Jackanapes",
     "originalAirDate": "February 18, 2001",
-    "productionCode": "CABF10"
+    "productionCode": "CABF10",
+    "synopsis": "Upon learning that Krusty has erased all the archival tapes of his show from the Sideshow Bob era, Bob schemes to use Bart as a manchurian candidate to blow up Krusty live on the air",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0f/Day_of_the_Jackanapes_promo.png"
   },
   {
     "season": 12,
@@ -2816,7 +2887,9 @@
     "title": "New Kids on the Blecch",
     "url": "http://simpsonswiki.com/wiki/New_Kids_on_the_Blecch",
     "originalAirDate": "February 25, 2001",
-    "productionCode": "CABF12"
+    "productionCode": "CABF12",
+    "synopsis": "When a talent agency discovers the musical abilities of Bart, Nelson, Milhouse and Ralph, it scurries to set them up as the next big boy band sensation, complete with a sinister subliminal propaganda campaign in mind: \"Join the Navy",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5c/New_Kids_on_the_Blecch_promo.png"
   },
   {
     "season": 12,
@@ -2825,7 +2898,9 @@
     "title": "Hungry, Hungry Homer",
     "url": "http://simpsonswiki.com/wiki/Hungry,_Hungry_Homer",
     "originalAirDate": "March 4, 2001",
-    "productionCode": "CABF09"
+    "productionCode": "CABF09",
+    "synopsis": "After Homer discovers that the Springfield Isotopes are being moved to Albuquerque, he stages a hunger strike outside the stadium",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/eb/Hungry%2C_Hungry_Homer.png"
   },
   {
     "season": 12,
@@ -2834,7 +2909,9 @@
     "title": "Bye Bye Nerdie",
     "url": "http://simpsonswiki.com/wiki/Bye_Bye_Nerdie",
     "originalAirDate": "March 11, 2001",
-    "productionCode": "CABF11"
+    "productionCode": "CABF11",
+    "synopsis": "Lisa's attempts to befriend a new student at Springfield Elementary result in constant bullying, leading her on a crusade to find out just what makes bullies tick",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/42/Bye_Bye_Nerdie.png"
   },
   {
     "season": 12,
@@ -2843,7 +2920,9 @@
     "title": "Simpson Safari",
     "url": "http://simpsonswiki.com/wiki/Simpson_Safari",
     "originalAirDate": "April 1, 2001",
-    "productionCode": "CABF13"
+    "productionCode": "CABF13",
+    "synopsis": "In a frantic search for food Homer finds a box of thirty-year-old animal crackers, which contains a gold giraffe - which means he has just won an African safari",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/57/Sunset_at_Tanzania.png"
   },
   {
     "season": 12,
@@ -2852,7 +2931,9 @@
     "title": "Trilogy of Error",
     "url": "http://simpsonswiki.com/wiki/Trilogy_of_Error",
     "originalAirDate": "April 29, 2001",
-    "productionCode": "CABF14"
+    "productionCode": "CABF14",
+    "synopsis": "Homer's thumb is cut off following breakfast and the episode follows three different paths. Homer's day: as he and Marge race to get his thumb reattached. Lisa's day: as she misses the bus and tries to get to school so that she can win the science fair. Bart's day: as he and Milhouse make use of a stash of fireworks that Fat Tony has illegally smuggled into the country. In the end their respective paths come together",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/88/Trilogy_of_Error_Promo_Card.gif"
   },
   {
     "season": 12,
@@ -2861,7 +2942,9 @@
     "title": "I'm Goin' to Praiseland",
     "url": "http://simpsonswiki.com/wiki/I%27m_Goin%27_to_Praiseland",
     "originalAirDate": "May 6, 2001",
-    "productionCode": "CABF15"
+    "productionCode": "CABF15",
+    "synopsis": "When Ned Flanders can't stop thinking about his late wife, the Simpsons offer to help remove all traces of her from his house. Ned then discovers Maude's old sketch book and decides to build her last wish, a Christian amusement park called Praiseland",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/10/I%27m_Goin%27_to_Praiseland_Promo.gif"
   },
   {
     "season": 12,
@@ -2870,7 +2953,9 @@
     "title": "Children of a Lesser Clod",
     "url": "http://simpsonswiki.com/wiki/Children_of_a_Lesser_Clod",
     "originalAirDate": "May 13, 2001",
-    "productionCode": "CABF16"
+    "productionCode": "CABF16",
+    "synopsis": "Homer injures himself while playing basketball at the Springfield YMCA, and needs surgery. While recovering at home, he finds he is good at caring for pets and at babysitting the Flanders children, so much so that he starts a daycare center which gets him nominated for a Good Guy award for service to the community. But Bart and Lisa feel neglected through all of this, and are determined to thwart his award campaign",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/bf/Children_of_a_Lesser_Clod.png"
   },
   {
     "season": 12,
@@ -2879,7 +2964,9 @@
     "title": "Simpsons Tall Tales",
     "url": "http://simpsonswiki.com/wiki/Simpsons_Tall_Tales",
     "originalAirDate": "May 20, 2001",
-    "productionCode": "CABF17"
+    "productionCode": "CABF17",
+    "synopsis": "The family wins a trip to Delaware, but Homer refuses to pay the tax on the ticket, so they ride the rails and meet a hobo who sings and tells them some tall tales. First is the story of Paul Bunyan, with Homer playing the role of Paul. Next is Lisa as \"Connie Appleseed,\" who tries to convince the pioneers to eat apples instead of buffalo. The third story isn't really tall, but a Mark Twain-style tale about Tom Sawyer (Bart) and Huckleberry Finn (Nelson), who go on the run when Huck won't marry Becky Thatcher (Lisa)",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e8/Paul_Bunyan_Tall_Tales.png"
   },
   {
     "season": 13,
