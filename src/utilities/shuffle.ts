@@ -15,7 +15,7 @@ export default function shuffle(array: any): any {
   return array;
 }
 
-export function getRandomElement(array: any): any {
-  const randomElement = Math.floor(Math.random() * array.length);
-  return array[randomElement];
+export function getRandomElement(arrayLength: any): number {
+  const randomElementIndex = Math.floor(Math.random() * arrayLength);
+  return randomElementIndex;
 }

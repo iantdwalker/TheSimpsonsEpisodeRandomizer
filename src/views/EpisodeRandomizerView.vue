@@ -13,18 +13,34 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-spacer></v-spacer>
+          <v-col cols="2" class="d-flex justify-end align-end">
+            <v-btn
+              density="comfortable"
+              class="episode-btn"
+              @click="onPreviousEpisodeBtnClicked"
+              icon="far fa-arrow-alt-circle-left"
+            >
+            </v-btn>
+          </v-col>
           <v-col>
             <v-btn
               block
               rounded="xl"
               elevation="8"
-              class="next-epsiode-btn"
-              @click="onNextRandomEpisodeBtnClicked"
-              >Next Random Episode</v-btn
+              class="episode-btn"
+              @click="onRandomEpisodeBtnClicked"
+              >Random Episode</v-btn
             >
           </v-col>
-          <v-spacer></v-spacer>
+          <v-col cols="2" class="d-flex justify-start align-start">
+            <v-btn
+              density="comfortable"
+              class="episode-btn"
+              @click="onNextEpisodeBtnClicked"
+              icon="far fa-arrow-alt-circle-right"
+            >
+            </v-btn>
+          </v-col>
         </v-row>
         <v-row class="mt-3">
           <v-col>
@@ -151,8 +167,16 @@ const getQuotes = computed(() => {
     : null;
 });
 
-function onNextRandomEpisodeBtnClicked() {
+function onRandomEpisodeBtnClicked() {
   episodeStore.getRandomEpisode();
+}
+
+function onPreviousEpisodeBtnClicked() {
+  episodeStore.getPreviousEpisode();
+}
+
+function onNextEpisodeBtnClicked() {
+  episodeStore.getNextEpisode();
 }
 
 function createStyleForDisplay(style: string): string {
@@ -338,7 +362,7 @@ p {
   text-align: center;
 }
 
-.next-epsiode-btn {
+.episode-btn {
   color: black;
   background-color: var(--simpsons-yellow);
 }
