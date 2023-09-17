@@ -23,6 +23,7 @@ export const useEpisodeStore = defineStore("episode", () => {
     quotes: "",
     rating: 0,
   });
+  let currentEpisodeIndex = 0;
 
   async function importEpisodeData(): Promise<void> {
     const modules = import.meta.glob(
@@ -36,8 +37,22 @@ export const useEpisodeStore = defineStore("episode", () => {
   }
 
   function getRandomEpisode(): void {
-    const randomEpisode = getRandomElement(episodeData) as Episode;
-    updateCurrentEpisode(randomEpisode);
+    currentEpisodeIndex = getRandomElement(episodeData.length);
+    updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+  }
+
+  function getPreviousEpisode(): void {
+    if (currentEpisodeIndex > 0) {
+      currentEpisodeIndex = currentEpisodeIndex - 1;
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    }
+  }
+
+  function getNextEpisode(): void {
+    if (currentEpisodeIndex < episodeData.length - 1) {
+      currentEpisodeIndex = currentEpisodeIndex + 1;
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    }
   }
 
   function updateCurrentEpisode(newEpisode: Episode): void {
@@ -72,6 +87,8 @@ export const useEpisodeStore = defineStore("episode", () => {
   return {
     importEpisodeData,
     getRandomEpisode,
+    getPreviousEpisode,
+    getNextEpisode,
     saveCurrentEpisodeRating,
     currentEpisode,
   };
