@@ -24,6 +24,7 @@ export const useEpisodeStore = defineStore("episode", () => {
     rating: 0,
   });
   let currentEpisodeIndex = 0;
+  const latestSeason = 34;
 
   async function importEpisodeData(): Promise<void> {
     const modules = import.meta.glob(
@@ -47,12 +48,20 @@ export const useEpisodeStore = defineStore("episode", () => {
         (x) => x.season == currentEpisode.season - 1 && x.episode == 1,
       );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    } else if (currentEpisode.season == 1) {
+      currentEpisodeIndex = episodeData.findIndex(
+        (x) => x.season == latestSeason && x.episode == 1,
+      );
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
   }
 
   function getPreviousEpisode(): void {
     if (currentEpisodeIndex > 0) {
       currentEpisodeIndex = currentEpisodeIndex - 1;
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    } else if (currentEpisodeIndex == 0) {
+      currentEpisodeIndex = episodeData.length - 1;
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
   }
@@ -61,13 +70,21 @@ export const useEpisodeStore = defineStore("episode", () => {
     if (currentEpisodeIndex < episodeData.length - 1) {
       currentEpisodeIndex = currentEpisodeIndex + 1;
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    } else if (currentEpisodeIndex == episodeData.length - 1) {
+      currentEpisodeIndex = 0;
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
   }
 
   function getNextSeason(): void {
-    if (currentEpisode.season < 34) {
+    if (currentEpisode.season < latestSeason) {
       currentEpisodeIndex = episodeData.findIndex(
         (x) => x.season == currentEpisode.season + 1 && x.episode == 1,
+      );
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    } else if (currentEpisode.season == latestSeason) {
+      currentEpisodeIndex = episodeData.findIndex(
+        (x) => x.season == 1 && x.episode == 1,
       );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
@@ -99,7 +116,7 @@ export const useEpisodeStore = defineStore("episode", () => {
 
   function getCurrentEpisodeRating(productionCode: string): number {
     const rating = localStorage.getItem(localStorageKeyPrefix + productionCode);
-    return rating ? parseInt(rating) : 0;
+    return rating ? parseFloat(rating) : 0;
   }
 
   return {

@@ -36,7 +36,7 @@
                   v-bind="props"
                   density="comfortable"
                   aria-label="Previous Season"
-                  class="episode-btn"
+                  class="episode-btn episode-btn-margin"
                   icon="fas fa-step-backward"
                   @click="onPreviousSeasonBtnClicked"
                 ></v-btn>
@@ -48,7 +48,7 @@
                   v-bind="props"
                   density="comfortable"
                   aria-label="Previous Episode"
-                  class="episode-btn"
+                  class="episode-btn episode-btn-margin"
                   icon="fas fa-backward"
                   @click="onPreviousEpisodeBtnClicked"
                 ></v-btn>
@@ -60,7 +60,7 @@
                   v-bind="props"
                   density="comfortable"
                   aria-label="Next Episode"
-                  class="episode-btn"
+                  class="episode-btn episode-btn-margin"
                   icon="fas fa-forward"
                   @click="onNextEpisodeBtnClicked"
                 ></v-btn>
@@ -413,8 +413,10 @@ p {
 .episode-btn {
   color: black;
   background-color: var(--simpsons-yellow);
-  margin-left: 2px;
-  margin-right: 2px;
+}
+
+.episode-btn-margin {
+  margin-right: 4px;
 }
 
 .episode-image {
