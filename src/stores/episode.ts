@@ -41,6 +41,15 @@ export const useEpisodeStore = defineStore("episode", () => {
     updateCurrentEpisode(episodeData[currentEpisodeIndex]);
   }
 
+  function getPreviousSeason(): void {
+    if (currentEpisode.season > 1) {
+      currentEpisodeIndex = episodeData.findIndex(
+        (x) => x.season == currentEpisode.season - 1 && x.episode == 1,
+      );
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    }
+  }
+
   function getPreviousEpisode(): void {
     if (currentEpisodeIndex > 0) {
       currentEpisodeIndex = currentEpisodeIndex - 1;
@@ -51,6 +60,15 @@ export const useEpisodeStore = defineStore("episode", () => {
   function getNextEpisode(): void {
     if (currentEpisodeIndex < episodeData.length - 1) {
       currentEpisodeIndex = currentEpisodeIndex + 1;
+      updateCurrentEpisode(episodeData[currentEpisodeIndex]);
+    }
+  }
+
+  function getNextSeason(): void {
+    if (currentEpisode.season < 34) {
+      currentEpisodeIndex = episodeData.findIndex(
+        (x) => x.season == currentEpisode.season + 1 && x.episode == 1,
+      );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
   }
@@ -87,8 +105,10 @@ export const useEpisodeStore = defineStore("episode", () => {
   return {
     importEpisodeData,
     getRandomEpisode,
+    getPreviousSeason,
     getPreviousEpisode,
     getNextEpisode,
+    getNextSeason,
     saveCurrentEpisodeRating,
     currentEpisode,
   };
