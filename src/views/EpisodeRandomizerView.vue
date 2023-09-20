@@ -13,34 +13,73 @@
           </v-col>
         </v-row>
         <v-row>
-          <v-col cols="2" class="d-flex justify-end align-end">
-            <v-btn
-              density="comfortable"
-              class="episode-btn"
-              @click="onPreviousEpisodeBtnClicked"
-              icon="far fa-arrow-alt-circle-left"
-            >
-            </v-btn>
-          </v-col>
+          <v-spacer></v-spacer>
           <v-col>
             <v-btn
               block
               rounded="xl"
               elevation="8"
+              aria-label="Random Episode"
               class="episode-btn"
               @click="onRandomEpisodeBtnClicked"
               >Random Episode</v-btn
             >
           </v-col>
-          <v-col cols="2" class="d-flex justify-start align-start">
-            <v-btn
-              density="comfortable"
-              class="episode-btn"
-              @click="onNextEpisodeBtnClicked"
-              icon="far fa-arrow-alt-circle-right"
-            >
-            </v-btn>
+          <v-spacer></v-spacer>
+        </v-row>
+        <v-row class="mt-1">
+          <v-spacer></v-spacer>
+          <v-col cols="auto">
+            <v-tooltip text="Previous Season" location="top">
+              <template v-slot:activator="{ props }">
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Previous Season"
+                  class="episode-btn"
+                  icon="fas fa-step-backward"
+                  @click="onPreviousSeasonBtnClicked"
+                ></v-btn>
+              </template>
+            </v-tooltip>
+            <v-tooltip text="Previous Episode" location="top">
+              <template v-slot:activator="{ props }">
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Previous Episode"
+                  class="episode-btn"
+                  icon="fas fa-backward"
+                  @click="onPreviousEpisodeBtnClicked"
+                ></v-btn>
+              </template>
+            </v-tooltip>
+            <v-tooltip text="Next Episode" location="top">
+              <template v-slot:activator="{ props }">
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Next Episode"
+                  class="episode-btn"
+                  icon="fas fa-forward"
+                  @click="onNextEpisodeBtnClicked"
+                ></v-btn>
+              </template>
+            </v-tooltip>
+            <v-tooltip text="Next Season" location="top">
+              <template v-slot:activator="{ props }">
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Next Season"
+                  class="episode-btn"
+                  icon="fas fa-step-forward"
+                  @click="onNextSeasonBtnClicked"
+                ></v-btn>
+              </template>
+            </v-tooltip>
           </v-col>
+          <v-spacer></v-spacer>
         </v-row>
         <v-row class="mt-3">
           <v-col>
@@ -172,12 +211,20 @@ function onRandomEpisodeBtnClicked() {
   episodeStore.getRandomEpisode();
 }
 
+function onPreviousSeasonBtnClicked() {
+  episodeStore.getPreviousSeason();
+}
+
 function onPreviousEpisodeBtnClicked() {
   episodeStore.getPreviousEpisode();
 }
 
 function onNextEpisodeBtnClicked() {
   episodeStore.getNextEpisode();
+}
+
+function onNextSeasonBtnClicked() {
+  episodeStore.getNextSeason();
 }
 
 function createStyleForDisplay(style: string): string {
@@ -366,6 +413,8 @@ p {
 .episode-btn {
   color: black;
   background-color: var(--simpsons-yellow);
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .episode-image {
