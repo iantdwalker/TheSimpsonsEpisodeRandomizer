@@ -55,6 +55,7 @@
               v-model:rating="episodeStore.currentEpisode.rating"
               class="d-flex justify-center align-center"
               :show-rating="false"
+              :increment="0.5"
               clearable
               rounded-corners
               :padding="5"
