@@ -84,14 +84,14 @@
         <v-row class="mt-3">
           <v-col>
             <p :class="computedEpisodeTitleFont">
-              "{{ episodeStore.currentEpisode.title }}"
+              "{{ currentEpisode.title }}"
             </p>
           </v-col>
         </v-row>
         <v-row class="mt-1">
           <v-col>
             <star-rating
-              v-model:rating="episodeStore.currentEpisode.rating"
+              v-model:rating="currentEpisode.rating"
               class="d-flex justify-center align-center"
               :show-rating="false"
               :increment="0.5"
@@ -107,19 +107,17 @@
         </v-row>
         <v-row class="mt-1">
           <v-col cols="12" md="4" lg="4" :class="computedEpisodeInfoFont">
-            <p>Season {{ episodeStore.currentEpisode.season }}</p>
-            <p>Episode {{ episodeStore.currentEpisode.episode }}</p>
+            <p>Season {{ currentEpisode.season }}</p>
+            <p>Episode {{ currentEpisode.episode }}</p>
+            <p>Episode {{ currentEpisode.totalEpisode }} overall</p>
             <p>
-              Episode {{ episodeStore.currentEpisode.totalEpisode }} overall
+              {{ currentEpisode.originalAirDate }}
             </p>
             <p>
-              {{ episodeStore.currentEpisode.originalAirDate }}
+              {{ currentEpisode.productionCode }}
             </p>
             <p>
-              {{ episodeStore.currentEpisode.productionCode }}
-            </p>
-            <p>
-              <a :href="episodeStore.currentEpisode.url" target="_blank"
+              <a :href="currentEpisode.url" target="_blank"
                 >View In Wiki Simpsons 👁️</a
               >
             </p>
@@ -129,7 +127,7 @@
               :class="computedEpisodeSynopsisFont"
               class="inconsolata-font synopsis-spacer"
             >
-              {{ episodeStore.currentEpisode.synopsis }}.
+              {{ currentEpisode.synopsis }}.
             </p>
             <p
               :class="computedEpisodeSynopsisFont"
@@ -144,7 +142,7 @@
             <v-img
               class="episode-image"
               alt="Episode Image"
-              :src="episodeStore.currentEpisode.imageUrl"
+              :src="currentEpisode.imageUrl"
               max-height="250"
             >
               <template v-slot:placeholder>
@@ -171,10 +169,12 @@ import { computed, onBeforeMount } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 import StarRating from "vue-star-rating";
+import { storeToRefs } from "pinia";
 
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
 var episodeStore = useEpisodeStore();
+const { currentEpisode } = storeToRefs(episodeStore);
 
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
