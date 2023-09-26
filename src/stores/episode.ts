@@ -1,4 +1,4 @@
-import { reactive } from "vue";
+import { reactive, ref } from "vue";
 import { defineStore } from "pinia";
 import type { Episode } from "@/models/episode";
 import { getRandomElement } from "@/utilities/shuffle";
@@ -10,18 +10,29 @@ export const useEpisodeStore = defineStore("episode", () => {
     "https://static.simpsonswiki.com/images/0/08/The_Leader.png";
   const localStorageKeyPrefix = "the-simpsons-episode-randomizer-";
   let episodeData: Episode[];
+  const season = ref(0);
+  const episode = ref(0);
+  const totalEpisode = ref(0);
+  const title = ref("");
+  const url = ref("");
+  const originalAirDate = ref("");
+  const productionCode = ref("");
+  const synopsis = ref(placeholderSynopsis);
+  const imageUrl = ref(placeholderImage);
+  const quotes = ref("");
+  const rating = ref(0);
   const currentEpisode: Episode = reactive({
-    season: 0,
-    episode: 0,
-    totalEpisode: 0,
-    title: "",
-    url: "",
-    originalAirDate: "",
-    productionCode: "",
-    synopsis: placeholderSynopsis,
-    imageUrl: placeholderImage,
-    quotes: "",
-    rating: 0,
+    season,
+    episode,
+    totalEpisode,
+    title,
+    url,
+    originalAirDate,
+    productionCode,
+    synopsis,
+    imageUrl,
+    quotes,
+    rating,
   });
   let currentEpisodeIndex = 0;
   const latestSeason = 34;
@@ -91,19 +102,17 @@ export const useEpisodeStore = defineStore("episode", () => {
   }
 
   function updateCurrentEpisode(newEpisode: Episode): void {
-    currentEpisode.season = newEpisode.season;
-    currentEpisode.episode = newEpisode.episode;
-    currentEpisode.totalEpisode = newEpisode.totalEpisode;
-    currentEpisode.title = newEpisode.title;
-    currentEpisode.url = newEpisode.url;
-    currentEpisode.originalAirDate = newEpisode.originalAirDate;
-    currentEpisode.productionCode = newEpisode.productionCode;
-    currentEpisode.synopsis = newEpisode.synopsis ?? placeholderSynopsis;
-    currentEpisode.imageUrl = newEpisode.imageUrl ?? placeholderImage;
-    currentEpisode.quotes = newEpisode.quotes;
-    currentEpisode.rating = getCurrentEpisodeRating(
-      currentEpisode.productionCode,
-    );
+    season.value = newEpisode.season;
+    episode.value = newEpisode.episode;
+    totalEpisode.value = newEpisode.totalEpisode;
+    title.value = newEpisode.title;
+    url.value = newEpisode.url;
+    originalAirDate.value = newEpisode.originalAirDate;
+    productionCode.value = newEpisode.productionCode;
+    synopsis.value = newEpisode.synopsis ?? placeholderSynopsis;
+    imageUrl.value = newEpisode.imageUrl ?? placeholderImage;
+    quotes.value = newEpisode.quotes;
+    rating.value = getCurrentEpisodeRating(currentEpisode.productionCode);
   }
 
   function saveCurrentEpisodeRating(newRating: number): void {
