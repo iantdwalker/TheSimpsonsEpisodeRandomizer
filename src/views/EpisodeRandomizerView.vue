@@ -2,16 +2,7 @@
   <v-layout>
     <v-container class="container">
       <v-main>
-        <v-row no-gutters>
-          <v-col>
-            <p :class="computedAppTitleFont">The Simpsons</p>
-          </v-col>
-        </v-row>
-        <v-row no-gutters>
-          <v-col>
-            <p :class="computedAppSubTitleFont">Episode Randomizer</p>
-          </v-col>
-        </v-row>
+        <AppTitle title="The Simpsons" subTitle="Episode Randomizer"></AppTitle>
         <v-row>
           <v-spacer></v-spacer>
           <v-col>
@@ -170,6 +161,8 @@ import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 import StarRating from "vue-star-rating";
 import { storeToRefs } from "pinia";
+import AppTitle from "@/components/AppTitle.vue";
+import createStyleForDisplay from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
@@ -181,24 +174,16 @@ onBeforeMount(async () => {
   episodeStore.getRandomEpisode();
 });
 
-const computedAppTitleFont = computed(() => {
-  return createStyleForDisplay("app-title-font");
-});
-
-const computedAppSubTitleFont = computed(() => {
-  return createStyleForDisplay("app-sub-title-font");
-});
-
 const computedEpisodeTitleFont = computed(() => {
-  return createStyleForDisplay("episode-title-font");
+  return createStyleForDisplay("episode-title-font", name.value);
 });
 
 const computedEpisodeInfoFont = computed(() => {
-  return createStyleForDisplay("episode-info-font");
+  return createStyleForDisplay("episode-info-font", name.value);
 });
 
 const computedEpisodeSynopsisFont = computed(() => {
-  return createStyleForDisplay("episode-synopsis-font");
+  return createStyleForDisplay("episode-synopsis-font", name.value);
 });
 
 const getQuotes = computed(() => {
@@ -227,21 +212,6 @@ function onNextSeasonBtnClicked() {
   episodeStore.getNextSeason();
 }
 
-function createStyleForDisplay(style: string): string {
-  switch (name.value) {
-    case "sm":
-      return `${style}-sm`;
-    case "md":
-      return `${style}-md`;
-    case "lg":
-    case "xl":
-    case "xxl":
-      return `${style}-lgPlus`;
-    default:
-      return style;
-  }
-}
-
 function setEpisodedRating(rating: number): void {
   episodeStore.saveCurrentEpisodeRating(rating);
 }
@@ -261,29 +231,7 @@ function setEpisodedRating(rating: number): void {
     0px 0px 2px black;
 }
 
-.spacer {
-  background-color: aquamarine;
-}
-
 /* extra small - small to large phone */
-.app-title-font {
-  font-size: 3.25em;
-  text-shadow:
-    2px 2px 3px black,
-    2px 2px 3px black,
-    2px 2px 2px black,
-    2px 3px 2px black;
-}
-
-.app-sub-title-font {
-  font-size: 2em;
-  text-shadow:
-    1px 1px 3px black,
-    1px 1px 3px black,
-    1px 1px 2px black,
-    1px 1px 2px black;
-}
-
 .episode-title-font {
   font-size: 1.4em;
 }
@@ -297,24 +245,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* small - small to medium tablet */
-.app-title-font-sm {
-  font-size: 3.5em;
-  text-shadow:
-    2px 2px 3px black,
-    2px 2px 3px black,
-    2px 2px 2px black,
-    2px 3px 2px black;
-}
-
-.app-sub-title-font-sm {
-  font-size: 2.25em;
-  text-shadow:
-    1px 1px 3px black,
-    1px 1px 3px black,
-    1px 1px 2px black,
-    1px 1px 2px black;
-}
-
 .episode-title-font-sm {
   font-size: 1.6em;
 }
@@ -328,24 +258,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* medium - large tablet to laptop */
-.app-title-font-md {
-  font-size: 3.75em;
-  text-shadow:
-    2px 2px 4px black,
-    2px 2px 3px black,
-    2px 2px 2px black,
-    2px 3px 2px black;
-}
-
-.app-sub-title-font-md {
-  font-size: 2.5em;
-  text-shadow:
-    2px 1px 3px black,
-    1px 1px 3px black,
-    1px 1px 2px black,
-    1px 1px 2px black;
-}
-
 .episode-title-font-md {
   font-size: 2em;
 }
@@ -359,24 +271,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
-.app-title-font-lgPlus {
-  font-size: 4em;
-  text-shadow:
-    2px 2px 4px black,
-    2px 2px 4px black,
-    2px 2px 2px black,
-    2px 4px 2px black;
-}
-
-.app-sub-title-font-lgPlus {
-  font-size: 2.75em;
-  text-shadow:
-    2px 1px 3px black,
-    1px 1px 3px black,
-    1px 1px 2px black,
-    1px 1px 2px black;
-}
-
 .episode-title-font-lgPlus {
   font-size: 2.25em;
 }
