@@ -6,8 +6,15 @@
         <v-row>
           <v-spacer></v-spacer>
           <v-col>
-            <v-btn block rounded="xl" elevation="8" aria-label="Random Episode" class="episode-btn"
-              @click="onRandomEpisodeBtnClicked">Random Episode</v-btn>
+            <v-btn
+              block
+              rounded="xl"
+              elevation="8"
+              aria-label="Random Episode"
+              class="episode-btn"
+              @click="onRandomEpisodeBtnClicked"
+              >Random Episode</v-btn
+            >
           </v-col>
           <v-spacer></v-spacer>
         </v-row>
@@ -16,28 +23,50 @@
           <v-col cols="auto">
             <v-tooltip text="Previous Season" location="top">
               <template v-slot:activator="{ props }">
-                <v-btn v-bind="props" density="comfortable" aria-label="Previous Season"
-                  class="episode-btn episode-btn-margin" icon="fas fa-step-backward"
-                  @click="onPreviousSeasonBtnClicked"></v-btn>
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Previous Season"
+                  class="episode-btn episode-btn-margin"
+                  icon="fas fa-step-backward"
+                  @click="onPreviousSeasonBtnClicked"
+                ></v-btn>
               </template>
             </v-tooltip>
             <v-tooltip text="Previous Episode" location="top">
               <template v-slot:activator="{ props }">
-                <v-btn v-bind="props" density="comfortable" aria-label="Previous Episode"
-                  class="episode-btn episode-btn-margin" icon="fas fa-backward"
-                  @click="onPreviousEpisodeBtnClicked"></v-btn>
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Previous Episode"
+                  class="episode-btn episode-btn-margin"
+                  icon="fas fa-backward"
+                  @click="onPreviousEpisodeBtnClicked"
+                ></v-btn>
               </template>
             </v-tooltip>
             <v-tooltip text="Next Episode" location="top">
               <template v-slot:activator="{ props }">
-                <v-btn v-bind="props" density="comfortable" aria-label="Next Episode"
-                  class="episode-btn episode-btn-margin" icon="fas fa-forward" @click="onNextEpisodeBtnClicked"></v-btn>
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Next Episode"
+                  class="episode-btn episode-btn-margin"
+                  icon="fas fa-forward"
+                  @click="onNextEpisodeBtnClicked"
+                ></v-btn>
               </template>
             </v-tooltip>
             <v-tooltip text="Next Season" location="top">
               <template v-slot:activator="{ props }">
-                <v-btn v-bind="props" density="comfortable" aria-label="Next Season" class="episode-btn"
-                  icon="fas fa-step-forward" @click="onNextSeasonBtnClicked"></v-btn>
+                <v-btn
+                  v-bind="props"
+                  density="comfortable"
+                  aria-label="Next Season"
+                  class="episode-btn"
+                  icon="fas fa-step-forward"
+                  @click="onNextSeasonBtnClicked"
+                ></v-btn>
               </template>
             </v-tooltip>
           </v-col>
@@ -52,9 +81,19 @@
         </v-row>
         <v-row class="mt-1">
           <v-col>
-            <star-rating v-model:rating="currentEpisode.rating" class="d-flex justify-center align-center"
-              :show-rating="false" :increment="0.5" clearable rounded-corners :padding="5" :star-size="35"
-              :active-color="simpsonsYellow" inactive-color="black" @update:rating="setEpisodedRating"></star-rating>
+            <star-rating
+              v-model:rating="currentEpisode.rating"
+              class="d-flex justify-center align-center"
+              :show-rating="false"
+              :increment="0.5"
+              clearable
+              rounded-corners
+              :padding="5"
+              :star-size="35"
+              :active-color="simpsonsYellow"
+              inactive-color="black"
+              @update:rating="setEpisodedRating"
+            ></star-rating>
           </v-col>
         </v-row>
         <v-row class="mt-1">
@@ -69,23 +108,40 @@
               {{ currentEpisode.productionCode }}
             </p>
             <p>
-              <a :href="currentEpisode.url" target="_blank">View In Wiki Simpsons 👁️</a>
+              <a :href="currentEpisode.url" target="_blank"
+                >View In Wiki Simpsons 👁️</a
+              >
             </p>
           </v-col>
           <v-col cols="12" md="4" lg="4">
-            <p :class="computedEpisodeSynopsisFont" class="inconsolata-font synopsis-spacer">
+            <p
+              :class="computedEpisodeSynopsisFont"
+              class="inconsolata-font synopsis-spacer"
+            >
               {{ currentEpisode.synopsis }}.
             </p>
-            <p :class="computedEpisodeSynopsisFont" class="inconsolata-font quote-divider" v-for="quote in getQuotes"
-              :key="quote">
+            <p
+              :class="computedEpisodeSynopsisFont"
+              class="inconsolata-font quote-divider"
+              v-for="quote in getQuotes"
+              :key="quote"
+            >
               {{ quote }}
             </p>
           </v-col>
           <v-col cols="12" md="4" lg="4">
-            <v-img class="episode-image" alt="Episode Image" :src="currentEpisode.imageUrl" max-height="250">
+            <v-img
+              class="episode-image"
+              alt="Episode Image"
+              :src="currentEpisode.imageUrl"
+              max-height="250"
+            >
               <template v-slot:placeholder>
                 <div class="d-flex align-center justify-center fill-height">
-                  <v-progress-circular :color="simpsonsYellow" indeterminate></v-progress-circular>
+                  <v-progress-circular
+                    :color="simpsonsYellow"
+                    indeterminate
+                  ></v-progress-circular>
                 </div>
               </template>
               <template v-slot:error>
