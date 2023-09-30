@@ -3,75 +3,18 @@
     <v-container class="container">
       <v-main>
         <AppTitle title="The Simpsons" subTitle="Episode Randomizer"></AppTitle>
-        <v-row>
-          <v-spacer></v-spacer>
-          <v-col>
-            <v-btn
-              block
-              rounded="xl"
-              elevation="8"
-              aria-label="Random Episode"
-              class="episode-btn"
-              @click="onRandomEpisodeBtnClicked"
-              >Random Episode</v-btn
-            >
-          </v-col>
-          <v-spacer></v-spacer>
-        </v-row>
-        <v-row class="mt-1">
-          <v-spacer></v-spacer>
-          <v-col cols="auto">
-            <v-tooltip text="Previous Season" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Previous Season"
-                  class="episode-btn episode-btn-margin"
-                  icon="fas fa-step-backward"
-                  @click="onPreviousSeasonBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-            <v-tooltip text="Previous Episode" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Previous Episode"
-                  class="episode-btn episode-btn-margin"
-                  icon="fas fa-backward"
-                  @click="onPreviousEpisodeBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-            <v-tooltip text="Next Episode" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Next Episode"
-                  class="episode-btn episode-btn-margin"
-                  icon="fas fa-forward"
-                  @click="onNextEpisodeBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-            <v-tooltip text="Next Season" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Next Season"
-                  class="episode-btn"
-                  icon="fas fa-step-forward"
-                  @click="onNextSeasonBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-          </v-col>
-          <v-spacer></v-spacer>
-        </v-row>
+        <EpisodeNavigation
+          randomEpisodeButtonLabel="Random Episode"
+          previousSeasonButtonLabel="Previous Season"
+          previousEpisodeButtonLabel="Previous Episode"
+          nextEpisodeButtonLabel="Next Episode"
+          nextSeasonButtonLabel="Next Season"
+          @randomEpisodeBtnClicked="onRandomEpisodeBtnClicked"
+          @previousSeasonBtnClicked="onPreviousSeasonBtnClicked"
+          @previousEpisodeBtnClicked="onPreviousEpisodeBtnClicked"
+          @nextEpisodeBtnClicked="onNextEpisodeBtnClicked"
+          @nextSeasonBtnClicked="onNextSeasonBtnClicked"
+        ></EpisodeNavigation>
         <v-row class="mt-3">
           <v-col>
             <p :class="computedEpisodeTitleFont">
@@ -162,6 +105,7 @@ import { useEpisodeStore } from "@/stores/episode";
 import StarRating from "vue-star-rating";
 import { storeToRefs } from "pinia";
 import AppTitle from "@/components/AppTitle.vue";
+import EpisodeNavigation from "@/components/EpisodeNavigation.vue";
 import createStyleForDisplay from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
@@ -302,15 +246,6 @@ a:hover {
 
 p {
   text-align: center;
-}
-
-.episode-btn {
-  color: black;
-  background-color: var(--simpsons-yellow);
-}
-
-.episode-btn-margin {
-  margin-right: 4px;
 }
 
 .episode-image {
