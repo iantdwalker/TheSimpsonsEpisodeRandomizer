@@ -15,13 +15,7 @@
           @nextEpisodeBtnClicked="onNextEpisodeBtnClicked"
           @nextSeasonBtnClicked="onNextSeasonBtnClicked"
         ></EpisodeNavigation>
-        <v-row class="mt-3">
-          <v-col>
-            <p :class="computedEpisodeTitleFont">
-              "{{ currentEpisode.title }}"
-            </p>
-          </v-col>
-        </v-row>
+        <EpisodeTitle :episodeTitle="currentEpisode.title"></EpisodeTitle>
         <v-row class="mt-1">
           <v-col>
             <star-rating
@@ -106,6 +100,7 @@ import StarRating from "vue-star-rating";
 import { storeToRefs } from "pinia";
 import AppTitle from "@/components/AppTitle.vue";
 import EpisodeNavigation from "@/components/EpisodeNavigation.vue";
+import EpisodeTitle from "@/components/EpisodeTitle.vue";
 import createStyleForDisplay from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
@@ -116,10 +111,6 @@ const { currentEpisode } = storeToRefs(episodeStore);
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
   episodeStore.getRandomEpisode();
-});
-
-const computedEpisodeTitleFont = computed(() => {
-  return createStyleForDisplay("episode-title-font", name.value);
 });
 
 const computedEpisodeInfoFont = computed(() => {
@@ -176,10 +167,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* extra small - small to large phone */
-.episode-title-font {
-  font-size: 1.4em;
-}
-
 .episode-info-font {
   font-size: 1.1em;
 }
@@ -189,10 +176,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* small - small to medium tablet */
-.episode-title-font-sm {
-  font-size: 1.6em;
-}
-
 .episode-info-font-sm {
   font-size: 1.2em;
 }
@@ -202,10 +185,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* medium - large tablet to laptop */
-.episode-title-font-md {
-  font-size: 2em;
-}
-
 .episode-info-font-md {
   font-size: 1.3em;
 }
@@ -215,10 +194,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
-.episode-title-font-lgPlus {
-  font-size: 2.25em;
-}
-
 .episode-info-font-lgPlus {
   font-size: 1.5em;
 }
