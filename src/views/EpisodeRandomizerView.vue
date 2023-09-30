@@ -3,85 +3,22 @@
     <v-container class="container">
       <v-main>
         <AppTitle title="The Simpsons" subTitle="Episode Randomizer"></AppTitle>
-        <v-row>
-          <v-spacer></v-spacer>
-          <v-col>
-            <v-btn
-              block
-              rounded="xl"
-              elevation="8"
-              aria-label="Random Episode"
-              class="episode-btn"
-              @click="onRandomEpisodeBtnClicked"
-              >Random Episode</v-btn
-            >
-          </v-col>
-          <v-spacer></v-spacer>
-        </v-row>
-        <v-row class="mt-1">
-          <v-spacer></v-spacer>
-          <v-col cols="auto">
-            <v-tooltip text="Previous Season" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Previous Season"
-                  class="episode-btn episode-btn-margin"
-                  icon="fas fa-step-backward"
-                  @click="onPreviousSeasonBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-            <v-tooltip text="Previous Episode" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Previous Episode"
-                  class="episode-btn episode-btn-margin"
-                  icon="fas fa-backward"
-                  @click="onPreviousEpisodeBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-            <v-tooltip text="Next Episode" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Next Episode"
-                  class="episode-btn episode-btn-margin"
-                  icon="fas fa-forward"
-                  @click="onNextEpisodeBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-            <v-tooltip text="Next Season" location="top">
-              <template v-slot:activator="{ props }">
-                <v-btn
-                  v-bind="props"
-                  density="comfortable"
-                  aria-label="Next Season"
-                  class="episode-btn"
-                  icon="fas fa-step-forward"
-                  @click="onNextSeasonBtnClicked"
-                ></v-btn>
-              </template>
-            </v-tooltip>
-          </v-col>
-          <v-spacer></v-spacer>
-        </v-row>
-        <v-row class="mt-3">
-          <v-col>
-            <p :class="computedEpisodeTitleFont">
-              "{{ currentEpisode.title }}"
-            </p>
-          </v-col>
-        </v-row>
+        <EpisodeNavigation
+          randomEpisodeButtonLabel="Random Episode"
+          previousSeasonButtonLabel="Previous Season"
+          previousEpisodeButtonLabel="Previous Episode"
+          nextEpisodeButtonLabel="Next Episode"
+          nextSeasonButtonLabel="Next Season"
+          @randomEpisodeBtnClicked="onRandomEpisodeBtnClicked"
+          @previousSeasonBtnClicked="onPreviousSeasonBtnClicked"
+          @previousEpisodeBtnClicked="onPreviousEpisodeBtnClicked"
+          @nextEpisodeBtnClicked="onNextEpisodeBtnClicked"
+          @nextSeasonBtnClicked="onNextSeasonBtnClicked"
+        ></EpisodeNavigation>
+        <EpisodeTitle :episodeTitle="currentEpisode.title"></EpisodeTitle>
         <v-row class="mt-1">
           <v-col>
-            <star-rating
+            <StarRating
               v-model:rating="currentEpisode.rating"
               class="d-flex justify-center align-center"
               :show-rating="false"
@@ -93,7 +30,7 @@
               :active-color="simpsonsYellow"
               inactive-color="black"
               @update:rating="setEpisodedRating"
-            ></star-rating>
+            ></StarRating>
           </v-col>
         </v-row>
         <v-row class="mt-1">
@@ -108,6 +45,24 @@
               {{ currentEpisode.productionCode }}
             </p>
             <p>
+              <span
+                @click="onSynopsisClicked"
+                :class="
+                  synopsisActive ? 'selected-option' : 'de-selected-option'
+                "
+                >Synopsis</span
+              >
+              |
+              <span
+                @click="onQuotesClicked"
+                :class="[
+                  quotesActive ? 'selected-option' : 'de-selected-option',
+                  !episodeStore.currentEpisode.quotes ? 'disable-quotes' : '',
+                ]"
+                >Quotes</span
+              >
+            </p>
+            <p>
               <a :href="currentEpisode.url" target="_blank"
                 >View In Wiki Simpsons 👁️</a
               >
@@ -115,6 +70,7 @@
           </v-col>
           <v-col cols="12" md="4" lg="4">
             <p
+              v-if="synopsisActive"
               :class="computedEpisodeSynopsisFont"
               class="inconsolata-font synopsis-spacer"
             >
@@ -156,26 +112,26 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onBeforeMount } from "vue";
+import { computed, onBeforeMount, ref } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 import StarRating from "vue-star-rating";
 import { storeToRefs } from "pinia";
 import AppTitle from "@/components/AppTitle.vue";
+import EpisodeNavigation from "@/components/EpisodeNavigation.vue";
+import EpisodeTitle from "@/components/EpisodeTitle.vue";
 import createStyleForDisplay from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
-var episodeStore = useEpisodeStore();
+let episodeStore = useEpisodeStore();
 const { currentEpisode } = storeToRefs(episodeStore);
+const synopsisActive = ref(true);
+const quotesActive = ref(false);
 
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
   episodeStore.getRandomEpisode();
-});
-
-const computedEpisodeTitleFont = computed(() => {
-  return createStyleForDisplay("episode-title-font", name.value);
 });
 
 const computedEpisodeInfoFont = computed(() => {
@@ -187,33 +143,58 @@ const computedEpisodeSynopsisFont = computed(() => {
 });
 
 const getQuotes = computed(() => {
-  return episodeStore.currentEpisode.quotes
-    ? episodeStore.currentEpisode.quotes.split("~")
-    : null;
+  if (quotesActive.value) {
+    return episodeStore.currentEpisode.quotes
+      ? episodeStore.currentEpisode.quotes.split("~")
+      : null;
+  }
+  return null;
 });
 
 function onRandomEpisodeBtnClicked() {
   episodeStore.getRandomEpisode();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onPreviousSeasonBtnClicked() {
   episodeStore.getPreviousSeason();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onPreviousEpisodeBtnClicked() {
   episodeStore.getPreviousEpisode();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onNextEpisodeBtnClicked() {
   episodeStore.getNextEpisode();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onNextSeasonBtnClicked() {
   episodeStore.getNextSeason();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function setEpisodedRating(rating: number): void {
   episodeStore.saveCurrentEpisodeRating(rating);
+}
+
+function onSynopsisClicked() {
+  synopsisActive.value = true;
+  quotesActive.value = false;
+}
+
+function onQuotesClicked() {
+  if (episodeStore.currentEpisode.quotes) {
+    synopsisActive.value = false;
+    quotesActive.value = true;
+  }
 }
 </script>
 
@@ -232,10 +213,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* extra small - small to large phone */
-.episode-title-font {
-  font-size: 1.4em;
-}
-
 .episode-info-font {
   font-size: 1.1em;
 }
@@ -245,10 +222,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* small - small to medium tablet */
-.episode-title-font-sm {
-  font-size: 1.6em;
-}
-
 .episode-info-font-sm {
   font-size: 1.2em;
 }
@@ -258,10 +231,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* medium - large tablet to laptop */
-.episode-title-font-md {
-  font-size: 2em;
-}
-
 .episode-info-font-md {
   font-size: 1.3em;
 }
@@ -271,10 +240,6 @@ function setEpisodedRating(rating: number): void {
 }
 
 /* largePlus - Laptop to desktop, 1080p to 1440p desktop, 4k and ultra-wide */
-.episode-title-font-lgPlus {
-  font-size: 2.25em;
-}
-
 .episode-info-font-lgPlus {
   font-size: 1.5em;
 }
@@ -300,17 +265,24 @@ a:hover {
   text-decoration: underline;
 }
 
+.selected-option {
+  cursor: default;
+  text-decoration: underline;
+}
+
+.de-selected-option {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.disable-quotes {
+  color: darkgray;
+  cursor: default;
+  text-decoration: none;
+}
+
 p {
   text-align: center;
-}
-
-.episode-btn {
-  color: black;
-  background-color: var(--simpsons-yellow);
-}
-
-.episode-btn-margin {
-  margin-right: 4px;
 }
 
 .episode-image {
