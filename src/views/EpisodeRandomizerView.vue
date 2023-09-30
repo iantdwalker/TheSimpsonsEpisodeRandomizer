@@ -18,7 +18,7 @@
         <EpisodeTitle :episodeTitle="currentEpisode.title"></EpisodeTitle>
         <v-row class="mt-1">
           <v-col>
-            <star-rating
+            <StarRating
               v-model:rating="currentEpisode.rating"
               class="d-flex justify-center align-center"
               :show-rating="false"
@@ -30,7 +30,7 @@
               :active-color="simpsonsYellow"
               inactive-color="black"
               @update:rating="setEpisodedRating"
-            ></star-rating>
+            ></StarRating>
           </v-col>
         </v-row>
         <v-row class="mt-1">
@@ -45,6 +45,24 @@
               {{ currentEpisode.productionCode }}
             </p>
             <p>
+              <span
+                @click="onSynopsisClicked"
+                :class="
+                  synopsisActive ? 'selected-option' : 'de-selected-option'
+                "
+                >Synopsis</span
+              >
+              |
+              <span
+                @click="onQuotesClicked"
+                :class="[
+                  quotesActive ? 'selected-option' : 'de-selected-option',
+                  !episodeStore.currentEpisode.quotes ? 'disable-quotes' : '',
+                ]"
+                >Quotes</span
+              >
+            </p>
+            <p>
               <a :href="currentEpisode.url" target="_blank"
                 >View In Wiki Simpsons 👁️</a
               >
@@ -52,6 +70,7 @@
           </v-col>
           <v-col cols="12" md="4" lg="4">
             <p
+              v-if="synopsisActive"
               :class="computedEpisodeSynopsisFont"
               class="inconsolata-font synopsis-spacer"
             >
@@ -93,7 +112,7 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onBeforeMount } from "vue";
+import { computed, onBeforeMount, ref } from "vue";
 import { useDisplay } from "vuetify";
 import { useEpisodeStore } from "@/stores/episode";
 import StarRating from "vue-star-rating";
@@ -105,8 +124,10 @@ import createStyleForDisplay from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
-var episodeStore = useEpisodeStore();
+let episodeStore = useEpisodeStore();
 const { currentEpisode } = storeToRefs(episodeStore);
+const synopsisActive = ref(true);
+const quotesActive = ref(false);
 
 onBeforeMount(async () => {
   await episodeStore.importEpisodeData();
@@ -122,33 +143,58 @@ const computedEpisodeSynopsisFont = computed(() => {
 });
 
 const getQuotes = computed(() => {
-  return episodeStore.currentEpisode.quotes
-    ? episodeStore.currentEpisode.quotes.split("~")
-    : null;
+  if (quotesActive.value) {
+    return episodeStore.currentEpisode.quotes
+      ? episodeStore.currentEpisode.quotes.split("~")
+      : null;
+  }
+  return null;
 });
 
 function onRandomEpisodeBtnClicked() {
   episodeStore.getRandomEpisode();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onPreviousSeasonBtnClicked() {
   episodeStore.getPreviousSeason();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onPreviousEpisodeBtnClicked() {
   episodeStore.getPreviousEpisode();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onNextEpisodeBtnClicked() {
   episodeStore.getNextEpisode();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function onNextSeasonBtnClicked() {
   episodeStore.getNextSeason();
+  synopsisActive.value = true;
+  quotesActive.value = false;
 }
 
 function setEpisodedRating(rating: number): void {
   episodeStore.saveCurrentEpisodeRating(rating);
+}
+
+function onSynopsisClicked() {
+  synopsisActive.value = true;
+  quotesActive.value = false;
+}
+
+function onQuotesClicked() {
+  if (episodeStore.currentEpisode.quotes) {
+    synopsisActive.value = false;
+    quotesActive.value = true;
+  }
 }
 </script>
 
@@ -217,6 +263,22 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+.selected-option {
+  cursor: default;
+  text-decoration: underline;
+}
+
+.de-selected-option {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.disable-quotes {
+  color: darkgray;
+  cursor: default;
+  text-decoration: none;
 }
 
 p {
