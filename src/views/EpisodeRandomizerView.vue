@@ -72,7 +72,7 @@
             <p
               v-if="synopsisActive"
               :class="computedEpisodeSynopsisFont"
-              class="inconsolata-font synopsis-spacer"
+              class="inconsolata-font"
             >
               {{ currentEpisode.synopsis }}.
             </p>
@@ -90,7 +90,7 @@
               class="episode-image"
               alt="Episode Image"
               :src="currentEpisode.imageUrl"
-              max-height="250"
+              :max-height="getImageSize"
             >
               <template v-slot:placeholder>
                 <div class="d-flex align-center justify-center fill-height">
@@ -120,7 +120,9 @@ import { storeToRefs } from "pinia";
 import AppTitle from "@/components/AppTitle.vue";
 import EpisodeNavigation from "@/components/EpisodeNavigation.vue";
 import EpisodeTitle from "@/components/EpisodeTitle.vue";
-import createStyleForDisplay from "@/utilities/styleUtils";
+import createStyleForDisplay, {
+  getImageSizeForDisplay,
+} from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
 const { name } = useDisplay();
@@ -149,6 +151,10 @@ const getQuotes = computed(() => {
       : null;
   }
   return null;
+});
+
+const getImageSize = computed(() => {
+  return getImageSizeForDisplay(name.value);
 });
 
 function onRandomEpisodeBtnClicked() {
@@ -288,10 +294,6 @@ p {
 .episode-image {
   display: block;
   margin: auto;
-}
-
-.synopsis-spacer {
-  padding-bottom: 15px;
 }
 
 .quote-divider {
