@@ -16,17 +16,43 @@ export default function createStyleForDisplay(
   }
 }
 
-export function getImageSizeForDisplay(breakpoint: string): number {
+export function getImageHeightForDisplay(breakpoint: string): number {
   switch (breakpoint) {
     case "sm":
-      return 300;
+      return 350;
     case "md":
-      return 325;
+      return 400;
     case "lg":
     case "xl":
     case "xxl":
-      return 350;
-    default:
       return 250;
+    default:
+      return 300;
+  }
+}
+
+export function getImageWidthForDisplay(breakpoint: string): number {
+  switch (breakpoint) {
+    case "lg":
+    case "xl":
+    case "xxl":
+      return 300;
+    default:
+      return 300;
+  }
+}
+
+export function useImageCoverForDisplay(breakpoint: string): boolean {
+  switch (breakpoint) {
+    case "sm":
+      return false;
+    case "md":
+      return false;
+    case "lg":
+    case "xl":
+    case "xxl":
+      return false;
+    default:
+      return false;
   }
 }
