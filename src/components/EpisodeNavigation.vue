@@ -78,6 +78,14 @@ defineProps<{
   nextEpisodeButtonLabel?: string;
   nextSeasonButtonLabel?: string;
 }>();
+
+defineEmits([
+  "randomEpisodeBtnClicked",
+  "previousSeasonBtnClicked",
+  "previousEpisodeBtnClicked",
+  "nextEpisodeBtnClicked",
+  "nextSeasonBtnClicked",
+]);
 </script>
 
 <style scoped>
