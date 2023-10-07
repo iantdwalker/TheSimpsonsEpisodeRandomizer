@@ -2254,7 +2254,8 @@
     "originalAirDate": "August 23, 1998",
     "productionCode": "5F20",
     "synopsis": "Homer and Bart team up to dip their hands in the grease recycling business. Meanwhile, Lisa is chosen to introduce a new student to Springfield Elementary, one who's years ahead of her age",
-    "imageUrl": "https://static.simpsonswiki.com/images/8/89/Lard_of_the_Dance.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/8/89/Lard_of_the_Dance.png",
+    "quotes": "\"Oh don't be such a Phoebe\" (Lisa Kudrow as Alex)~\"Emu farm! You're priceless Marge\" (Homer)~\"There's plenty of Milhouse to go around!\" (Milhouse)~\"The lads have a temper and they've been drinking all day!\" (Willie)"
   },
   {
     "season": 10,
@@ -2444,7 +2445,8 @@
     "originalAirDate": "April 4, 1999",
     "productionCode": "AABF14",
     "synopsis": "A particularly boring sermon by Reverend Lovejoy sends each member of the Simpson family into his or her own biblical fantasy. Marge imagines herself and Homer as Adam and Eve, Lisa dreams of herself and the other kids of Springfield Elementary as the Israelites in ancient Egypt, and Homer dreams he is King Solomon, solving every dispute by cutting the contested object in half",
-    "imageUrl": "https://static.simpsonswiki.com/images/0/0b/Simpsons_Bible_Stories_promo.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0b/Simpsons_Bible_Stories_promo.png",
+    "quotes": "\"Slave labour; you get what you pay for\" (Lisa)~\"Forty years! But after that it's plain sailing for the Jews, right? (Milhouse as Moses)~\"Why aren't we ascending to Heaven? Oh right, the sins\" (Marge)"
   },
   {
     "season": 10,
@@ -4197,7 +4199,9 @@
     "title": "Jazzy and the Pussycats",
     "url": "http://simpsonswiki.com/wiki/Jazzy_and_the_Pussycats",
     "originalAirDate": "September 17, 2006",
-    "productionCode": "HABF18"
+    "productionCode": "HABF18",
+    "synopsis": "Bart starts to play drums following a psychiatrist's suggestion. He is pretty good at it, so a jazz group asks him to join their band, something that has been Lisa's dream for a long time",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b6/Jazzy_%26_The_Pussycats.jpg"
   },
   {
     "season": 18,
@@ -4206,7 +4210,9 @@
     "title": "Please Homer, Don't Hammer 'Em",
     "url": "http://simpsonswiki.com/wiki/Please_Homer,_Don%27t_Hammer_%27Em",
     "originalAirDate": "September 24, 2006",
-    "productionCode": "HABF20"
+    "productionCode": "HABF20",
+    "synopsis": "Marge gets a job as carpenter, but every man thinks she is going to ruin everything she fixes because she is a woman, so Homer pretends to be the carpenter while Marge does all the work, until he starts receiving too much credit for doing nothing",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/62/Please_Homer%2C_Don%27t_Hammer_%27Em.png"
   },
   {
     "season": 18,
@@ -4215,7 +4221,9 @@
     "title": "Treehouse of Horror XVII",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XVII",
     "originalAirDate": "November 5, 2006",
-    "productionCode": "HABF17"
+    "productionCode": "HABF17",
+    "synopsis": "In \"Married to the Blob\", Homer eats green extraterrestrial goo and morphs into a rampaging blob with an insatiable appetite; in \"You Gotta Know When to Golem\", Bart uses a golem; and in \"The Day the Earth Looked Stupid,\" the residents of early-1930s Springfield refuse to believe news of an actual alien invasion after being duped by Orson Welles' War of the Worlds radio broadcast",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f1/Treehouse_of_Horror_XVII.jpg"
   },
   {
     "season": 18,
@@ -4224,7 +4232,9 @@
     "title": "G.I. (Annoyed Grunt)",
     "url": "http://simpsonswiki.com/wiki/G.I._%28Annoyed_Grunt%29",
     "originalAirDate": "November 12, 2006",
-    "productionCode": "HABF21"
+    "productionCode": "HABF21",
+    "synopsis": "Bart joins the Army when some Army recruiters visit the school, so Homer takes his place. After he escapes with all the other soldiers, the colonel invades Springfield to find him",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b2/G.I.D%27oh.png"
   },
   {
     "season": 18,
@@ -4233,7 +4243,9 @@
     "title": "Moe'N'a Lisa",
     "url": "http://simpsonswiki.com/wiki/Moe%27N%27a_Lisa",
     "originalAirDate": "November 19, 2006",
-    "productionCode": "HABF19"
+    "productionCode": "HABF19",
+    "synopsis": "Lisa turns Moe's notes of an obscure world into a poem, so he is invited to a writer's convention by Tom Wolfe, but he says it is his own work, without any help, which breaks Lisa's heart",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/29/Moe_%27N%27_a_Lisa.png"
   },
   {
     "season": 18,
@@ -4242,7 +4254,9 @@
     "title": "Ice Cream of Margie (with the Light Blue Hair)",
     "url": "http://simpsonswiki.com/wiki/Ice_Cream_of_Margie_%28with_the_Light_Blue_Hair%29",
     "originalAirDate": "November 26, 2006",
-    "productionCode": "HABF22"
+    "productionCode": "HABF22",
+    "synopsis": "Homer is given an ice-cream van in memory of a ice-cream man, and becomes a tyrant to the community. Meanwhile, Marge finds a useful use for leftover ice-cream sticks - building sculptures of people in Springfield. The relationship between them hits a bump in the road when Homer crashes into Marge's sculptures, and Marge won't forgive him, whatever he tries",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6f/Ice_Cream_of_Margie_%28with_the_Light_Blue_Hair%29.png"
   },
   {
     "season": 18,
@@ -4251,7 +4265,9 @@
     "title": "The Haw-Hawed Couple",
     "url": "http://simpsonswiki.com/wiki/The_Haw-Hawed_Couple",
     "originalAirDate": "December 10, 2006",
-    "productionCode": "JABF02"
+    "productionCode": "JABF02",
+    "synopsis": "Nelson invites the whole of Bart's class to his birthday, but Bart and Martin convince the others not to go. Bart is forced to go to Nelson's birthday by Marge, and ends up becoming friends with Nelson",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/78/The_Haw-Hawed_Couple.png"
   },
   {
     "season": 18,
@@ -4260,7 +4276,9 @@
     "title": "Kill Gil, Volumes I & II",
     "url": "http://simpsonswiki.com/wiki/Kill_Gil,_Volumes_I_%26_II",
     "originalAirDate": "December 17, 2006",
-    "productionCode": "JABF01"
+    "productionCode": "JABF01",
+    "synopsis": "After attempting to fulfill his role as Mall Santa even further, but ending up giving his boss' gift to his daughter to Lisa, Gil is inevitably fired and finds himself homeless. Taking pity on the unsuccessful businessman, Marge lets Gil stay with the family over Christmas. However, Marge finds herself unable to turn Gil back onto the streets... she just can't tell him \"no\"",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/a6/Kill_Gil%2C_Volumes_I_%26_II_promo.png"
   },
   {
     "season": 18,
@@ -4269,7 +4287,9 @@
     "title": "The Wife Aquatic",
     "url": "http://simpsonswiki.com/wiki/The_Wife_Aquatic",
     "originalAirDate": "January 7, 2007",
-    "productionCode": "JABF03"
+    "productionCode": "JABF03",
+    "synopsis": "Marge reminisces of the time in her childhood she vacationed at Barnacle Bay but when the family goes to visit, they find it has become a dump. After Homer accidentally burns down the town's pier, he is forced to repay his debts as a fisherman aboard The Rotting Pelican",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/57/Jabf03.png"
   },
   {
     "season": 18,
@@ -4278,7 +4298,9 @@
     "title": "Revenge Is a Dish Best Served Three Times",
     "url": "http://simpsonswiki.com/wiki/Revenge_Is_a_Dish_Best_Served_Three_Times",
     "originalAirDate": "January 28, 2007",
-    "productionCode": "JABF05"
+    "productionCode": "JABF05",
+    "synopsis": "After the Simpsons' car breaks down, the family tells each other tales of revenge gone wrong. Marge offers a cautionary tale of revenge from 19th-century France, where Homer is charged with treason; Lisa tells of a nerd revenge at Springfield Elementary involving Milhouse leading the nerds to overthrow the bullies; and Bart's story follows the great crime-fighter Red Revenge",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/ac/Homerbast.png"
   },
   {
     "season": 18,
@@ -4287,7 +4309,9 @@
     "title": "Little Big Girl",
     "url": "http://simpsonswiki.com/wiki/Little_Big_Girl",
     "originalAirDate": "February 11, 2007",
-    "productionCode": "JABF04"
+    "productionCode": "JABF04",
+    "synopsis": "After extinguishing a city-wide fire, Bart is rewarded with a driving license. However, he gets tired of taking Homer everywhere, so he escapes and meets a teen girl that falls in love with Bart. Meanwhile, Lisa says she is a descendant from a fake Native American tribe for a school project",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/05/Little_Big_Girl.png"
   },
   {
     "season": 18,
@@ -4296,7 +4320,9 @@
     "title": "Springfield Up",
     "url": "http://simpsonswiki.com/wiki/Springfield_Up",
     "originalAirDate": "February 18, 2007",
-    "productionCode": "JABF07"
+    "productionCode": "JABF07",
+    "synopsis": "Declan Desmond films a documentary about the lives of people of Springfield and how they changed over the years. Homer makes him believe he is rich, but he actually took Burns' Summer Mansion while Mr. Burns was out",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f9/Springfield_Up_promo.jpg"
   },
   {
     "season": 18,
@@ -4305,7 +4331,9 @@
     "title": "Yokel Chords",
     "url": "http://simpsonswiki.com/wiki/Yokel_Chords",
     "originalAirDate": "March 4, 2007",
-    "productionCode": "JABF09"
+    "productionCode": "JABF09",
+    "synopsis": "Lisa teaches the Spuckler children about culture, and soon Krusty hires them to act on The Krusty the Clown Show. They become famous and earn a lot of money, but Cletus spends it on himself",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/ef/Yokel_Chords.jpg"
   },
   {
     "season": 18,
@@ -4314,7 +4342,9 @@
     "title": "Rome-Old and Juli-Eh",
     "url": "http://simpsonswiki.com/wiki/Rome-Old_and_Juli-Eh",
     "originalAirDate": "March 11, 2007",
-    "productionCode": "JABF08"
+    "productionCode": "JABF08",
+    "synopsis": "The court appoints an accountant for Homer when he incorrectly files for bankruptcy, which results in his cutting back on all of his expenses, including Grampa's nursing home. In an unexpected turn of events, Grampa and Selma fall in love and move in together, and Homer and Patty plot to break up their love connection. Meanwhile, Bart and Lisa con a delivery man into giving them the most sought-after commodity in the neighborhood's cardboard boxes. Their alliance is put to the test when the delivery man realizes he was duped",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/69/Jabf08.png"
   },
   {
     "season": 18,
@@ -4323,7 +4353,9 @@
     "title": "Homerazzi",
     "url": "http://simpsonswiki.com/wiki/Homerazzi",
     "originalAirDate": "March 25, 2007",
-    "productionCode": "JABF06"
+    "productionCode": "JABF06",
+    "synopsis": "Homer starts taking pictures of celebrities so the family can earn money. Eventually, the celebrities get fed up and hire someone to take embarrassing photos of Homer",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0f/Homerazzi_promo.jpg"
   },
   {
     "season": 18,
@@ -4332,7 +4364,9 @@
     "title": "Marge Gamer",
     "url": "http://simpsonswiki.com/wiki/Marge_Gamer",
     "originalAirDate": "April 22, 2007",
-    "productionCode": "JABF10"
+    "productionCode": "JABF10",
+    "synopsis": "Marge discovers the Internet and gets hooked on an online fantasy role-playing game called Earthland Realms, where she interacts with practically everyone in Springfield, including Bart, whose online persona is the local tough guy, the Shadow Knight. Meanwhile, Homer becomes a soccer referee, which strains his and Lisa's relationship when he has to call penalties on her",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b2/Marge_Gamer.jpg"
   },
   {
     "season": 18,
@@ -4341,7 +4375,9 @@
     "title": "The Boys of Bummer",
     "url": "http://simpsonswiki.com/wiki/The_Boys_of_Bummer",
     "originalAirDate": "April 29, 2007",
-    "productionCode": "JABF11"
+    "productionCode": "JABF11",
+    "synopsis": "Bart becomes a hometown hero when he makes the game-winning catch at his Little League game, sending the Springfield Isotots to the Little League championship for the first time ever. However, Springfield turns on him when he drops an easy pop fly in the bottom of the ninth, losing the game for his team. As the citizens of Springfield continue to mock and terrorize Bart, his guilt and shame threaten to send him over the edge. In an effort to cheer him up, Lisa introduces Bart to Bill Buckner. Meanwhile, after falling asleep in a department store display bed, Homer is saved from disaster when a customer mistakes Homer's crafty excuses for a sales pitch, leading the store owner to hire Homer as a salesperson. When the Lovejoys return a mattress they had purchased in hopes of spicing up their sex life, they find success on Homer's personal mattress and convince him to trade, a transaction Homer and Marge immediately regret and seek to remedy",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0a/Boys_of_bummer.png"
   },
   {
     "season": 18,
@@ -4350,7 +4386,9 @@
     "title": "Crook and Ladder",
     "url": "http://simpsonswiki.com/wiki/Crook_and_Ladder",
     "originalAirDate": "May 6, 2007",
-    "productionCode": "JABF13"
+    "productionCode": "JABF13",
+    "synopsis": "After Homer takes pills to help him sleep and crashes into the Springfield Fire Department. There he, Apu, Principal Skinner and Moe Szyslak become voluntary firemen and begin to steal property from the homes of fire victims",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/db/Crook_and_ladder.png"
   },
   {
     "season": 18,
@@ -4359,7 +4397,9 @@
     "title": "Stop or My Dog Will Shoot",
     "url": "http://simpsonswiki.com/wiki/Stop_or_My_Dog_Will_Shoot",
     "originalAirDate": "May 13, 2007",
-    "productionCode": "JABF12"
+    "productionCode": "JABF12",
+    "synopsis": "Homer is upset when he realizes that Marge brought him and the family to a boring Harvest Fest instead of his much-anticipated day of debauchery at October Fest. Attempting to leave, Homer accidentally drags the family into a puzzling cornfield maze. When the whole family manages to escape except for Homer, they send out Santa's Little Helper, who sniffs out Homer and rescues him. Santa's Little Helper becomes a local hero and the Simpsons decide to enroll him in Police Dog Academy, where he's teamed with a grizzled veteran cop named Lou and they become a crime-busting duo. Bart's excitement quickly dissipates when a jaded Santa's Little Helper bites him, and the Simpsons send the dog away to live with Chief Wiggum. To appease Bart's depression after the loss of his dog, Marge agrees to buy him a huge pet snake. But when the snake causes a life-threatening situation at Bart and Lisa's school, Santa's Little Helper gets a chance to redeem himself",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/58/Santaslittlehelperpolicecar.png"
   },
   {
     "season": 18,
@@ -4368,7 +4408,9 @@
     "title": "24 Minutes",
     "url": "http://simpsonswiki.com/wiki/24_Minutes",
     "originalAirDate": "May 20, 2007",
-    "productionCode": "JABF14"
+    "productionCode": "JABF14",
+    "synopsis": "In a parody of 24, Bart and Lisa join forces to sabotage the school bullies' plan to set off a stink bomb at the school bake sale",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/bb/24_Minutes.png"
   },
   {
     "season": 18,
@@ -4377,7 +4419,9 @@
     "title": "You Kent Always Say What You Want",
     "url": "http://simpsonswiki.com/wiki/You_Kent_Always_Say_What_You_Want",
     "originalAirDate": "May 20, 2007",
-    "productionCode": "JABF15"
+    "productionCode": "JABF15",
+    "synopsis": "When Homer buys the 1,000,000th ice-cream cone at a local shop, he ends up on Kent Brockman's news program. When Brockman swears on live TV after coffee is spilled in his lap, Ned Flanders leads a crusade to clean up Springfield's airwaves, starting with getting Brockman fired. Then Homer once again saves the day",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/14/You_Kent_Always_Say_What_You_Want.jpg"
   },
   {
     "season": 19,
@@ -4386,7 +4430,9 @@
     "title": "He Loves to Fly and He D'ohs",
     "url": "http://simpsonswiki.com/wiki/He_Loves_to_Fly_and_He_D%27ohs",
     "originalAirDate": "September 23, 2007",
-    "productionCode": "JABF20"
+    "productionCode": "JABF20",
+    "synopsis": "After Homer saves Mr. Burns from drowning in a mall fountain, Burns thanks him by taking him on a whirlwind trip to Chicago on his private plane. Homer is smitten with the luxury jet and all the perks that come with it, including flying with song legend Lionel Richie, who serenades him with a customized version of \"Say You, Say Me.\" After returning home, Homer makes it his mission to find a job that offers him the chance to fly on a corporate jet and enlists a life coach to help fulfill this dream",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1a/He_Loves_to_Fly_and_He_D%27ohs_Promo_Card.jpg"
   },
   {
     "season": 19,
@@ -4395,16 +4441,20 @@
     "title": "The Homer of Seville",
     "url": "http://simpsonswiki.com/wiki/The_Homer_of_Seville",
     "originalAirDate": "September 30, 2007",
-    "productionCode": "JABF18"
+    "productionCode": "JABF18",
+    "synopsis": "While receiving treatment for an injured back at the hospital, Homer discovers that he has beautiful opera voice. Even though Homer must sing while lying on his back for his voice to sound operatic, Mr. Burns hires him to sing at the Springfield Opera House, where he quickly becomes a star. Through his newfound stardom, Homer develops a large throng of fans including the lovely Julia, an obsessive and dangerous stalker",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/4c/The_Homer_of_Seville.png"
   },
   {
     "season": 19,
     "episode": 3,
     "totalEpisode": 403,
     "title": "Midnight Towboy",
-    "url": "http://simpsonswiki.com/wiki/Midnight_Towboy",
+    "url": "https://simpsonswiki.com/wiki/Midnight_Towboy",
     "originalAirDate": "October 7, 2007",
-    "productionCode": "JABF21"
+    "productionCode": "JABF21",
+    "synopsis": "Homer gets a job as a tow truck driver, but when he starts towing almost every car in Springfield, his friends try to make Louie, his boss, trap Homer towing a car in Louie's territory",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e3/Midnight_Towboy.png"
   },
   {
     "season": 19,
@@ -4413,7 +4463,9 @@
     "title": "I Don't Wanna Know Why the Caged Bird Sings",
     "url": "http://simpsonswiki.com/wiki/I_Don%27t_Wanna_Know_Why_the_Caged_Bird_Sings",
     "originalAirDate": "October 14, 2007",
-    "productionCode": "JABF19"
+    "productionCode": "JABF19",
+    "synopsis": "Marge promises Dwight, a robber, she will visit him in prison. However, she does not go to see Dwight, so he escapes and chases Marge",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c5/I_Don%27t_Wanna_Know_Why_the_Caged_Bird_Sings.png"
   },
   {
     "season": 19,
@@ -4422,7 +4474,9 @@
     "title": "Treehouse of Horror XVIII",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XVIII",
     "originalAirDate": "November 4, 2007",
-    "productionCode": "JABF16"
+    "productionCode": "JABF16",
+    "synopsis": "\"Treehouse of Horror XVIII\" is the fifth episode of season 19 of The Simpsons and the four-hundred and fifth episode overall. It is also the eighteenth installment in the Treehouse of Horror series and consists of three parts - \"E.T., Go Home\", \"Mr. and Mrs. Simpson\" and \"Heck House\". It guest stars Maurice LaMarche as a government agent.",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/20/Treehouse_of_Horror_XVIII.png"
   },
   {
     "season": 19,
@@ -4431,7 +4485,9 @@
     "title": "Little Orphan Millie",
     "url": "http://simpsonswiki.com/wiki/Little_Orphan_Millie",
     "originalAirDate": "November 11, 2007",
-    "productionCode": "JABF22"
+    "productionCode": "JABF22",
+    "synopsis": "When Kirk and Luann remarry and go on a honeymoon cruise, they topple off the boat into the sea and are presumed dead. Milhouse turns into a real man following the death of his parents - making him more popular than ever. Bart contacts Milhouse's uncle in a bid to regain his popularity, only to realise how much he loves his friend when he plans on leaving. Meanwhile, Homer finds himself in trouble when he can't remember Marge's eye color",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/53/Little_Orphan_Millie.png"
   },
   {
     "season": 19,
@@ -4440,7 +4496,9 @@
     "title": "Husbands and Knives",
     "url": "http://simpsonswiki.com/wiki/Husbands_and_Knives",
     "originalAirDate": "November 18, 2007",
-    "productionCode": "JABF17"
+    "productionCode": "JABF17",
+    "synopsis": "Coolsville, a new comic book shop, opens up in Springfield and puts Comic Book Guy out of business. Marge takes advantage of the vacant business space to open Shapes, a women-only gym, and becomes a famous and successful businesswoman. Marge's success, however, causes Homer to worry about losing her and leads him to consider undergoing radical cosmetic surgery",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1f/Husbands_and_Knives_promo.jpg"
   },
   {
     "season": 19,
@@ -4449,7 +4507,9 @@
     "title": "Funeral for a Fiend",
     "url": "http://simpsonswiki.com/wiki/Funeral_for_a_Fiend",
     "originalAirDate": "November 25, 2007",
-    "productionCode": "KABF01"
+    "productionCode": "KABF01",
+    "synopsis": "Marge dreams that Keith Olbermann chides her for fast-forwarding through television commercials. Marge tries her to make restitution by watching hours of advertisements, and she and the Simpson family take particular interest in an ad for Wes Doobner's World-Famous Family-Style Rib Huts. They drive to the restaurant, only to find Sideshow Bob waiting for them, triumphant in his elaborate hoax to lure them to their doom. When Sideshow Bob's attempt to terminate the family is foiled, he is put on trial, where his father blames Sideshow Bob's psychosis on Bart. During the proceedings, Bart accidentally kills his old nemesis, and Bob's brother Cecil invites Bart to attend the memorial service for Sideshow Bob to bury the hatchet for good",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/52/Funeral_for_a_Fiend_promo.png"
   },
   {
     "season": 19,
@@ -4458,7 +4518,9 @@
     "title": "Eternal Moonshine of the Simpson Mind",
     "url": "http://simpsonswiki.com/wiki/Eternal_Moonshine_of_the_Simpson_Mind",
     "originalAirDate": "December 16, 2007",
-    "productionCode": "KABF02"
+    "productionCode": "KABF02",
+    "synopsis": "Homer Simpson wakes up to find himself outdoors and covered in snow, without memory of the night before. When he arrives home, he finds everyone missing. Seeking help from Moe and Professor Frink, Homer tries to piece together his memory to find out what happened to him",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/00/Eternal_Moonshine_of_the_Simpson_Mind_Promo_Card.jpg"
   },
   {
     "season": 19,
@@ -4467,7 +4529,9 @@
     "title": "E Pluribus Wiggum",
     "url": "http://simpsonswiki.com/wiki/E_Pluribus_Wiggum",
     "originalAirDate": "January 6, 2008",
-    "productionCode": "KABF03"
+    "productionCode": "KABF03",
+    "synopsis": "Springfield becomes the site of the first presidential primary. The townspeople soon get sick of all of the presidential candidates sucking up to them, and decide to support their own write-in candidate: Ralph Wiggum",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/4d/E._Pluribus_Wiggum.jpg"
   },
   {
     "season": 19,
@@ -4476,7 +4540,9 @@
     "title": "That '90s Show",
     "url": "http://simpsonswiki.com/wiki/That_%2790s_Show",
     "originalAirDate": "January 27, 2008",
-    "productionCode": "KABF04"
+    "productionCode": "KABF04",
+    "synopsis": "After Bart and Lisa discover Marge's diploma from Springfield University, Homer and Marge recount one of the darkest points in their relationship, when Marge fell in love with a university professor, Steffan August",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9a/That_%2790s_Show.jpg"
   },
   {
     "season": 19,
@@ -4485,7 +4551,9 @@
     "title": "Love, Springfieldian Style",
     "url": "http://simpsonswiki.com/wiki/Love,_Springfieldian_Style",
     "originalAirDate": "February 17, 2008",
-    "productionCode": "KABF05"
+    "productionCode": "KABF05",
+    "synopsis": "Marge and Homer get stuck on a Valentine's Day-themed ride, so Homer begins the first of a series of three romantic tales – all parodies of Lady and the Tramp, Sid and Nancy and Bonnie and Clyde",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/68/Love%2C_Springfieldian_Style.jpg"
   },
   {
     "season": 19,
@@ -4494,7 +4562,9 @@
     "title": "The Debarted",
     "url": "http://simpsonswiki.com/wiki/The_Debarted",
     "originalAirDate": "March 2, 2008",
-    "productionCode": "KABF06"
+    "productionCode": "KABF06",
+    "synopsis": "When a new, tough-looking kid at school named Donny teams up with Bart to help him carry out his pranks, Bart thinks he has found his ultimate partner in crime. However, when Bart's seemingly foolproof pranks begin to backfire, Groundskeeper Willie warns Bart that he smells a rat in Bart's group of friends. With Principal Skinner on his case and the possibility of expulsion on the horizon, Bart must figure out who he can trust and who he must get rid of before it is too late. Meanwhile, Homer receives a fancy loaner car after Marge damages their old car in an accident, and he grows extremely attached to his new set of luxury wheels",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5b/The_Debarted_Promo_Card.png"
   },
   {
     "season": 19,
@@ -4504,6 +4574,8 @@
     "url": "http://simpsonswiki.com/wiki/Dial_%22N%22_for_Nerder",
     "originalAirDate": "March 9, 2008",
     "productionCode": "KABF07",
+    "synopsis": "Bart plays a prank on Martin, but by accident, Martin falls down a cliff. Bart and Lisa start to feel guilty and act very suspicious, prompting Nelson to investigate. Meanwhile, Marge thinks Homer is cheating on his diet",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6c/Dial_%27N%27_for_Nerder.png",
     "quotes": "\"Bell pepper!\" (Betsy Bidwell)~\"A bone! It could be one of the major homos!\" (Martin)~\"Happy happy, safe at home!\" (The Happy Little Elves)"
   },
   {
@@ -4513,7 +4585,9 @@
     "title": "Smoke on the Daughter",
     "url": "http://simpsonswiki.com/wiki/Smoke_on_the_Daughter",
     "originalAirDate": "March 30, 2008",
-    "productionCode": "KABF08"
+    "productionCode": "KABF08",
+    "synopsis": "When Lisa convinces Marge to pursue her childhood dream of becoming a ballerina by auditioning for the Chazz Busby Ballet Academy, Chazz discovers Lisa's natural talent and enrolls her in the academy instead. During a break from practice, Lisa inhales her fellow ballerinas' cigarette smoke and attributes her improvement in ballet to smoking. Lisa soon becomes addicted to secondhand smoke, with no chance of quitting in sight. Meanwhile, Homer shows Bart his secret room where he manufactures beef jerky. When Homer realizes that a family of raccoons have made off with his beef, he decides to confront the animals",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/76/SmokeontheDaughter.png"
   },
   {
     "season": 19,
@@ -4522,7 +4596,9 @@
     "title": "Papa Don't Leech",
     "url": "http://simpsonswiki.com/wiki/Papa_Don%27t_Leech",
     "originalAirDate": "April 13, 2008",
-    "productionCode": "KABF09"
+    "productionCode": "KABF09",
+    "synopsis": "Country music star Lurleen Lumpkin reappears in Springfield, destitute and a fugitive from justice due to owing a fortune in back taxes. Homer and Marge take Lurleen in, reunite her with her long-lost father Royce, and help her re-launch her musical career",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/af/Papa_Don%27t_Leech.jpg"
   },
   {
     "season": 19,
@@ -4531,7 +4607,9 @@
     "title": "Apocalypse Cow",
     "url": "http://simpsonswiki.com/wiki/Apocalypse_Cow",
     "originalAirDate": "April 27, 2008",
-    "productionCode": "KABF10"
+    "productionCode": "KABF10",
+    "synopsis": "When Bart joins the 4-H Club, he unexpectedly falls in love with a cow named Lou. But when Bart finds out that Lou has been sold to a slaughterhouse, he becomes determined to save him. Bart and Lisa free Lou from the slaughterhouse, and Bart gives the cow to Mary, a fellow 4-H Club member. However, Mary's father mistakenly believes Bart is giving them the cow as a dowry for Mary's hand in marriage. When Homer and Marge hear of Bart's engagement, they devise a plan to save Lou and free Bart from his marriage",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/01/Apocalypse_Cow_promo.jpg"
   },
   {
     "season": 19,
@@ -4540,7 +4618,9 @@
     "title": "Any Given Sundance",
     "url": "http://simpsonswiki.com/wiki/Any_Given_Sundance",
     "originalAirDate": "May 4, 2008",
-    "productionCode": "KABF11"
+    "productionCode": "KABF11",
+    "synopsis": "Lisa makes a documentary about her family for a school project. After the success of her project, Principal Skinner and Superintendent Chalmers encourage her to enter the film into the Sundance Film Festival. But when Lisa's film premieres at Sundance, Homer, Marge and Bart are embarrassed by the candid behind-the-scenes look at their lives",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6f/Any_Given_Sundance_Promo_Card.jpg"
   },
   {
     "season": 19,
@@ -4549,7 +4629,9 @@
     "title": "Mona Leaves-a",
     "url": "http://simpsonswiki.com/wiki/Mona_Leaves-a",
     "originalAirDate": "May 11, 2008",
-    "productionCode": "KABF12"
+    "productionCode": "KABF12",
+    "synopsis": "Homer is reunited with his mother, Mona, but isn't willing to forgive her for all the times she left him as a child. When she dies, a guilt-ridden Homer attempts to make it up to her by fulfilling her final wishes",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/51/Mona_Leaves-a.png"
   },
   {
     "season": 19,
@@ -4558,7 +4640,9 @@
     "title": "All About Lisa",
     "url": "http://simpsonswiki.com/wiki/All_About_Lisa",
     "originalAirDate": "May 18, 2008",
-    "productionCode": "KABF13"
+    "productionCode": "KABF13",
+    "synopsis": "Lisa becomes Krusty the Clown's newest assistant and steals his spotlight. She wins the Entertainer of the Year award, but is warned that with her sudden fame comes a new attitude towards others and herself. Meanwhile, Homer and Bart bond over their newfound love of coin collecting",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5f/All_About_Lisa.jpg"
   },
   {
     "season": 20,
@@ -4567,7 +4651,9 @@
     "title": "Sex, Pies and Idiot Scrapes",
     "url": "http://simpsonswiki.com/wiki/Sex,_Pies_and_Idiot_Scrapes",
     "originalAirDate": "September 28, 2008",
-    "productionCode": "KABF17"
+    "productionCode": "KABF17",
+    "synopsis": "After Homer is punished for brawling on St. Patrick's Day, he meets a bounty hunter when he gets his bail bond. Intrigued, he decides to try his hand at the profession - but is saved by Flanders when it doesn't go quite to plan. Together, they form an unlikely bounty-hunting duo, but when Homer's attitude gets the better of him, Flanders is less than impressed. Meanwhile, Marge unwittingly starts working at an erotic bakery",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/23/Sex%2C_Pies_and_Idiot_Scrapes_promo.jpg"
   },
   {
     "season": 20,
@@ -4576,7 +4662,9 @@
     "title": "Lost Verizon",
     "url": "http://simpsonswiki.com/wiki/Lost_Verizon",
     "originalAirDate": "October 5, 2008",
-    "productionCode": "KABF15"
+    "productionCode": "KABF15",
+    "synopsis": "While trying to earn money at the country club, Bart acquires Denis Leary's cell phone after Leary angrily chucks it away. Bart keeps the phone and makes prank calls pretending to be Leary and when Marge finds out what Bart is doing she contacts Leary. Denis says Bart might as well keep the phone, but he advises her to activate the GPS tracking in the phone so she can follow Bart's every move",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/19/Lost_verizon.jpg"
   },
   {
     "season": 20,
@@ -4585,7 +4673,9 @@
     "title": "Double, Double, Boy in Trouble",
     "url": "http://simpsonswiki.com/wiki/Double,_Double,_Boy_in_Trouble",
     "originalAirDate": "October 19, 2008",
-    "productionCode": "KABF14"
+    "productionCode": "KABF14",
+    "synopsis": "Bart meets his doppelganger, Simon Woosterfield, a member of the richest family in Springfield and the two decide to switch places. Simon adjusts nicely to his new digs at the Simpson home, while Bart discovers that his new siblings are plotting his death so they can have his inheritance",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d1/DoubleDoubleBoyinTrouble.jpg"
   },
   {
     "season": 20,
@@ -4594,7 +4684,9 @@
     "title": "Treehouse of Horror XIX",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XIX",
     "originalAirDate": "November 2, 2008",
-    "productionCode": "KABF16"
+    "productionCode": "KABF16",
+    "synopsis": "Treehouse of Horror XIX\" is the fourth episode of season 20 of The Simpsons and the four-hundred and twenty-fourth episode overall. It is also the nineteenth installment in the Treehouse of Horror series and consists of three parts: \"Morf Transers, Trans Morfers, Snort Farmers, Untitled Robot Parody\", \"How to Get Ahead in Dead-Vertising\" and \"It's the Grand Pumpkin, Milhouse\"",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6d/Treehouse_of_Horror_XIX_title_card.png"
   },
   {
     "season": 20,
@@ -4603,7 +4695,9 @@
     "title": "Dangerous Curves",
     "url": "http://simpsonswiki.com/wiki/Dangerous_Curves",
     "originalAirDate": "November 9, 2008",
-    "productionCode": "KABF18"
+    "productionCode": "KABF18",
+    "synopsis": "When the Simpson family takes a road trip to a cabin in the woods, a series of flashbacks depict Homer and Marge's blissful courtship and their early married years. They recall their first encounter with Flanders and Maude twenty years prior at the very same cabins, where Flanders insisted the unmarried Homer and Marge stay in separates rooms. Later, they recall when they each met distracting members of the opposite sex who nearly wooed Homer and Marge away from each other. Bart and Lisa also reflect on happier times from their early childhood. Despite the obstacles and the passing of time, Homer and Marge attempt to see the forest for the trees",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/25/Kabf18.png"
   },
   {
     "season": 20,
@@ -4612,7 +4706,9 @@
     "title": "Homer and Lisa Exchange Cross Words",
     "url": "http://simpsonswiki.com/wiki/Homer_and_Lisa_Exchange_Cross_Words",
     "originalAirDate": "November 16, 2008",
-    "productionCode": "KABF19"
+    "productionCode": "KABF19",
+    "synopsis": "Lisa discovers she has an impressive knack for solving crossword puzzles and she enters in a city-wide crossword tournament. Feelings are hurt though when Homer bets against Lisa in the championship match. meanwhile, Homer become a whizz at breaking up couples",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b5/Homer_and_Lisa_Exchange_Cross_Words_promo.jpg"
   },
   {
     "season": 20,
@@ -4621,7 +4717,9 @@
     "title": "MyPods and Boomsticks",
     "url": "http://simpsonswiki.com/wiki/MyPods_and_Boomsticks",
     "originalAirDate": "November 30, 2008",
-    "productionCode": "KABF20"
+    "productionCode": "KABF20",
+    "synopsis": "Bart befriends Bashir bin Laden, a Muslim boy who's new at school, and invites him and his parents over for dinner. Unfortunately Homer's paranoia gets the better of him and he ends up offending Bashir and his parents. Homer goes over to the bin Laden home to apologize, but his paranoia strikes again when he sees Bashir's father with sticks of TNT and thinks he's going to blow up Springfield Mall. Meanwhile, Lisa gets a Mapple MyPod – and a bill for over 1200 downloaded songs at 99 cents each",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/22/Mina_and_Bart.png"
   },
   {
     "season": 20,
@@ -4630,7 +4728,9 @@
     "title": "The Burns and the Bees",
     "url": "http://simpsonswiki.com/wiki/The_Burns_and_the_Bees",
     "originalAirDate": "December 7, 2008",
-    "productionCode": "KABF21"
+    "productionCode": "KABF21",
+    "synopsis": "When Mr. Burns wins a professional basketball team in a poker game, he decides to build a new sports arena in Springfield for them – on the site where Lisa is trying to keep Springfield's bee population from dying out; Homer tries to solve the problem by mating the bees – with \"killer\" Africanized bees",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/cd/The_Burns_and_the_Bees.jpg"
   },
   {
     "season": 20,
@@ -4639,7 +4739,9 @@
     "title": "Lisa the Drama Queen",
     "url": "http://simpsonswiki.com/wiki/Lisa_the_Drama_Queen",
     "originalAirDate": "January 25, 2009",
-    "productionCode": "KABF22"
+    "productionCode": "KABF22",
+    "synopsis": "Lisa and a new friend create the fantasy world of Equalia together, but Lisa is a little worried when her friend treats Equalia as a real place to escape the problems of the real world",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/8d/Lisa_the_Drama_Queen_promo.jpg"
   },
   {
     "season": 20,
@@ -4648,7 +4750,9 @@
     "title": "Take My Life, Please",
     "url": "http://simpsonswiki.com/wiki/Take_My_Life,_Please",
     "originalAirDate": "February 15, 2009",
-    "productionCode": "LABF01"
+    "productionCode": "LABF01",
+    "synopsis": "The first 720p HD episode with new opening sequence. Vance Connor is inducted into the Springfield Wall of Fame, and Homer recalls how he ran against Vance for school president. After discovering that the real ballot box was hidden, Homer searches for it and finds it - only to discover that he should have won. The family go to Luigi's restaurant, and meet a man who can tell people's fates by stirring tomato sauce, and Homer sees what his life would've been like had he been class president",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/56/HD_opening.jpg"
   },
   {
     "season": 20,
@@ -4657,7 +4761,9 @@
     "title": "How the Test Was Won",
     "url": "http://simpsonswiki.com/wiki/How_the_Test_Was_Won",
     "originalAirDate": "March 1, 2009",
-    "productionCode": "LABF02"
+    "productionCode": "LABF02",
+    "synopsis": "A national achievement test has Springfield Elementary School in an uproar. Bart and the school's other underachievers are sent on a trip to Capital City so they don't bring down the school's score, while Lisa, rattled by her score of \"only\" 96 percent on a practice test, has trouble with the real thing. Meanwhile, Homer forgets to send in an insurance payment on time and has to prevent anybody from getting hurt in his house",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/bb/HowtheTestwasWon.png"
   },
   {
     "season": 20,
@@ -4666,7 +4772,9 @@
     "title": "No Loan Again, Naturally",
     "url": "http://simpsonswiki.com/wiki/No_Loan_Again,_Naturally",
     "originalAirDate": "March 8, 2009",
-    "productionCode": "LABF03"
+    "productionCode": "LABF03",
+    "synopsis": "When the adjustable rate on Homer and Marge's mortgage resets at more than they can afford, they must put their home up for sale. Good Samaritan Ned Flanders buys the house and rents it out to them at an affordable rate. But Homer pushes his luck too far when he takes advantage of Ned's generous land lording duties",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/62/No_Loan_Again%2C_Naturally.jpg"
   },
   {
     "season": 20,
@@ -4675,7 +4783,9 @@
     "title": "Gone Maggie Gone",
     "url": "http://simpsonswiki.com/wiki/Gone_Maggie_Gone",
     "originalAirDate": "March 15, 2009",
-    "productionCode": "LABF04"
+    "productionCode": "LABF04",
+    "synopsis": "Lisa infiltrates a convent in order to steal back Maggie who was accidentally taken in by nuns. While in the convent, Lisa uncovers a series of cryptic clues leading to a hidden jewel in Springfield. With help from resident history buffs Principal Skinner and Comic Book Guy, Lisa sets off to find the coveted prize. But Springfield's Freemasons are also hot on the trail of the jewel, and Lisa must race against them to find the jewel and rescue Maggie",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6f/Gone_Maggie_Gone_promo.jpg"
   },
   {
     "season": 20,
@@ -4684,7 +4794,9 @@
     "title": "In the Name of the Grandfather",
     "url": "http://simpsonswiki.com/wiki/In_the_Name_of_the_Grandfather",
     "originalAirDate": "March 22, 2009",
-    "productionCode": "LABF11"
+    "productionCode": "LABF11",
+    "synopsis": "The Simpson family travels to Ireland to take Grandpa to have one last beer at his beloved O'Flanagan's Pub in Dunkilderry. However, when they arrive, the little town of Dunkilderry isn't the quaint little Irish village that Grandpa remembers. It has become a gentrified yuppie enclave filled with hipsters on laptops and Bluetooths, surrounded by swanky stores and coffee shops. When they track down O'Flanagan's Pub, the bar is run down and nearly empty. After a few spirits, Homer and Grandpa buy the pub from Tom O'Flanagan (guest voice Meaney), and they are left with trying to bring the bar back to life amidst an ultra-hip, hardworking and sober Irish town. With a little help from Moe, they find the perfect scheme to bring the pub back to life and put \"Simpson & Son\" on the map",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/96/In_the_Name_of_the_Grandfather.png"
   },
   {
     "season": 20,
@@ -4693,7 +4805,9 @@
     "title": "Wedding for Disaster",
     "url": "http://simpsonswiki.com/wiki/Wedding_for_Disaster",
     "originalAirDate": "March 29, 2009",
-    "productionCode": "LABF05"
+    "productionCode": "LABF05",
+    "synopsis": "It turns out that Reverend Lovejoy didn't have a valid license to perform weddings when he presided over Homer and Marge's wedding, so they have to get married again, but just when the wedding is about to start, Homer disappears, and the only clue is a key attached to a keychain marked \"SB\"",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/49/Wedding_for_Disaster.png"
   },
   {
     "season": 20,
@@ -4702,7 +4816,9 @@
     "title": "Eeny Teeny Maya, Moe",
     "url": "http://simpsonswiki.com/wiki/Eeny_Teeny_Maya,_Moe",
     "originalAirDate": "April 5, 2009",
-    "productionCode": "LABF06"
+    "productionCode": "LABF06",
+    "synopsis": "Moe develops an Internet relationship with a beautiful woman named Maya. When the two agree to meet face to face, Moe is shocked to discover that Maya is three feet tall. Meanwhile, Marge wants Homer to spend more time with Maggie. Homer obliges and finds himself in luck when he discovers a children's play area right next to Moe's Tavern",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b2/EenyTeenyMayaMoe1.png"
   },
   {
     "season": 20,
@@ -4711,7 +4827,9 @@
     "title": "The Good, the Sad, and the Drugly",
     "url": "http://simpsonswiki.com/wiki/The_Good,_the_Sad,_and_the_Drugly",
     "originalAirDate": "April 19, 2009",
-    "productionCode": "LABF07"
+    "productionCode": "LABF07",
+    "synopsis": "Bart volunteers at the Springfield Retirement Castle in order to impress Jenny, a girl who likes helping the world, but this leaves Milhouse (who took the rap for a school prank he and Bart pulled) less than impressed; Lisa becomes depressed when she writes a report on what Springfield will be like 50 years from now, but her medication makes her see everything happy - bright yellow happy faces, that is",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f6/The_Good%2C_the_Sad_and_the_Drugly.jpg"
   },
   {
     "season": 20,
@@ -4720,7 +4838,9 @@
     "title": "Father Knows Worst",
     "url": "http://simpsonswiki.com/wiki/Father_Knows_Worst",
     "originalAirDate": "April 26, 2009",
-    "productionCode": "LABF08"
+    "productionCode": "LABF08",
+    "synopsis": "When Homer realizes that Bart's underachievements aren't going to be helped any by Lisa's unpopularity, he tries \"helicopter parenting\" – that is, he hovers over them constantly; meanwhile, Marge is too busy relaxing in the mysterious new basement sauna she just happened to find in the basement to care",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/88/Father_Knows_Worst.png"
   },
   {
     "season": 20,
@@ -4729,7 +4849,9 @@
     "title": "Waverly Hills 9-0-2-1-D'oh",
     "url": "http://simpsonswiki.com/wiki/Waverly_Hills_9-0-2-1-D%27oh",
     "originalAirDate": "May 3, 2009",
-    "productionCode": "LABF10"
+    "productionCode": "LABF10",
+    "synopsis": "When Marge discovers the poor teaching conditions at Springfield Elementary School, she gets Homer to rent an apartment in the Waverly Hills area so Bart and Lisa can attend school there, but Lisa's lack of knowledge about singer Alaska Nebraska makes her as unpopular as ever, until Bart spreads a rumor that Lisa and Alaska are best friends – which comes back to haunt Lisa when her new friends want backstage passes to her upcoming concert; Homer has to stay in his shabby apartment until the city's inspector pays a surprise visit to make sure they actually live in the area, but he gets to like it – until he invites Marge to move in with him",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/05/WaverlyHills9021Doh.jpg"
   },
   {
     "season": 20,
@@ -4738,7 +4860,9 @@
     "title": "Four Great Women and a Manicure",
     "url": "http://simpsonswiki.com/wiki/Four_Great_Women_and_a_Manicure",
     "originalAirDate": "May 10, 2009",
-    "productionCode": "LABF09"
+    "productionCode": "LABF09",
+    "synopsis": "A \"quad-rilogy\" episode featuring Simpsonized versions of history and popular cinema and literature. Selma stars as Queen Elizabeth I, Lisa stars as Snow White in a parody of Snow White and the Seven Dwarfs, Marge stars as Lady Macbeth in a Macbeth parody, and Maggie stars as Maggie Roark in a spoof of The Fountainhead",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0c/Four_Great_Women_and_a_Manicure_promo.jpg"
   },
   {
     "season": 20,
@@ -4747,7 +4871,9 @@
     "title": "Coming to Homerica",
     "url": "http://simpsonswiki.com/wiki/Coming_to_Homerica",
     "originalAirDate": "May 17, 2009",
-    "productionCode": "LABF12"
+    "productionCode": "LABF12",
+    "synopsis": "Ogdenville's economy takes a tumble after tainted barley is discovered in Krusty's veggie burgers and the unemployed of Ogdenville flock to Springfield. When Mayor Quimby closes off the town's borders and enlists private citizens to help patrol them, Homer puts together a border patrol group",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9b/Coming_to_Homerica_promo.jpg"
   },
   {
     "season": 21,
@@ -4756,7 +4882,9 @@
     "title": "Homer the Whopper",
     "url": "http://simpsonswiki.com/wiki/Homer_the_Whopper",
     "originalAirDate": "September 27, 2009",
-    "productionCode": "LABF13"
+    "productionCode": "LABF13",
+    "synopsis": "Comic Book Guy creates his own comic book, Everyman, which becomes a huge hit. A film based on the comic is produced but it ends up having many problems, including Comic Book Guy getting shut out of his own creation",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/03/Homer_the_Whopper_promo.jpg"
   },
   {
     "season": 21,
@@ -4765,7 +4893,9 @@
     "title": "Bart Gets a Z",
     "url": "http://simpsonswiki.com/wiki/Bart_Gets_a_%22Z%22",
     "originalAirDate": "October 4, 2009",
-    "productionCode": "LABF15"
+    "productionCode": "LABF15",
+    "synopsis": "When Mrs Krabappel confiscates her students' mobile phones, they hatch a plan to get their teacher drunk to get her to \"loosen up\". When Principal Skinner fires her, she is replaced by a cool new teacher, Zachary Vaughn, who impresses the kids with his love of texting, Facebook and Twitter. Bart has a lingering guilt about getting Edna fired, and tries to help her. With the assistance of a self-help book-slash-DVD, she opens her own muffin store - but she still longs to be a teacher",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/67/Bart_Gets_a_%22Z%22.png"
   },
   {
     "season": 21,
@@ -4774,7 +4904,9 @@
     "title": "The Great Wife Hope",
     "url": "http://simpsonswiki.com/wiki/The_Great_Wife_Hope",
     "originalAirDate": "October 11, 2009",
-    "productionCode": "LABF16"
+    "productionCode": "LABF16",
+    "synopsis": "The men and boys in Springfield become obsessed with Ultimate Punch Kick and Choke Championships, a violent sport where fighters inflict severe pain on each other. When Marge and her friends stage a protest against the spot, the show's promoter embraces the controversy and challenges Marge to a match, promising to shut down the competition if she wins. She begins to train with rhythmic gymnastics, but her family steps in and gets her professional martial arts help to give her a real chance at winning",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1f/Greatwifehopebanner.png"
   },
   {
     "season": 21,
@@ -4783,7 +4915,9 @@
     "title": "Treehouse of Horror XX",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XX",
     "originalAirDate": "October 18, 2009",
-    "productionCode": "LABF14"
+    "productionCode": "LABF14",
+    "synopsis": "In \"Dial 'M' for Murder or Press # to Return to Main Menu,\" Lisa is forced into a Hitchcockian murder scheme by Bart, in \"Don't Have a Cow, Mankind,\" Springfield is once again overrun by zombies thanks to Krusty Burger's latest sandwich, and in \"There's No Business Like Moe Business,\" Moe the bartender bleeds Homer dry to create the perfect microbrewed beer",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1a/Treehouse_of_Horror_XX_promo_1.jpg"
   },
   {
     "season": 21,
@@ -4792,7 +4926,9 @@
     "title": "The Devil Wears Nada",
     "url": "http://simpsonswiki.com/wiki/The_Devil_Wears_Nada",
     "originalAirDate": "November 15, 2009",
-    "productionCode": "LABF17"
+    "productionCode": "LABF17",
+    "synopsis": "Marge poses for a calendar for charity, but she is soon the talk of the town after she reveals a little too much during her photo shoot. Meanwhile, Carl receives a promotion at the plant. He then promotes Homer to be his executive assistant and drives him up the wall with requests",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0f/Carla_bruni.png"
   },
   {
     "season": 21,
@@ -4801,7 +4937,9 @@
     "title": "Pranks and Greens",
     "url": "http://simpsonswiki.com/wiki/Pranks_and_Greens",
     "originalAirDate": "November 22, 2009",
-    "productionCode": "LABF18"
+    "productionCode": "LABF18",
+    "synopsis": "Fed up with Bart's constant pranks, Principal Skinner tells Bart that there is a former Springfield Elementary student hailed as the best prankster ever - even better than Bart - but he won't divulge the legendary student's name. Bart finally gets Groundskeeper Willie to reveal the prankster's identity: Andy Hamilton. Bart tracks down Andy, who is now 19 years old and hasn't grown out of his pranking days. Bart and Andy become fast friends until Bart gets Andy a job working for the ultimate clown",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c8/Simp_PranksandGreens_v2F.jpg"
   },
   {
     "season": 21,
@@ -4810,7 +4948,9 @@
     "title": "Rednecks and Broomsticks",
     "url": "http://simpsonswiki.com/wiki/Rednecks_and_Broomsticks",
     "originalAirDate": "November 29, 2009",
-    "productionCode": "LABF19"
+    "productionCode": "LABF19",
+    "synopsis": "After stumbling upon some teenage Wiccans, Lisa accepts an invitation to join their coven. Just before Lisa is inducted Clancy Wiggum arrives and arrests the three teens on charges of witchcraft; Lisa becomes the chief witness in the trial. Meanwhile, Homer starts to hang out with his new pal Cletus after discovering the slack-jawed yokel makes moonshine and becomes the local moonshine taste-tester",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/8b/Rednecks_and_Broomsticks.png"
   },
   {
     "season": 21,
@@ -4819,7 +4959,9 @@
     "title": "Oh Brother, Where Bart Thou?",
     "url": "http://simpsonswiki.com/wiki/Oh_Brother,_Where_Bart_Thou%3F",
     "originalAirDate": "December 13, 2009",
-    "productionCode": "MABF01"
+    "productionCode": "MABF01",
+    "synopsis": "When Lisa tells Bart he'll never have the special bond that she has with Maggie because he doesn't have any brothers, he tries to get Homer and Marge to make him a baby brother, but when that doesn't work, he goes to the orphanage - where a young boy follows him home",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b8/MABF01.jpg"
   },
   {
     "season": 21,
@@ -4828,7 +4970,9 @@
     "title": "Thursdays with Abie",
     "url": "http://simpsonswiki.com/wiki/Thursdays_with_Abie",
     "originalAirDate": "January 3, 2010",
-    "productionCode": "MABF02"
+    "productionCode": "MABF02",
+    "synopsis": "A Springfield Shopper reporter takes an interest in Grampa's stories, making him front-page news, which makes Homer jealous, until he discovers what the reporter has in store for the final column; Lisa loses the classroom stuffed lamb she was watching for Bart – down a sewer drain",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d4/Thursday_with_abie.png"
   },
   {
     "season": 21,
@@ -4837,7 +4981,9 @@
     "title": "Once Upon a Time in Springfield",
     "url": "http://simpsonswiki.com/wiki/Once_Upon_a_Time_in_Springfield",
     "originalAirDate": "January 10, 2010",
-    "productionCode": "LABF20"
+    "productionCode": "LABF20",
+    "synopsis": "Krusty is forced to add a female co-star named Princess Penelope to his show in order to attract more female viewers. She immediately overshadows Krusty as the ratings improve. Meanwhile, Homer, Lenny, and Carl consider working at a competing nuclear plant when Mr. Burns cuts off their daily donut service",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/68/Once_Upon_Time_In_Springfield.jpg"
   },
   {
     "season": 21,
@@ -4846,7 +4992,9 @@
     "title": "Million Dollar Maybe",
     "url": "http://simpsonswiki.com/wiki/Million_Dollar_Maybe",
     "originalAirDate": "January 31, 2010",
-    "productionCode": "MABF03"
+    "productionCode": "MABF03",
+    "synopsis": "Homer skips a date with Marge so he can buy a lottery ticket; when he wins a million dollars, he fears Marge's reaction to having blown off the date for a chance at fortune and he keeps his winnings a secret while showering the family with anonymous gifts. Meanwhile, Lisa helps to keep the senior citizens at the Springfield Retirement Castle stimulated with some video games",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/74/Promocold.jpg"
   },
   {
     "season": 21,
@@ -4855,7 +5003,9 @@
     "title": "Boy Meets Curl",
     "url": "http://simpsonswiki.com/wiki/Boy_Meets_Curl",
     "originalAirDate": "February 14, 2010",
-    "productionCode": "MABF05"
+    "productionCode": "MABF05",
+    "synopsis": "Homer takes Marge out for a romantic evening of ice skating and hand-holding, but upon entering the rink, they encounter a curling team practicing. Marge and Homer take to the ice and discover their love for the sport, and soon after, join the curling team and compete with them in the Olympic trials. Team Springfield claims the win and moves on to the 2010 Vancouver Games where Bob Costas covers the action. Meanwhile, sleazy vendors introduce Lisa to the world of collecting Olympic pins, and before long, Lisa is hopelessly addicted",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/a3/Boy_Meets_Curl_promo.jpg"
   },
   {
     "season": 21,
@@ -4864,7 +5014,9 @@
     "title": "The Color Yellow",
     "url": "http://simpsonswiki.com/wiki/The_Color_Yellow",
     "originalAirDate": "February 21, 2010",
-    "productionCode": "MABF06"
+    "productionCode": "MABF06",
+    "synopsis": "When researching her family tree for someone who isn't a total boob or criminal, Lisa finds the 1860 diary of Eliza Simpson, a young girl who was in the Underground Railroad and tried to help a slave escape to Canada, but a diary by one of Milhouse's ancestors casts doubt on just what Eliza accomplished",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/19/The_Color_Yellow_promo_2.jpg"
   },
   {
     "season": 21,
@@ -4873,7 +5025,9 @@
     "title": "Postcards from the Wedge",
     "url": "http://simpsonswiki.com/wiki/Postcards_from_the_Wedge",
     "originalAirDate": "March 14, 2010",
-    "productionCode": "MABF04"
+    "productionCode": "MABF04",
+    "synopsis": "When Homer receives a letter from Edna Krabappel saying that Bart is way behind in his studies, he tries to take a hard line with him, but Marge thinks he has too much work, so Bart finds a way to turn their difference of opinion into a full-blown fight, only for it to end up with the two of them deciding that they need to worry about themselves more than Bart – at least until Bart discovers that running trains on the old Springfield Subway is causing the school's structure to crumble",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1e/Postcards_from_the_Wedge.png"
   },
   {
     "season": 21,
@@ -4882,7 +5036,9 @@
     "title": "Stealing First Base",
     "url": "http://simpsonswiki.com/wiki/Stealing_First_Base",
     "originalAirDate": "March 21, 2010",
-    "productionCode": "MABF07"
+    "productionCode": "MABF07",
+    "synopsis": "When Springfield Elementary's two fourth grade classes have to share desks rather than pay for a substitute teacher, Bart falls for his new deskmate, but after he kisses her, she starts sending him mixed signals. Lisa gets advice on how to handle being a female overachiever from Michelle Obama",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/da/Stealing_First_Base.jpg"
   },
   {
     "season": 21,
@@ -4891,7 +5047,9 @@
     "title": "The Greatest Story Ever D'ohed",
     "url": "http://simpsonswiki.com/wiki/The_Greatest_Story_Ever_D%27ohed",
     "originalAirDate": "March 28, 2010",
-    "productionCode": "MABF10"
+    "productionCode": "MABF10",
+    "synopsis": "When Homer is playing noisily in the yard, it disrupts Flanders' bible-study group. Coaxed by the reverend, a frustrated Flanders takes it upon himself to redeem Homer by inviting the Simpson family on his church retreat to Jerusalem. Unappreciative of the history and culture, Homer would rather hang out at the hotel's breakfast buffet rather than tour the city. But when an eccentric tour guide takes the group to famous monuments, including the Dome of the Rock and the Wailing Wall, Homer finally proves he is not beyond salvation",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b2/The_Greatest_Story_ever_D%27ohed.png"
   },
   {
     "season": 21,
@@ -4900,7 +5058,9 @@
     "title": "American History X-cellent",
     "url": "http://simpsonswiki.com/wiki/American_History_X-cellent",
     "originalAirDate": "April 11, 2010",
-    "productionCode": "MABF08"
+    "productionCode": "MABF08",
+    "synopsis": "When the police are called to diffuse a rowdy crowd at Mr. Burns' lavish estate, one of the officers recognizes priceless stolen paintings on the walls, and the maniacal billionaire is taken downtown for questioning. With Mr. Burns gone, Smithers takes charge of the power plant. But when employees take advantage of his good nature, he exacts revenge by forcing the employees to work night and day. These unfair working conditions prompt Homer and his crew to devise a plan to bust out Mr. Burns. Meanwhile, Bart and Lisa bond over one ant that survives an accident involving Lisa's ant farm",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f8/American_History_X-cellent.png"
   },
   {
     "season": 21,
@@ -4909,7 +5069,9 @@
     "title": "Chief of Hearts",
     "url": "http://simpsonswiki.com/wiki/Chief_of_Hearts",
     "originalAirDate": "April 18, 2010",
-    "productionCode": "MABF09"
+    "productionCode": "MABF09",
+    "synopsis": "Homer is completing his court-ordered community service when he befriends his supervisor, Chief Wiggum, by offering him one of his sandwiches. Touched by the act of kindness, Wiggum assigns the other convicts unpleasant tasks, but allows Homer to join him at the picnic table. They continue to grow close, but when the Chief gets injured during a botched bank robbery, Homer doesn't come through when Wiggum needs him the most. Meanwhile, Bart becomes addicted to Battle Ball, a Japanese game made up of plastic balls and magnetic cards, and his family and teachers try to help him kick the habit",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/dd/Chief_of_Hearts.png"
   },
   {
     "season": 21,
@@ -4918,7 +5080,9 @@
     "title": "The Squirt and the Whale",
     "url": "http://simpsonswiki.com/wiki/The_Squirt_and_the_Whale",
     "originalAirDate": "April 25, 2010",
-    "productionCode": "MABF14"
+    "productionCode": "MABF14",
+    "synopsis": "Fed up with high electric bills, Homer puts up a windmill generator in the backyard. When he sees that the excess energy goes back to the power company, he takes the house off the power grid, making it entirely dependent on the windmill. Then a violent windstorm hits Springfield, and among the victims are the windmill and a whale which ends up beached, prompting Lisa, Homer, and many other townspeople to attempt to save it",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0a/TheSquirtAndTheWhale.png"
   },
   {
     "season": 21,
@@ -4927,7 +5091,9 @@
     "title": "To Surveil with Love",
     "url": "http://simpsonswiki.com/wiki/To_Surveil_with_Love",
     "originalAirDate": "May 2, 2010",
-    "productionCode": "MABF12"
+    "productionCode": "MABF12",
+    "synopsis": "Thanks to Homer leaving a gym bag with radioactive waste (planted there by Smithers) unattended in a train station, Springfield has surveillance cameras installed throughout the town to stop terrorist attacks. But when citizen video monitor scanner Ned abuses his ability to speak through the cameras' speakers, Homer uses the camera blind spot Bart discovers to the town's advantage; Lisa, having heard one too many dumb blonde jokes, dyes her hair brown",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c9/To_Surveil_With_Love.png"
   },
   {
     "season": 21,
@@ -4936,7 +5102,9 @@
     "title": "Moe Letter Blues",
     "url": "http://simpsonswiki.com/wiki/Moe_Letter_Blues",
     "originalAirDate": "May 9, 2010",
-    "productionCode": "MABF13"
+    "productionCode": "MABF13",
+    "synopsis": "Homer, Apu, and Reverend Lovejoy take a day trip with their kids on Mother's Day so their wives can have a day to themselves, but the three of them receive a message from Moe saying that he's leaving Springfield...with one of their wives",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/34/Moeletterblues.png"
   },
   {
     "season": 21,
@@ -4945,7 +5113,9 @@
     "title": "The Bob Next Door",
     "url": "http://simpsonswiki.com/wiki/The_Bob_Next_Door",
     "originalAirDate": "May 16, 2010",
-    "productionCode": "MABF11"
+    "productionCode": "MABF11",
+    "synopsis": "Bart becomes convinced that his new neighbor, Walt Warren, is his archenemy, Sideshow Bob, disguised and back for revenge. But when Marge tries to convince Bart otherwise by taking him to the state penitentiary, a disturbing truth is revealed, leading to danger for the spiky-haired boy",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b8/The_Bob_Next_Door.png"
   },
   {
     "season": 21,
@@ -4954,7 +5124,9 @@
     "title": "Judge Me Tender",
     "url": "http://simpsonswiki.com/wiki/Judge_Me_Tender",
     "originalAirDate": "May 23, 2010",
-    "productionCode": "MABF15"
+    "productionCode": "MABF15",
+    "synopsis": "American Idol host Ryan Seacrest and judges Simon Cowell, Randy Jackson, Kara DioGuardi, and Ellen DeGeneres welcome a new judge to the show – Moe, who displays an exceptional talent in judging things; while Moe is away, Homer has more time to spend at home with Marge... much to her dismay",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e3/Judge_Me_Tender_promo.jpg"
   },
   {
     "season": 22,

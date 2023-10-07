@@ -1,6 +1,6 @@
 <template>
   <v-layout>
-    <v-container class="container">
+    <v-container class="container" fluid>
       <v-main>
         <AppTitle title="The Simpsons" subTitle="Episode Randomizer"></AppTitle>
         <EpisodeNavigation
@@ -34,7 +34,7 @@
           </v-col>
         </v-row>
         <v-row class="mt-1">
-          <v-col cols="12" md="4" lg="4" :class="computedEpisodeInfoFont">
+          <v-col cols="12" lg="3" :class="computedEpisodeInfoFont">
             <p>Season {{ currentEpisode.season }}</p>
             <p>Episode {{ currentEpisode.episode }}</p>
             <p>Episode {{ currentEpisode.totalEpisode }} overall</p>
@@ -68,7 +68,7 @@
               >
             </p>
           </v-col>
-          <v-col cols="12" md="4" lg="4">
+          <v-col cols="12" lg="6">
             <p
               v-if="synopsisActive"
               :class="computedEpisodeSynopsisFont"
@@ -85,12 +85,14 @@
               {{ quote }}
             </p>
           </v-col>
-          <v-col cols="12" md="4" lg="4">
+          <v-col cols="12" lg="3">
             <v-img
               class="episode-image"
               alt="Episode Image"
               :src="currentEpisode.imageUrl"
-              :max-height="getImageSize"
+              :max-height="getImageHeight"
+              :max-width="getImageWidth"
+              :cover="useImageCover"
             >
               <template v-slot:placeholder>
                 <div class="d-flex align-center justify-center fill-height">
@@ -121,11 +123,13 @@ import AppTitle from "@/components/AppTitle.vue";
 import EpisodeNavigation from "@/components/EpisodeNavigation.vue";
 import EpisodeTitle from "@/components/EpisodeTitle.vue";
 import createStyleForDisplay, {
-  getImageSizeForDisplay,
+  getImageWidthForDisplay,
+  getImageHeightForDisplay,
+  useImageCoverForDisplay,
 } from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
-const { name } = useDisplay();
+const { name, lgAndUp } = useDisplay();
 let episodeStore = useEpisodeStore();
 const { currentEpisode } = storeToRefs(episodeStore);
 const synopsisActive = ref(true);
@@ -153,8 +157,16 @@ const getQuotes = computed(() => {
   return null;
 });
 
-const getImageSize = computed(() => {
-  return getImageSizeForDisplay(name.value);
+const getImageHeight = computed(() => {
+  return getImageHeightForDisplay(name.value);
+});
+
+const getImageWidth = computed(() => {
+  return lgAndUp ? getImageWidthForDisplay(name.value) : undefined;
+});
+
+const useImageCover = computed(() => {
+  return useImageCoverForDisplay(name.value);
 });
 
 function onRandomEpisodeBtnClicked() {
