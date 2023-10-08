@@ -27,18 +27,7 @@ export function getImageHeightForDisplay(breakpoint: string): number {
     case "xxl":
       return 250;
     default:
-      return 300;
-  }
-}
-
-export function getImageWidthForDisplay(breakpoint: string): number {
-  switch (breakpoint) {
-    case "lg":
-    case "xl":
-    case "xxl":
-      return 300;
-    default:
-      return 300;
+      return 250;
   }
 }
 
