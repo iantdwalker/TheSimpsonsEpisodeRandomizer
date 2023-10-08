@@ -91,7 +91,6 @@
               alt="Episode Image"
               :src="currentEpisode.imageUrl"
               :max-height="getImageHeight"
-              :max-width="getImageWidth"
               :cover="useImageCover"
             >
               <template v-slot:placeholder>
@@ -123,13 +122,12 @@ import AppTitle from "@/components/AppTitle.vue";
 import EpisodeNavigation from "@/components/EpisodeNavigation.vue";
 import EpisodeTitle from "@/components/EpisodeTitle.vue";
 import createStyleForDisplay, {
-  getImageWidthForDisplay,
   getImageHeightForDisplay,
   useImageCoverForDisplay,
 } from "@/utilities/styleUtils";
 
 const simpsonsYellow = "#ffd920";
-const { name, lgAndUp } = useDisplay();
+const { name } = useDisplay();
 let episodeStore = useEpisodeStore();
 const { currentEpisode } = storeToRefs(episodeStore);
 const synopsisActive = ref(true);
@@ -159,10 +157,6 @@ const getQuotes = computed(() => {
 
 const getImageHeight = computed(() => {
   return getImageHeightForDisplay(name.value);
-});
-
-const getImageWidth = computed(() => {
-  return lgAndUp ? getImageWidthForDisplay(name.value) : undefined;
 });
 
 const useImageCover = computed(() => {
