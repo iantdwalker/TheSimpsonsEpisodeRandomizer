@@ -8,7 +8,9 @@
     "originalAirDate": "December 17, 1989",
     "productionCode": "7G08",
     "synopsis": "It's a not-so-merry Christmas for the Simpsons, when Mr. Burns decides to cut the Christmas bonuses, and Marge has to spend the family's Christmas savings to erase a tattoo Bart thought will make a great Christmas present. In order to hide the fact he didn't get the bonus, Homer takes a second job as a mall Santa",
-    "imageUrl": "https://static.simpsonswiki.com/images/5/5b/Simpsons_Roasting_on_an_Open_Fire_promo.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5b/Simpsons_Roasting_on_an_Open_Fire_promo.png",
+    "rating": 2.5,
+    "quotes": "\"Jingle bells, Batman smells, Robin laid an egg. The bat mobile broke its wheel and the Joker got away\" (Bart)~\"There's only one fat guy that brings us presents and his name aint Santa\" (Bart)~\"I'm Bart Simpson, who the hell are you?\" (Bart)~\"Ho ho D'oh!\" (Homer)~\"What a name! Santa's Little Helper!\" (Homer)~\"He's a loser! He's Pathetic! He's...a Simpson\" (Homer)"
   },
   {
     "season": 1,
@@ -19,7 +21,9 @@
     "originalAirDate": "January 14, 1990",
     "productionCode": "7G02",
     "synopsis": "Bart swaps papers with Martin Prince during an intelligence test at school. When the school psychologist compiles the test results, he believes the switch and refers Bart to the Enriched Learning Center for Gifted Children. The new school's laid-back liberal ethos suits Bart just fine - until he's asked to show evidence of his neglected genius",
-    "imageUrl": "https://static.simpsonswiki.com/images/a/a0/Bart_in_class.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/a/a0/Bart_in_class.png",
+    "rating": 3,
+    "quotes": "\"Eat my shorts\" (Bart)~\"Toreador, oh don't spit on the floor, please use the cuspidor, that's what its for\" (Bart)~\"My confession by Bart Simpson. I am a regular, dumb kid\" (Bart)"
   },
   {
     "season": 1,
@@ -30,7 +34,8 @@
     "originalAirDate": "January 21, 1990",
     "productionCode": "7G03",
     "synopsis": "Homer's fired from his job as technical supervisor at the Springfield Nuclear Plant. Unable to provide for his family, he contemplates ending it all - until he discovers a new life path as a campaigner for safety",
-    "imageUrl": "https://static.simpsonswiki.com/images/e/ed/Homer%27s_Odyssey_%28Mr._Burns_Looking_Out_the_Window%29.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/e/ed/Homer%27s_Odyssey_%28Mr._Burns_Looking_Out_the_Window%29.png",
+    "rating": 3.5
   },
   {
     "season": 1,
@@ -41,7 +46,8 @@
     "originalAirDate": "January 28, 1990",
     "productionCode": "7G04",
     "synopsis": "After an embarrassing experience at the company picnic, Homer begins to wonder if his family's too dysfunctional. Homer, Marge, Bart, Lisa and Maggie attend family therapy sessions with Dr. Marvin Monroe, an unorthodox psychotherapist who uses shock therapy to \"cure\" them",
-    "imageUrl": "https://static.simpsonswiki.com/images/2/22/Bart_is_shocked.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/2/22/Bart_is_shocked.png",
+    "rating": 3
   },
   {
     "season": 1,
@@ -5619,7 +5625,9 @@
     "title": "Moonshine River",
     "url": "http://simpsonswiki.com/wiki/Moonshine_River",
     "originalAirDate": "September 30, 2012",
-    "productionCode": "PABF21"
+    "productionCode": "PABF21",
+    "synopsis": "The Simpsons travel to New York City in search of Bart's long-lost love Mary Spuckler who he wants to reconnect with since she left Springfield and her hillbilly family there to reinvent herself in the big apple. Lisa and Marge look forward to experiencing all the city has to offer but when they realize their budget won't allow a Broadway play they settle for the free \"Shakespeare In the Park\" which doesn't go as planned",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/93/Moonshine_River_promo_4.jpg"
   },
   {
     "season": 24,
@@ -5628,7 +5636,9 @@
     "title": "Treehouse of Horror XXIII",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XXIII",
     "originalAirDate": "October 7, 2012",
-    "productionCode": "PABF17"
+    "productionCode": "PABF17",
+    "synopsis": "We go back to ancient times when a Mayan Homer and Marge are witness to the prediction that 2012 will be the end of the world, the Springfield Subatomic Supercollider creates a black hole that terrorizes the city, a little unholy pact Marge when she was younger makes things go bump in the night and Bart travels to 1974 to buy a comic book at cover price but inadvertently disrupts Homer and Marge's courtship",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/8a/Bart_%26_Homer%27s_Excellent_Adventure.png"
   },
   {
     "season": 24,
@@ -5637,7 +5647,9 @@
     "title": "Adventures in Baby-Getting",
     "url": "http://simpsonswiki.com/wiki/Adventures_in_Baby-Getting",
     "originalAirDate": "November 4, 2012",
-    "productionCode": "PABF18"
+    "productionCode": "PABF18",
+    "synopsis": "When Homer neglects to fix the dripping faucet outside the house, the amount of moisture in a cavern under the ground makes ground fall away in places. As a result of this, Marge's car falls into a sink hole in the middle of town. She buys the perfect replacement to fit her family of five, but she quickly grows to hate it because, as she tells a shocked Homer, the car would be too small if she wanted to have another baby. Meanwhile, Bart and his friends are determined to find out what secret Lisa is keeping when Bart finds her cryptic messages and follows her sneaking off downtown for covert meetings after school",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b5/Adventures_in_Baby-Getting_promo_8.png"
   },
   {
     "season": 24,
@@ -5646,7 +5658,9 @@
     "title": "Gone Abie Gone",
     "url": "http://simpsonswiki.com/wiki/Gone_Abie_Gone",
     "originalAirDate": "November 11, 2012",
-    "productionCode": "PABF16"
+    "productionCode": "PABF16",
+    "synopsis": "When Grampa escapes from his retirement home, Homer and Marge frantically try to track him down by following clues that reveal secrets in Grampa's past, including that he worked at a local restaurant with composer Marvin Hamlisch and met and fell in love with the restaurant's singer Rita LaFleur. Meanwhile Lisa tries her hand at online poker, getting tips from the experts, including Jennifer Tilly, but is soon gambling with her college fund",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c8/Gone_Abie_Gone_promo_7.jpg"
   },
   {
     "season": 24,
@@ -5655,7 +5669,9 @@
     "title": "Penny-Wiseguys",
     "url": "http://simpsonswiki.com/wiki/Penny-Wiseguys",
     "originalAirDate": "November 18, 2012",
-    "productionCode": "PABF19"
+    "productionCode": "PABF19",
+    "synopsis": "Homer is shocked to discover that his bowling teammate, Dan Gillick, is an accountant for Fat Tony and his mob. When Fat Tony gets jury duty, he appoints Dan as the temporary don of the mafia. Meanwhile, Lisa adds insects to her vegetarian diet after she passes out in the middle of a saxophone solo, but starts questioning her decision when bugs start pleading for mercy in her dreams",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3a/Penny-Wiseguys_promo_7.jpg"
   },
   {
     "season": 24,
@@ -5664,7 +5680,9 @@
     "title": "A Tree Grows in Springfield",
     "url": "http://simpsonswiki.com/wiki/A_Tree_Grows_in_Springfield",
     "originalAirDate": "November 25, 2012",
-    "productionCode": "PABF22"
+    "productionCode": "PABF22",
+    "synopsis": "Homer wins a MyPad at the school auction and Steve Mobbs, who is now in heaven, talks to Homer through it. Homer goes into a funk when he breaks his myPad, until Ned Flanders discovers a miracle tree in the Simpsons' back garden",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/13/A_Tree_Grows_in_Springfield_promo_5.jpg"
   },
   {
     "season": 24,
@@ -5673,7 +5691,9 @@
     "title": "The Day the Earth Stood Cool",
     "url": "http://simpsonswiki.com/wiki/The_Day_the_Earth_Stood_Cool",
     "originalAirDate": "December 9, 2012",
-    "productionCode": "PABF20"
+    "productionCode": "PABF20",
+    "synopsis": "Homer befriends Terrence (Fred Armisen) and Emily (Carrie Brownstein), new neighbors from Portland. Homer becomes like Terrence because he wants a younger, hipper image. When Bart gets into a fight with Terrance and Emily's son T-Rex (Patton Oswalt), the friendship becomes strained and Terrence, angry at the Simpsons, calls his friends from Portland, and Springfield is soon full with 'cool' people. Meanwhile, Marge feels uncomfortable around Emily and her friends when they are breastfeeding, and she is feeding Maggie from the bottle",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1d/The_Day_the_Earth_Stood_Cool_promo_4.jpg"
   },
   {
     "season": 24,
@@ -5682,7 +5702,9 @@
     "title": "To Cur, with Love",
     "url": "http://simpsonswiki.com/wiki/To_Cur,_with_Love",
     "originalAirDate": "December 16, 2012",
-    "productionCode": "RABF01"
+    "productionCode": "RABF01",
+    "synopsis": "Grampa has to move into the Simpsons house following a fire at the retirement home, and on moving day, Homer 'throws his back out' and 'rests' at home. He later finds an advert for a video game, Villageville on his myPad, and starts playing. During that time, Homer loses Santa's Little Helper. When the family find him, Homer doesn't seem to care because he's \"not a dog person\". Grampa later tells the rest of the family the story of Homer's childhood companion, pet dog Bongo",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b5/To_Cur%2C_with_Love_promo_7.jpg"
   },
   {
     "season": 24,
@@ -5691,7 +5713,9 @@
     "title": "Homer Goes to Prep School",
     "url": "http://simpsonswiki.com/wiki/Homer_Goes_to_Prep_School",
     "originalAirDate": "January 6, 2013",
-    "productionCode": "RABF02"
+    "productionCode": "RABF02",
+    "synopsis": "Homer joins the \"Springfield Preppers,\" an off-the-grid survivalist group whose leader has set up a top-secret retreat outside of town to prepare for the end of the world. But Marge grows skeptical of the group's alarmist shenanigans",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/0a/Homer_Goes_to_Prep_School_promo_2.jpg"
   },
   {
     "season": 24,
@@ -5700,7 +5724,9 @@
     "title": "A Test Before Trying",
     "url": "http://simpsonswiki.com/wiki/A_Test_Before_Trying",
     "originalAirDate": "January 13, 2013",
-    "productionCode": "RABF03"
+    "productionCode": "RABF03",
+    "synopsis": "Mr. Burns hikes up electricity prices, leaving most of Springfield unable to afford to use it as much as before. Springfield's schools cannot afford to use it as much either, and they decide to test every single student, and whichever school has the lowest test scores will close. Springfield Elementary gets the lowest test scores, but Lisa discovers that one student did not take the test and the school's fate will rely on his test scores: Bart's to be precise. Meanwhile, Homer uses a parking meter he found at the dump to fleece unwitting parkers of their quarters",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/26/A_Test_Before_Trying_promo_3.jpg"
   },
   {
     "season": 24,
@@ -5709,7 +5735,9 @@
     "title": "Changing of the Guardian",
     "url": "http://simpsonswiki.com/wiki/Changing_of_the_Guardian",
     "originalAirDate": "January 27, 2013",
-    "productionCode": "RABF04"
+    "productionCode": "RABF04",
+    "synopsis": "After surviving a tornado, Marge and Homer seek out guardians for the kids, in case the worst should happen. They first turn to friends and family, including Homer's half-brother, Herb Powell with whom to entrust their kids, but when Bart and Lisa fall in love with a super-cool couple, Mav and Portia, Marge starts to question their potential guardians' true motivations",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e1/Changing_of_the_Guardian_promo_1.jpg"
   },
   {
     "season": 24,
@@ -5718,7 +5746,9 @@
     "title": "Love Is a Many-Splintered Thing",
     "url": "http://simpsonswiki.com/wiki/Love_Is_a_Many-Splintered_Thing",
     "originalAirDate": "February 10, 2013",
-    "productionCode": "RABF07"
+    "productionCode": "RABF07",
+    "synopsis": "A mature Bart looks back on his life when his heartstrings are pulled once again when Mary Spuckler returns to Springfield, but his failure to pay her enough attention strains their relationship. Marge, too, puts Homer in the dog house after not going to a travel bookstore soft opening with her. Homer, along with Bart and a few other displaced husbands living at the Brokewood Apartments, decide to watch some British movies to figure out a way to win back their wives",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/de/Love_Is_a_Many-Splintered_Thing_1.jpg"
   },
   {
     "season": 24,
@@ -5727,7 +5757,9 @@
     "title": "Hardly Kirk-ing",
     "url": "http://simpsonswiki.com/wiki/Hardly_Kirk-ing",
     "originalAirDate": "February 17, 2013",
-    "productionCode": "RABF05"
+    "productionCode": "RABF05",
+    "synopsis": "Milhouse explores the perks of being an adult when Bart shaves off his hair and ends up looking exactly like his father, Kirk. Meanwhile, Marge tries to save the kids from the dangers of children's TV",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c5/Hardly_Kirk-ing_promo_1.jpg"
   },
   {
     "season": 24,
@@ -5736,7 +5768,9 @@
     "title": "Gorgeous Grampa",
     "url": "http://simpsonswiki.com/wiki/Gorgeous_Grampa",
     "originalAirDate": "March 3, 2013",
-    "productionCode": "RABF06"
+    "productionCode": "RABF06",
+    "synopsis": "Homer's addiction to the show Storage Battles leads to the family finding a storage locker filled with Grampa's old wrestling memorabilia. After confronting Grampa with it, Mr. Burns brings Grampa back into the world of wrestling, with Grampa becoming Glamorous Godfrey once more. But, the effect it has on Bart starts to eat at his conscience",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/ab/Gorgeous_Grampa_promo_2.jpg"
   },
   {
     "season": 24,
@@ -5745,7 +5779,9 @@
     "title": "Black-Eyed, Please",
     "url": "http://simpsonswiki.com/wiki/Black-Eyed,_Please",
     "originalAirDate": "March 10, 2013",
-    "productionCode": "RABF09"
+    "productionCode": "RABF09",
+    "synopsis": "Lisa's new substitute teacher takes an instant dislike to her, bullying her for seemingly no reason whatsoever; after he impetuously punches Homer when his parents prefer his company over his, Ned desperately tries to make amends",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/38/Black-Eyed%2C_Please_promo_1.jpg"
   },
   {
     "season": 24,
@@ -5754,7 +5790,9 @@
     "title": "Dark Knight Court",
     "url": "http://simpsonswiki.com/wiki/Dark_Knight_Court",
     "originalAirDate": "March 17, 2013",
-    "productionCode": "RABF10"
+    "productionCode": "RABF10",
+    "synopsis": "Bart is falsely accused of pulling an Easter prank on the school marching band (stuffing rotten eggs in the brass section's horns), and Lisa must step in as his attorney to defend her brother. Meanwhile, Mr. Burns attempts to fulfill his lifelong dream of becoming a superhero, Fruit Bat Man",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/88/Dark_Knight_Court_promo_3.jpg"
   },
   {
     "season": 24,
@@ -5763,7 +5801,9 @@
     "title": "What Animated Women Want",
     "url": "http://simpsonswiki.com/wiki/What_Animated_Women_Want",
     "originalAirDate": "April 14, 2013",
-    "productionCode": "RABF08"
+    "productionCode": "RABF08",
+    "synopsis": "Wanda Sykes and George Takei guest voice as a couple experiencing marital differences. After watching A Streetcar Named Desire, Milhouse takes on a Marlon Brando-inspired bad-boy persona to attract Lisa. Milhouse seeks then advice from the school counselor. Homer tries to save his marriage by becoming a better man and fulfilling old promises when Marge becomes fed up with his behavior and he seeks advice from his local sushi chef",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/2b/What_Animated_Women_Want_Promo_1.jpg"
   },
   {
     "season": 24,
@@ -5772,7 +5812,9 @@
     "title": "Pulpit Friction",
     "url": "http://simpsonswiki.com/wiki/Pulpit_Friction",
     "originalAirDate": "April 28, 2013",
-    "productionCode": "RABF11"
+    "productionCode": "RABF11",
+    "synopsis": "The Simpsons get more than they bargained for when they replace their old couch – bed bugs! The bugs spread, and so does the terror, to the extent Reverend Lovejoy can't cope. The Parson arrives and introduces a new minister, Reverend Elijah Hooper; soon, Lovejoy finds the town prefer the new minister over him, with the exception of Ned Flanders – and Bart? Meanwhile, Marge chases her wedding dress down after the dry cleaners mistakenly swapped it with one of Krusty's costumes",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/00/Pulpit_Friction_Promo_1.jpg"
   },
   {
     "season": 24,
@@ -5781,7 +5823,9 @@
     "title": "Whiskey Business",
     "url": "http://simpsonswiki.com/wiki/Whiskey_Business",
     "originalAirDate": "May 5, 2013",
-    "productionCode": "RABF13"
+    "productionCode": "RABF13",
+    "synopsis": "Sonny Rollins appears as a hologram to Lisa when she takes exception to a \"Tupac-at-Coachella\"-style hologram of blues icon Bleeding Gums Murphy and starts a letter writing campaign to stop this holographic exploitation. Grampa injures himself while babysitting Bart, and quickly discovers he prefers being cared for by his grandson than the staff at the nursing home and Moe finds a new lease on life when rich venture capitalists take an interest in his homemade bourbon after Marge and Homer help him",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/92/Whiskey_Business_Promo_1.jpg"
   },
   {
     "season": 24,
@@ -5791,6 +5835,8 @@
     "url": "http://simpsonswiki.com/wiki/The_Fabulous_Faker_Boy",
     "originalAirDate": "May 12, 2013",
     "productionCode": "RABF12",
+    "synopsis": "Marge encourages Bart to explore his creative side and take music lessons and Bart develops a crush on his beautiful piano teacher, Zhenya. To pay for Bart's music lessons, Marge agrees to be Slava's driving instructor. Homer is shocked when he loses the last two remaining hairs on his head and Patrick Stewart teaches Homer how to live with his newfound baldness. Justin Bieber tries to get into a talent show that Bart is playing piano in and they won't admit him",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1f/The_Fabulous_Faker_Boy_Promo_1.jpg",
     "quotes": "\"Ah Mr Homer, I see you are wearing the bald man's beret\" (Apu)~\"I'm sorry, did my voice go all evil? It is common with Russian accent\" (Slava)"
   },
   {
@@ -5800,7 +5846,9 @@
     "title": "The Saga of Carl",
     "url": "http://simpsonswiki.com/wiki/The_Saga_of_Carl",
     "originalAirDate": "May 19, 2013",
-    "productionCode": "RABF14"
+    "productionCode": "RABF14",
+    "synopsis": "It's a stroke of luck when Homer, Moe, Lenny and Carl's syndicate wins the Springfield Lottery. But when Carl goes to collect the cash, it's treachery - when he disappears with the winnings. Following a set of clues, the gang venture into Carl's homeland, Iceland, and discover the truth to his backstory and justification for his betrayal",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c1/The_Saga_of_Carl_promo_4.jpg"
   },
   {
     "season": 24,
@@ -5809,7 +5857,9 @@
     "title": "Dangers on a Train",
     "url": "http://simpsonswiki.com/wiki/Dangers_on_a_Train",
     "originalAirDate": "May 19, 2013",
-    "productionCode": "RABF17"
+    "productionCode": "RABF17",
+    "synopsis": "Looking for a cupcake website, Marge mistakenly ends up on an online dating network for married people to arrange affairs. There she encounters Ben, who tries to seduce her based on their mutual love of TV series Upton Rectory, mostly over the phone",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/03/Dangers_on_a_Train_promo_8.jpg"
   },
   {
     "season": 25,
@@ -5818,7 +5868,9 @@
     "title": "Homerland",
     "url": "http://simpsonswiki.com/wiki/Homerland",
     "originalAirDate": "September 29, 2013",
-    "productionCode": "RABF20"
+    "productionCode": "RABF20",
+    "synopsis": "Lisa becomes suspicious when Homer appears to have been \"turned\" after a Springfield Nuclear Power Plant convention, and enlists the services of intense, jumpy FBI agent Annie Crawford to help her unravel the truth",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/de/Homerland_3.png"
   },
   {
     "season": 25,
@@ -5827,7 +5879,9 @@
     "title": "Treehouse of Horror XXIV",
     "url": "http://simpsonswiki.com/wiki/Treehouse_of_Horror_XXIV",
     "originalAirDate": "October 6, 2013",
-    "productionCode": "RABF16"
+    "productionCode": "RABF16",
+    "synopsis": "In \"Oh The Places You'll D'oh,\" the first of three spine-tingling stories, Homer rides around Springfield wreaking havoc as The Fat In The Hat in a rhyming Dr. Seuss-ian tale. In \"Dead and Shoulders,\" Bart is beheaded during a kite accident, his head is attached to Lisa's body and they must live together as one. The final terrifying tale, \"Freaks no Geeks,\" features Mr. Burns' traveling circus, The Burnsum and Bailey Circus, which has stopped in Springfieldland in the 1930s. Trapeze artist Marge and Strong Man Homer are performers and things go awry when circus freak Moe starts to make advances towards Marge",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/75/Treehouse_of_Horror_XXIV_1.png"
   },
   {
     "season": 25,
@@ -5836,7 +5890,9 @@
     "title": "Four Regrettings and a Funeral",
     "url": "http://simpsonswiki.com/wiki/Four_Regrettings_and_a_Funeral",
     "originalAirDate": "November 3, 2013",
-    "productionCode": "RABF18"
+    "productionCode": "RABF18",
+    "synopsis": "Four Springfielders are prompted to try to right past regrets following the funeral of a beloved neighbor. Homer regrets selling his Apple stock to buy a bowling ball, Marge worries she caused Bart's rebellious streak, Mr. Burns reminisces about a romance he gave up with a beautiful Parisian woman and Kent Brockman admits he was too afraid to leave local news and follow his former partner Rachel Maddow (guest appearing as herself) to cable news",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/74/Four_Regrettings_and_a_Funeral_promo_6.jpg"
   },
   {
     "season": 25,
@@ -5845,7 +5901,9 @@
     "title": "YOLO",
     "url": "http://simpsonswiki.com/wiki/YOLO",
     "originalAirDate": "November 10, 2013",
-    "productionCode": "RABF22"
+    "productionCode": "RABF22",
+    "synopsis": "Homer's down-in-the-dumps after he realizes you only live once, so Marge encourages him to embrace his YOLO spirit, and she invites his old pen pal to stay and cross items off his 'to-do/dream list' from when he was 10-years-old. Meanwhile, Springfield Elementary's cheating scandal is resolved, or seems to be, when Lisa institutes a new honor code",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3b/YOLO_promo_2.jpg"
   },
   {
     "season": 25,
@@ -5854,7 +5912,9 @@
     "title": "Labor Pains",
     "url": "http://simpsonswiki.com/wiki/Labor_Pains",
     "originalAirDate": "November 17, 2013",
-    "productionCode": "RABF19"
+    "productionCode": "RABF19",
+    "synopsis": "Homer remembers his Lamaze skills when he's forced to deliver a baby in an elevator. When the mother names the child Homer Jr., he quickly develops a deep emotional bond with the kid. Meanwhile, Lisa is recruited by the cheerleaders of the local pro football team, the Springfield Atoms",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/68/Labor_Pains_promo_2.jpg"
   },
   {
     "season": 25,
@@ -5863,7 +5923,9 @@
     "title": "The Kid is All Right",
     "url": "http://simpsonswiki.com/wiki/The_Kid_is_All_Right",
     "originalAirDate": "November 24, 2013",
-    "productionCode": "SABF02"
+    "productionCode": "SABF02",
+    "synopsis": "Isabel Gutierrez, a new student at Springfield Elementary, causes a stir when she ends up running against Lisa in the second-grade debate, where Lisa discovers Isabel is a Republican. Lisa's views on Republicans are mixed and tries to make her mind up, whilst Isabel is being hounded to partake in a future presidency campaign by the Springfield Republican Party",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/53/The_Kid_is_All_Right_promo_4.jpg"
   },
   {
     "season": 25,
@@ -5872,7 +5934,9 @@
     "title": "Yellow Subterfuge",
     "url": "http://simpsonswiki.com/wiki/Yellow_Subterfuge",
     "originalAirDate": "December 8, 2013",
-    "productionCode": "SABF04"
+    "productionCode": "SABF04",
+    "synopsis": "Principal Skinner promises the students that the best-behaved among them can take a ride in a submarine. When Skinner gives all the kids a clean slate, Bart believes even his own past indiscretions will be forgotten if he doesn't get into any more trouble. Meanwhile, Lisa tries to help a cash-poor Krusty to turn things around by suggesting he sell the foreign rights to his shows",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/ad/Yellow_Subterfuge_promo.jpg"
   },
   {
     "season": 25,
@@ -5881,7 +5945,9 @@
     "title": "White Christmas Blues",
     "url": "http://simpsonswiki.com/wiki/White_Christmas_Blues",
     "originalAirDate": "December 15, 2013",
-    "productionCode": "SABF01"
+    "productionCode": "SABF01",
+    "synopsis": "Springfield is inundated with holiday revelers after the nuclear power plant springs a radiation leak, causing snow to fall all over town. When the tourists drive up Christmas shopping prices, Marge opens up the Simpsons' house to boarders",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e6/White_Christmas_Blues_promo.jpg"
   },
   {
     "season": 25,
@@ -5890,7 +5956,9 @@
     "title": "Steal This Episode",
     "url": "http://simpsonswiki.com/wiki/Steal_This_Episode",
     "originalAirDate": "January 5, 2014",
-    "productionCode": "SABF05"
+    "productionCode": "SABF05",
+    "synopsis": "Homer becomes annoyed with movie theaters, so Bart teaches him how to download movies illegally. Homer is delighted with his discovery of free movies until he's caught for piracy. Deputy Director Gratman, the FBI's anti-piracy boss, is tasked with hunting down Homer, who stands accused of illegally downloading a film",
+    "imageUrl": "https://static.simpsonswiki.com/images/7/70/Steal_This_Episode_promo_4.jpg"
   },
   {
     "season": 25,
@@ -5899,7 +5967,9 @@
     "title": "Married to the Blob",
     "url": "http://simpsonswiki.com/wiki/Married_to_the_Blob",
     "originalAirDate": "January 12, 2014",
-    "productionCode": "SABF03"
+    "productionCode": "SABF03",
+    "synopsis": "Homer stands to ruin a blossoming relationship between Comic Book Guy and an attractive young Japanese woman/manga fan named Kumiko and he getting married. Stan Lee swings by Comic Book Guy's store and doles out some advice on comics, romance, and, yes, romance comics",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e5/Married_to_the_Blob_promo_3.jpg"
   },
   {
     "season": 25,
@@ -5908,7 +5978,9 @@
     "title": "Specs and the City",
     "url": "http://simpsonswiki.com/wiki/Specs_and_the_City",
     "originalAirDate": "January 26, 2014",
-    "productionCode": "SABF06"
+    "productionCode": "SABF06",
+    "synopsis": "Mr. Burns gives high-tech eyeglasses to all of his employees in order to spy on them. Homer loves the enhanced reality of his new gadget – that is, until Marge tries them on and he finds out she's seeing a marriage counselor. Meanwhile, Bart takes a stand against buying Nelson a Valentine's Day card, despite buying one for every other kid in class, and Nelson delivers him an ultimatum: find him the best Valentine's Day gift ever or be fed to the classroom electric pencil sharpener",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/52/Specs_and_the_City_promo_2.jpg"
   },
   {
     "season": 25,
@@ -5917,7 +5989,9 @@
     "title": "Diggs",
     "url": "http://simpsonswiki.com/wiki/Diggs",
     "originalAirDate": "March 9, 2014",
-    "productionCode": "SABF08"
+    "productionCode": "SABF08",
+    "synopsis": "Bart is rescued from a confrontation with Springfield Elementary's bullies by Diggs, a recent transfer student and aspiring champion in the niche sport of falconry. But Bart soon discovers that Diggs harbors aspirations on a far more grand scale than wrangling falcons: he actually wants to take to the sky himself",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/dc/Diggs_promo_1.jpg"
   },
   {
     "season": 25,
@@ -5926,7 +6000,9 @@
     "title": "The Man Who Grew Too Much",
     "url": "http://simpsonswiki.com/wiki/The_Man_Who_Grew_Too_Much",
     "originalAirDate": "March 9, 2014",
-    "productionCode": "SABF07"
+    "productionCode": "SABF07",
+    "synopsis": "On a research trip, Lisa is shocked to discover that Sideshow Bob is now the chief scientist at a massive chemical engineering company, but her fears are allayed as she becomes enamored with his like-minded appreciation of high-culture. Meanwhile, Marge's attempt to preach healthy sexual practices to a teen church group goes awry",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c6/The_Man_Who_Grew_Too_Much_promo_2.jpg"
   },
   {
     "season": 25,
@@ -5935,7 +6011,9 @@
     "title": "The Winter of His Content",
     "url": "http://simpsonswiki.com/wiki/The_Winter_of_His_Content",
     "originalAirDate": "March 16, 2014",
-    "productionCode": "SABF09"
+    "productionCode": "SABF09",
+    "synopsis": "Marge invites Grampa and two other octogenarians to live at the Simpsons' house after the Retirement Castle is closed for health violations, but she quickly becomes frustrated with Homer when he starts embracing the \"old person lifestyle.\" Meanwhile, at Springfield Elementary, Bart defends Nelson's affinity for hand-me-down underwear, leading Nelson to befriend Bart",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/8f/The_Winter_of_His_Content_promo_1.jpg"
   },
   {
     "season": 25,
@@ -5944,7 +6022,9 @@
     "title": "The War of Art",
     "url": "http://simpsonswiki.com/wiki/The_War_of_Art",
     "originalAirDate": "March 23, 2014",
-    "productionCode": "SABF10"
+    "productionCode": "SABF10",
+    "synopsis": "After Lisa's new pet guinea pig destroys the Simpsons' living room art, Marge falls in love with a beautiful painting at the Van Houten's yard sale, which Homer snaps up for 20 bucks. But, when Lisa reveals it's by a famous early 20th century painter and could be worth $100,000, Marge and Homer face a dilemma: split the money with the Van Houtens, or keep the cash as a \"cushion\" for their kids",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3b/The_War_of_Art_promo_1.jpg"
   },
   {
     "season": 25,
@@ -5953,7 +6033,9 @@
     "title": "You Don't Have to Live Like a Referee",
     "url": "http://simpsonswiki.com/wiki/You_Don%27t_Have_to_Live_Like_a_Referee",
     "originalAirDate": "March 30, 2014",
-    "productionCode": "SABF11"
+    "productionCode": "SABF11",
+    "synopsis": "Pressed for a topic at a Springfield Elementary School speech contest, Lisa gives a speech where she praises Homer's honesty and integrity as a soccer referee. A video of her speech goes viral on the Internet, and FIFA officials recruit Homer to referee the World Cup in Brazil. The Simpson family go to Brazil, where Homer is quickly lauded by commentators for his fair and honest officiating. However, his integrity is quickly put to the test by the bribery attempts of local gangsters seeking to influence the outcome of the World Cup. Meanwhile, Marge struggles to learn enough Portuguese to make herself understood in Brazil",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/38/You_Don%27t_Have_to_Live_Like_a_Referee_promo_4.jpg"
   },
   {
     "season": 25,
@@ -5962,7 +6044,9 @@
     "title": "Luca$",
     "url": "http://simpsonswiki.com/wiki/Luca$",
     "originalAirDate": "April 6, 2014",
-    "productionCode": "SABF12"
+    "productionCode": "SABF12",
+    "synopsis": "Lisa is charmed when she meets competitive eater-in-training Lucas Bortner, and she agrees to help him with his 'career'. Marge is worried Lisa is falling for someone like Homer. Meanwhile, Bart saves Snake from the police and in gratitude, Snake rewards him stolen gifts. But, when Milhouse's MyPad is stolen, Snake ends up, confoundedly, back in the slammer",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/37/Luca%24_promo_5.jpg"
   },
   {
     "season": 25,
@@ -5971,7 +6055,9 @@
     "title": "Days of Future Future",
     "url": "http://simpsonswiki.com/wiki/Days_of_Future_Future",
     "originalAirDate": "April 13, 2014",
-    "productionCode": "SABF13"
+    "productionCode": "SABF13",
+    "synopsis": "Set in the future, Homer has a new clone for every time he dies. Lisa is married to a zombie version of Milhouse, while Bart deals with custody issues with his ex-wife, Jenda. Each defines what love means to them",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b9/Days_of_Future_Future_promo_4.jpg"
   },
   {
     "season": 25,
@@ -5980,7 +6066,9 @@
     "title": "What to Expect When Bart's Expecting",
     "url": "http://simpsonswiki.com/wiki/What_to_Expect_When_Bart%27s_Expecting",
     "originalAirDate": "April 27, 2014",
-    "productionCode": "SABF14"
+    "productionCode": "SABF14",
+    "synopsis": "Bart hates art class, and so, to try and get it off his timetable, uses voodoo to inadvertently impregnate his teacher. Word quickly spreads around which leads people to believe that Bart has the ability to aid couples trying to conceive children. But Fat Tony also gets wind of this, and kidnaps Bart and Homer, forcing them to breed a thoroughbred racing horse, but it appears the prospective father has other ideas",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/4f/What_to_Expect_When_Bart%27s_Expecting_promo_3.jpg"
   },
   {
     "season": 25,
@@ -5989,7 +6077,9 @@
     "title": "Brick Like Me",
     "url": "http://simpsonswiki.com/wiki/Brick_Like_Me",
     "originalAirDate": "May 4, 2014",
-    "productionCode": "RABF21"
+    "productionCode": "RABF21",
+    "synopsis": "Homer wakes up in a world where his family and everyone in Springfield are made of LEGO and must \"put together\" how he got there to get home",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/55/Brick_Like_Me_promo_3.jpg"
   },
   {
     "season": 25,
@@ -5998,7 +6088,9 @@
     "title": "Pay Pal",
     "url": "http://simpsonswiki.com/wiki/Pay_Pal",
     "originalAirDate": "May 11, 2014",
-    "productionCode": "SABF15"
+    "productionCode": "SABF15",
+    "synopsis": "Marge swears off befriending any more couples when Homer offends their charming new British neighbors. But when Lisa declares that she, too, doesn't need friends, Marge reconsiders",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/49/Pay_Pal_promo_3.jpg"
   },
   {
     "season": 25,
@@ -6007,7 +6099,9 @@
     "title": "The Yellow Badge of Cowardge",
     "url": "http://simpsonswiki.com/wiki/The_Yellow_Badge_of_Cowardge",
     "originalAirDate": "May 18, 2014",
-    "productionCode": "SABF18"
+    "productionCode": "SABF18",
+    "synopsis": "Bart is plagued with guilt when he wins the annual \"last day of school\" race around Springfield Elementary, with an assist from Nelson, who beats up frontrunner Milhouse. Meanwhile, Homer tries to bring back the annual 4th of July fireworks display after it's canceled for budget reasons",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d3/The_Yellow_Badge_of_Cowardge_promo_1.jpg"
   },
   {
     "season": 26,
