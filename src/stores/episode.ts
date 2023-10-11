@@ -39,7 +39,7 @@ export const useEpisodeStore = defineStore("episode", () => {
 
   async function importEpisodeData(): Promise<void> {
     const modules = import.meta.glob(
-      "@/assets/data/the-simpsons-episodes.json",
+      "@/assets/data/the-simpsons-episodes.json"
     );
     for (const path in modules) {
       await modules[path]().then((mod: any) => {
@@ -56,12 +56,12 @@ export const useEpisodeStore = defineStore("episode", () => {
   function getPreviousSeason(): void {
     if (currentEpisode.season > 1) {
       currentEpisodeIndex = episodeData.findIndex(
-        (x) => x.season == currentEpisode.season - 1 && x.episode == 1,
+        (x) => x.season == currentEpisode.season - 1 && x.episode == 1
       );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     } else if (currentEpisode.season == 1) {
       currentEpisodeIndex = episodeData.findIndex(
-        (x) => x.season == latestSeason && x.episode == 1,
+        (x) => x.season == latestSeason && x.episode == 1
       );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
@@ -90,12 +90,12 @@ export const useEpisodeStore = defineStore("episode", () => {
   function getNextSeason(): void {
     if (currentEpisode.season < latestSeason) {
       currentEpisodeIndex = episodeData.findIndex(
-        (x) => x.season == currentEpisode.season + 1 && x.episode == 1,
+        (x) => x.season == currentEpisode.season + 1 && x.episode == 1
       );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     } else if (currentEpisode.season == latestSeason) {
       currentEpisodeIndex = episodeData.findIndex(
-        (x) => x.season == 1 && x.episode == 1,
+        (x) => x.season == 1 && x.episode == 1
       );
       updateCurrentEpisode(episodeData[currentEpisodeIndex]);
     }
@@ -112,18 +112,29 @@ export const useEpisodeStore = defineStore("episode", () => {
     synopsis.value = newEpisode.synopsis ?? placeholderSynopsis;
     imageUrl.value = newEpisode.imageUrl ?? placeholderImage;
     quotes.value = newEpisode.quotes;
-    rating.value = getCurrentEpisodeRating(currentEpisode.productionCode);
+    rating.value = getEpisodeRating(
+      newEpisode.productionCode,
+      newEpisode.rating
+    );
   }
 
   function saveCurrentEpisodeRating(newRating: number): void {
     currentEpisode.rating = newRating;
     localStorage.setItem(
       localStorageKeyPrefix + currentEpisode.productionCode,
-      currentEpisode.rating.toString(),
+      currentEpisode.rating.toString()
     );
   }
 
-  function getCurrentEpisodeRating(productionCode: string): number {
+  function getEpisodeRating(productionCode: string, rating: number): number {
+    const localCacheRating = getEpisodeRatingFromLocalCache(productionCode);
+    if (localCacheRating == 0) {
+      return rating;
+    }
+    return localCacheRating;
+  }
+
+  function getEpisodeRatingFromLocalCache(productionCode: string): number {
     const rating = localStorage.getItem(localStorageKeyPrefix + productionCode);
     return rating ? parseFloat(rating) : 0;
   }
