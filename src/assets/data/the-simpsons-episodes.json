@@ -35,7 +35,8 @@
     "productionCode": "7G03",
     "synopsis": "Homer's fired from his job as technical supervisor at the Springfield Nuclear Plant. Unable to provide for his family, he contemplates ending it all - until he discovers a new life path as a campaigner for safety",
     "imageUrl": "https://static.simpsonswiki.com/images/e/ed/Homer%27s_Odyssey_%28Mr._Burns_Looking_Out_the_Window%29.png",
-    "rating": 3.5
+    "rating": 3.5,
+    "quotes": "\"Hold on, I'll check. Uh, is I.P. Freely here? Hey everybody, I.P. Freely!\" (Moe)~\"All he does is lie there like an unemployed whale\" (Bart)~\"Damn it! I'm no supervising technician. I'm a technical supervisor\" (Homer)~\"Beer! Now there's a temporary solution\" (Homer)~\"Our city is under siege by a graffiti vandal known as 'El Barto'\" (Chief Wiggum)\n"
   },
   {
     "season": 1,
@@ -47,7 +48,8 @@
     "productionCode": "7G04",
     "synopsis": "After an embarrassing experience at the company picnic, Homer begins to wonder if his family's too dysfunctional. Homer, Marge, Bart, Lisa and Maggie attend family therapy sessions with Dr. Marvin Monroe, an unorthodox psychotherapist who uses shock therapy to \"cure\" them",
     "imageUrl": "https://static.simpsonswiki.com/images/2/22/Bart_is_shocked.png",
-    "rating": 3
+    "rating": 3,
+    "quotes": "\"The answer to life's problems aren't at the bottom of a bottle. They're on TV!\" (Homer)~\"Bart, how could you shock your little sister?\n\" (Marge)~\"Excellent, excellent! Perhaps this energy conservation fad is as dead as the dodo\" (Mr. Burns)\n"
   },
   {
     "season": 1,
@@ -58,7 +60,9 @@
     "originalAirDate": "February 4, 1990",
     "productionCode": "7G05",
     "synopsis": "After defending Lisa from school bully Nelson Muntz, Bart becomes Nelson's latest school bullying target. Sick of the harassment and torment, Bart, Abraham Simpson, and Herman Hermann (a slightly deranged military antique store dealer with a missing arm) rally the town's children into fighting back against Nelson and his cronies",
-    "imageUrl": "https://static.simpsonswiki.com/images/5/5f/General_Bart_%28Bart_the_General%29.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5f/General_Bart_%28Bart_the_General%29.png",
+    "rating": 4,
+    "quotes": "\"Here let me help you dry those tears\" (Homer)~\"He's pretty dumb. He's in all the special classes I am\" (Bart)~\"I thought I'd never hear the screams of pain or see the look of terror in a young man's eyes. Thank Heaven for children\" (Abe)~\"Peace man\" (Bart)"
   },
   {
     "season": 1,
@@ -69,7 +73,8 @@
     "originalAirDate": "February 11, 1990",
     "productionCode": "7G06",
     "synopsis": "Lisa meets a new friend, Bleeding Gums Murphy, a jazz musician who helps her cope with the blues. Meanwhile, Bart and Homer duke it out in video game boxing",
-    "imageUrl": "https://static.simpsonswiki.com/images/6/65/Moaning_Lisa.jpg"
+    "imageUrl": "https://static.simpsonswiki.com/images/6/65/Moaning_Lisa.jpg",
+    "rating": 5
   },
   {
     "season": 1,
@@ -80,7 +85,8 @@
     "originalAirDate": "February 18, 1990",
     "productionCode": "7G09",
     "synopsis": "It's a camping misadventure for the Simpsons. First, they're lost in the woods and lose all of their camping equipment. Bart and Homer try to get help, but are washed down a waterfall, and lose all of their clothes. Meanwhile, Maggie meets up with some bears, while Homer's confused for Bigfoot after he goes in a mud pile",
-    "imageUrl": "https://static.simpsonswiki.com/images/7/7d/The_Call_of_the_Simpsons.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/7/7d/The_Call_of_the_Simpsons.png",
+    "rating": 5
   },
   {
     "season": 1,
@@ -91,7 +97,8 @@
     "originalAirDate": "February 25, 1990",
     "productionCode": "7G07",
     "synopsis": "Bart Simpson cuts off Jebediah Springfield's statue's head to be cool to some bullies, but the whole city gets angry and starts looking for the vandal",
-    "imageUrl": "https://static.simpsonswiki.com/images/d/da/Bart_Worried_About_the_Statue_%28The_Telltale_Head%29.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/d/da/Bart_Worried_About_the_Statue_%28The_Telltale_Head%29.png",
+    "rating": 4
   },
   {
     "season": 1,
@@ -102,7 +109,8 @@
     "originalAirDate": "March 18, 1990",
     "productionCode": "7G11",
     "synopsis": "Homer buys Marge a bowling ball for her birthday, but she accuses him of only buying it for himself - true, right down to the Homer engraving on the ball. To spite him, she begins to learn how to bowl, helped by Jacques, with whom she becomes quite attached to. Homer suspects something when Jacques invites Marge to his apartment, but Marge changes her plans and goes to the power plant to see her husband instead",
-    "imageUrl": "https://static.simpsonswiki.com/images/1/1e/Life_on_the_Fast_Lane.jpg"
+    "imageUrl": "https://static.simpsonswiki.com/images/1/1e/Life_on_the_Fast_Lane.jpg",
+    "rating": 5
   },
   {
     "season": 1,
@@ -113,7 +121,8 @@
     "originalAirDate": "March 25, 1990",
     "productionCode": "7G10",
     "synopsis": "Bart purchases a spy camera through a catalog, and Homer goes to a stag party at a local restaurant. The rest of the family also go to the restaurant coincidentally, and Bart snaps a picture of Homer dancing with a belly dancer, named Princess Kashmir. Soon, all of Springfield sees the picture, and Marge orders him out of the house. Homer takes Bart to a burlesque show to explain how he shouldn't take advantage of women",
-    "imageUrl": "https://static.simpsonswiki.com/images/c/cc/Princess_Kashmir_%26_Homer.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/c/cc/Princess_Kashmir_%26_Homer.png",
+    "rating": 5
   },
   {
     "season": 1,
@@ -124,7 +133,8 @@
     "originalAirDate": "April 15, 1990",
     "productionCode": "7G13",
     "synopsis": "When Bart flushes a cherry bomb down the toilet, Principal Skinner suggests he should partake in a foreign exchange scheme. Bart ends up in France, working for some crooks who want to put antifreeze in wine. Meanwhile, back in Springfield, Adil Hoxha, an Albanian boy, is exchanged to the Simpsons to receive in the scheme, shows an interest in the power plant, and sends information back to the Albanian government",
-    "imageUrl": "https://static.simpsonswiki.com/images/d/d3/The_Crepes_of_Wrath.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d3/The_Crepes_of_Wrath.png",
+    "rating": 5
   },
   {
     "season": 1,
@@ -135,7 +145,8 @@
     "originalAirDate": "April 29, 1990",
     "productionCode": "7G12",
     "synopsis": "No one's sadder than Bart when his TV hero Krusty the Clown's arrested for a convenience-store robbery, and witness Homer has to testify against the clown",
-    "imageUrl": "https://static.simpsonswiki.com/images/6/6d/Krusty_Gets_Busted_title_card.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6d/Krusty_Gets_Busted_title_card.png",
+    "rating": 3.5
   },
   {
     "season": 1,
@@ -146,7 +157,8 @@
     "originalAirDate": "May 13, 1990",
     "productionCode": "7G01",
     "synopsis": "Homer and Marge go out for dinner one night while having Bart, Lisa and Maggie watched by a babysitter named Ms. Botz. Unbeknownst to the family, Botz is known as a wanted bandit for babysitting and she's covering her identity while Homer and Marge spend their time fairly",
-    "imageUrl": "https://static.simpsonswiki.com/images/b/b7/Some_Enchanted_Evening.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b7/Some_Enchanted_Evening.png",
+    "rating": 3.5
   },
   {
     "season": 2,
@@ -157,7 +169,8 @@
     "originalAirDate": "October 11, 1990",
     "productionCode": "7F03",
     "synopsis": "Mrs. Krabappel warns Bart his grades are slipping, and if he fails another test, he may probably have to repeat the fourth grade. In a last-ditch effort to avoid being held back, Bart enlists the aid of the class brain and nerd (Martin Prince) to help him pass a history test",
-    "imageUrl": "https://static.simpsonswiki.com/images/e/e7/Martin_%26_Bart_-_Bart_Gets_an_%22F%22.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/e/e7/Martin_%26_Bart_-_Bart_Gets_an_%22F%22.png",
+    "rating": 3
   },
   {
     "season": 2,
@@ -168,7 +181,8 @@
     "originalAirDate": "October 18, 1990",
     "productionCode": "7F02",
     "synopsis": "Homer tries a new hair growth formula - Dimoxinil - and wakes up with a head full of hair",
-    "imageUrl": "https://static.simpsonswiki.com/images/d/dc/Simpson_and_Delilah.jpg"
+    "imageUrl": "https://static.simpsonswiki.com/images/d/dc/Simpson_and_Delilah.jpg",
+    "rating": 4
   },
   {
     "season": 2,
@@ -179,7 +193,8 @@
     "originalAirDate": "October 25, 1990",
     "productionCode": "7F04",
     "synopsis": "The first of the annual Halloween spook-fest. In \"Bad Dream House\", the family move into an old haunted house, are possessed by an evil spirit, and attempt to kill each other. In \"Hungry are the Damned\", the family's abducted by aliens Kang and Kodos and are fattened up to the extent Lisa questions their motives. In \"The Raven\", a poem by Edgar Allan Poe is recited with the family as characters",
-    "imageUrl": "https://static.simpsonswiki.com/images/6/61/The_Raven_-_Title_Card.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/6/61/The_Raven_-_Title_Card.png",
+    "rating": 5
   },
   {
     "season": 2,
@@ -190,7 +205,8 @@
     "originalAirDate": "November 1, 1990",
     "productionCode": "7F01",
     "synopsis": "Bart catches a three-eyed fish named Blinky in the river by the power plant, and it makes headlines. State nuclear inspectors find numerous safety violations, and order Mr. Burns to fix them or face having the plant closed down. Burns decides to run for governor so he can pass laws which will keep the plant open (by doing away with the regulations costing him so much money). Burns comes very close to having enough support to win the election, and his advisors propose a publicity stunt to put him over the top. As the TV cameras roll, Burns visits the Simpson house for a meal, but the plan backfires when he is presented with Blinky as the main course, and he takes a bite and spits it out",
-    "imageUrl": "https://static.simpsonswiki.com/images/8/84/Two_Cars.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/8/84/Two_Cars.png",
+    "rating": 4
   },
   {
     "season": 2,
@@ -201,7 +217,8 @@
     "originalAirDate": "November 8, 1990",
     "productionCode": "7F05",
     "synopsis": "Homer becomes a baseball mascot for a local team, thanks to his butt-swinging dance to The Baby Elephant Walk. The team's subsequent high scores bring him to the attention of the major league head hunters and big commercial sponsors. But will success spoil Homer?",
-    "imageUrl": "https://static.simpsonswiki.com/images/3/3e/Dancin%27_Homer.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3e/Dancin%27_Homer.png",
+    "rating": 4
   },
   {
     "season": 2,
@@ -212,7 +229,8 @@
     "originalAirDate": "November 15, 1990",
     "productionCode": "7F08",
     "synopsis": "When Homer and Bart bump into Ned and Todd Flanders at the mini golf course, Homer is convinced that his son could beat Todd in the upcoming miniature golf tournament. They both enter, and they place a bet on who will win - the loser having to mow the lawn in his wife's Sunday dress. Lisa researches and helps Bart, but when it comes down to the final, the pair give up and split the prize in half",
-    "imageUrl": "https://static.simpsonswiki.com/images/f/f3/Dead_Putting_Society.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f3/Dead_Putting_Society.png",
+    "rating": 4
   },
   {
     "season": 2,
@@ -223,7 +241,8 @@
     "originalAirDate": "November 22, 1990",
     "productionCode": "7F07",
     "synopsis": "It's Thanksgiving at the Simpsons place-with Homer betting on football and Marge's mother criticizing everything. Bart gets the entire family mad at him and he runs away from home. When he sees what life is like on the seedy side of town (and ends up on the evening news), he realizes how good things are for him and returns home",
-    "imageUrl": "https://static.simpsonswiki.com/images/c/c6/Bart_vs_Thanksgiving.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c6/Bart_vs_Thanksgiving.png",
+    "rating": 3.5
   },
   {
     "season": 2,
@@ -234,7 +253,8 @@
     "originalAirDate": "December 6, 1990",
     "productionCode": "7F06",
     "synopsis": "Bart attempts to follow in the footsteps of his hero, a daredevil named Captain Lance Murdock. As part of becoming a daredevil himself Bart does increasingly dangerous stunts leading to his final stunt: jumping the Springfield Gorge",
-    "imageUrl": "https://static.simpsonswiki.com/images/6/68/Bart_the_Daredevil.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/6/68/Bart_the_Daredevil.png",
+    "rating": 4.5
   },
   {
     "season": 2,
@@ -245,7 +265,8 @@
     "originalAirDate": "December 20, 1990",
     "productionCode": "7F09",
     "synopsis": "After watching an Itchy and Scratchy cartoon, Maggie strikes Homer with a mallet. Horrified, Marge vows to put a stop to violence on children's television. But when the ball of censorship starts to roll, where will it all end?",
-    "imageUrl": "https://static.simpsonswiki.com/images/2/2c/Itchy_%26_Scratchy_%26_Marge.png"
+    "imageUrl": "https://static.simpsonswiki.com/images/2/2c/Itchy_%26_Scratchy_%26_Marge.png",
+    "rating": 3
   },
   {
     "season": 2,
@@ -6594,7 +6615,9 @@
     "title": "Monty Burns' Fleeing Circus",
     "url": "https://simpsonswiki.com/wiki/Monty_Burns%27_Fleeing_Circus",
     "originalAirDate": "September 25, 2016",
-    "productionCode": "VABF20"
+    "productionCode": "VABF20",
+    "synopsis": "When Springfield is burned to the ground, the Simpsons beg Mr. Burns to fund its rebuilding. Burns agrees – with one condition: he gets to put on a variety show at the Springfield Bowl",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/d8/Monty_Burns%27_Fleeing_Circus_promo_1.jpg"
   },
   {
     "season": 28,
@@ -6603,7 +6626,9 @@
     "title": "Friends and Family",
     "url": "https://simpsonswiki.com/wiki/Friends_and_Family",
     "originalAirDate": "October 2, 2016",
-    "productionCode": "VABF18"
+    "productionCode": "VABF18",
+    "synopsis": "Mr. Burns hires the Simpsons to play his live-in virtual reality family, but excludes Homer so that he may play dad. Now alone, Homer finds a new best friend in girl-next-door Julia, who eats, drinks and thinks like him",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/12/Friends_and_Family_promo_1.png"
   },
   {
     "season": 28,
@@ -6612,7 +6637,9 @@
     "title": "The Town",
     "url": "https://simpsonswiki.com/wiki/The_Town",
     "originalAirDate": "October 9, 2016",
-    "productionCode": "VABF17"
+    "productionCode": "VABF17",
+    "synopsis": "After Homer catches Bart rooting for Springfield's football rival, the Boston Americans, he plans a family \"hate-cation\" trip to Boston in an attempt to show Bart that Boston is a terrible city",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/fa/The_Town_promo_1.jpg"
   },
   {
     "season": 28,
@@ -6621,7 +6648,9 @@
     "title": "Treehouse of Horror XXVII",
     "url": "https://simpsonswiki.com/wiki/Treehouse_of_Horror_XXVII",
     "originalAirDate": "October 16, 2016",
-    "productionCode": "VABF16"
+    "productionCode": "VABF16",
+    "synopsis": "1. Dry Hard: In the midst of a major drought, Mr. Burns introduces a Hunger Games-style contest in which Springfield's children fight each other for a day in Burns' personal reservoir. 2. BFF R.I.P.: Meanwhile, Lisa's imaginary best friend, Rachel, is jealous of Lisa's real best friends and starts killing them. 3. Moefinger: Moe tells Bart the barflies are actually covert agents and he wants Bart to join their team in Homer's place",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c7/Treehouse_of_Horror_XXVII_title_card.png"
   },
   {
     "season": 28,
@@ -6630,7 +6659,9 @@
     "title": "Trust but Clarify",
     "url": "https://simpsonswiki.com/wiki/Trust_but_Clarify",
     "originalAirDate": "October 23, 2016",
-    "productionCode": "VABF21"
+    "productionCode": "VABF21",
+    "synopsis": "Lisa and Bart investigate Krusty's suspicious new \"Krustaceans\" candy. Meanwhile, Homer wants a promotion at the nuclear plant and asks Marge to help him dress the part, and news anchor Kent Brockman struggles to find his feet in the changing media world",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6c/Trust_but_Clarify_promo_1.png"
   },
   {
     "season": 28,
@@ -6639,7 +6670,9 @@
     "title": "There Will Be Buds",
     "url": "https://simpsonswiki.com/wiki/There_Will_Be_Buds",
     "originalAirDate": "November 6, 2016",
-    "productionCode": "VABF22"
+    "productionCode": "VABF22",
+    "synopsis": "Homer gets roped into coaching the kids' lacrosse team with Milhouse's dad, Kirk, who is in desperate need of a friend. When Kirk gets too clingy, Homer vents about how much of a loser he is. Kirk overhears his rant and disappears, right when the team needs him most: the championship game",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/03/There_Will_Be_Buds_promo_1.png"
   },
   {
     "season": 28,
@@ -6648,7 +6681,9 @@
     "title": "Havana Wild Weekend",
     "url": "https://simpsonswiki.com/wiki/Havana_Wild_Weekend",
     "originalAirDate": "November 13, 2016",
-    "productionCode": "VABF19"
+    "productionCode": "VABF19",
+    "synopsis": "When the Retirement Castle and the V.A. Hospital can't solve Grampa's health issues, the Simpsons decide to take a family trip to Cuba to get him cheap medical care",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/a9/Havana_Wild_Weekend_promo_1.png"
   },
   {
     "season": 28,
@@ -6657,7 +6692,9 @@
     "title": "Dad Behavior",
     "url": "https://simpsonswiki.com/wiki/Dad_Behavior",
     "originalAirDate": "November 20, 2016",
-    "productionCode": "WABF01"
+    "productionCode": "WABF01",
+    "synopsis": "Homer finds a new app that makes his life much easier and outsources his father-son bonding. Meanwhile, Grampa finds that he is about to be a father again",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/60/Dad_Behavior_promo_1.png"
   },
   {
     "season": 28,
@@ -6666,7 +6703,9 @@
     "title": "The Last Traction Hero",
     "url": "https://simpsonswiki.com/wiki/The_Last_Traction_Hero",
     "originalAirDate": "December 4, 2016",
-    "productionCode": "WABF03"
+    "productionCode": "WABF03",
+    "synopsis": "A workplace accident leaves Homer in a cast, and in a position to sue Mr. Burns. This leaves Marge unfulfilled, so she turns to an unexpected source for romance. Meanwhile, Lisa is made \"Bus Monitor\" and tries to keep the peace",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f2/The_Last_Traction_Hero_promo_1.png"
   },
   {
     "season": 28,
@@ -6675,7 +6714,9 @@
     "title": "The Nightmare After Krustmas",
     "url": "https://simpsonswiki.com/wiki/The_Nightmare_After_Krustmas",
     "originalAirDate": "December 11, 2016",
-    "productionCode": "WABF02"
+    "productionCode": "WABF02",
+    "synopsis": "Krusty tries to impress his daughter as they spend Christmas with the Simpsons. Meanwhile, Reverend Lovejoy seeks converts after church attendance plummets, and Maggie is haunted by a spooky Christmas toy",
+    "imageUrl": "https://static.simpsonswiki.com/images/c/c4/The_Nightmare_After_Krustmas_promo_1.png"
   },
   {
     "season": 28,
@@ -6684,7 +6725,9 @@
     "title": "Pork and Burns",
     "url": "https://simpsonswiki.com/wiki/Pork_and_Burns",
     "originalAirDate": "January 8, 2017",
-    "productionCode": "WABF06"
+    "productionCode": "WABF06",
+    "synopsis": "When Marge becomes obsessed with a Japanese style of living, the Simpsons must part with any item that no longer brings them joy. For Homer, this means finding a new home for the family pig. For Lisa, it means saying goodbye to her beloved sax",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/28/Pork_and_Burns_promo_1.png"
   },
   {
     "season": 28,
@@ -6693,7 +6736,9 @@
     "title": "The Great Phatsby: Part One",
     "url": "https://simpsonswiki.com/wiki/The_Great_Phatsby:_Part_One",
     "originalAirDate": "January 15, 2017",
-    "productionCode": "WABF04"
+    "productionCode": "WABF04",
+    "synopsis": "Mr. Burns tries to relive his glory days, and crosses paths with a mysterious music mogul. Burns is then conned by him and reduced to bankruptcy. Also, Lisa is courted by the richest kid in town and Smithers begins a perilous journey",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/05/The_Great_Phatsby_Part_One_promo_1.png"
   },
   {
     "season": 28,
@@ -6702,7 +6747,9 @@
     "title": "The Great Phatsby: Part Two",
     "url": "https://simpsonswiki.com/wiki/The_Great_Phatsby:_Part_Two",
     "originalAirDate": "January 15, 2017",
-    "productionCode": "WABF05"
+    "productionCode": "WABF05",
+    "synopsis": "After being conned by Jay G and reduced to bankruptcy, Mr. Burns seeks revenge on the music producer with the help of Homer, Bart, rapper Jazzy James and the mogul's ex-wife, Praline. Also, Smithers continues its perilous journey and Marge opens an obscure boutique store",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/91/The_Great_Phatsby_Part_Two_promo_1.png"
   },
   {
     "season": 28,
@@ -6711,7 +6758,9 @@
     "title": "Fatzcarraldo",
     "url": "https://simpsonswiki.com/wiki/Fatzcarraldo",
     "originalAirDate": "February 12, 2017",
-    "productionCode": "WABF07"
+    "productionCode": "WABF07",
+    "synopsis": "When all the fast food restaurants in Springfield become healthy, Homer turns to the last bastion of greasy food for comfort – and digs up some childhood memories along the way. Meanwhile, Lisa must find a good news story when the future of her school radio station is in jeopardy",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5e/Fatzcarraldo_promo_1.png"
   },
   {
     "season": 28,
@@ -6720,7 +6769,9 @@
     "title": "The Cad and the Hat",
     "url": "https://simpsonswiki.com/wiki/The_Cad_and_the_Hat",
     "originalAirDate": "February 19, 2017",
-    "productionCode": "WABF08"
+    "productionCode": "WABF08",
+    "synopsis": "When Bart betrays Lisa, he has to deal with his guilt - literally. Meanwhile, Springfield is in awe when Homer is revealed to be a chess savant",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/38/The_Cad_and_the_Hat_promo_1.png"
   },
   {
     "season": 28,
@@ -6729,7 +6780,9 @@
     "title": "Kamp Krustier",
     "url": "https://simpsonswiki.com/wiki/Kamp_Krustier",
     "originalAirDate": "March 5, 2017",
-    "productionCode": "WABF09"
+    "productionCode": "WABF09",
+    "synopsis": "When Bart and Lisa return home abruptly after a traumatic incident at Kamp Krusty, they put an end to Homer and Marge's romantic encounters. Without sex to distract him, Homer becomes a more productive worker and caring husband, but Marge misses the old Homer. Then, Bart and Lisa return to camp to confront the source of their trauma",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/df/Kamp_Krustier_promo_1.png"
   },
   {
     "season": 28,
@@ -6738,7 +6791,9 @@
     "title": "22 for 30",
     "url": "https://simpsonswiki.com/wiki/22_for_30",
     "originalAirDate": "March 12, 2017",
-    "productionCode": "WABF10"
+    "productionCode": "WABF10",
+    "synopsis": "In this parody of a cable sports show, Bart goes from delinquent with detention to the star basketball player at Springfield Elementary. Lisa covers Bart's success for the school paper, and Homer becomes the team's coach. Things go awry when Bart gets involved with the mafia",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/6e/22_for_30_promo_1.png"
   },
   {
     "season": 28,
@@ -6747,7 +6802,9 @@
     "title": "A Father's Watch",
     "url": "https://simpsonswiki.com/wiki/A_Father%27s_Watch",
     "originalAirDate": "March 19, 2017",
-    "productionCode": "WABF11"
+    "productionCode": "WABF11",
+    "synopsis": "Worried that Bart is destined for failure, Marge turns to a series of parenting \"experts\" for advice. Homer decides to cash in on one expert's advice by opening up a trophy store in Springfield. Meanwhile, Bart finds some needed encouragement from Grampa, who gives him a precious watch coveted by Homer",
+    "imageUrl": "https://static.simpsonswiki.com/images/0/01/A_Father%27s_Watch_promo_2.png"
   },
   {
     "season": 28,
@@ -6756,7 +6813,9 @@
     "title": "The Caper Chase",
     "url": "https://simpsonswiki.com/wiki/The_Caper_Chase",
     "originalAirDate": "April 2, 2017",
-    "productionCode": "WABF12"
+    "productionCode": "WABF12",
+    "synopsis": "Disappointed in Yale, Mr. Burns decides to start his own for-profit university and Homer is hired as a professor",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/60/The_Caper_Chase_promo_3.png"
   },
   {
     "season": 28,
@@ -6765,7 +6824,9 @@
     "title": "Looking for Mr. Goodbart",
     "url": "https://simpsonswiki.com/wiki/Looking_for_Mr._Goodbart",
     "originalAirDate": "April 30, 2017",
-    "productionCode": "WABF13"
+    "productionCode": "WABF13",
+    "synopsis": "Bart gets in trouble on Grandparents Day at school and is forced to hang out with Skinner's mother as punishment. After spending time with various grandmas in the neighborhood, he learns the benefits of hanging out with the elderly, but eventually recognizes the dangers of taking advantage of them. Meanwhile, Peekimon Get has taken over the town of Springfield",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/bf/Looking_for_Mr._Goodbart_promo_1.png"
   },
   {
     "season": 28,
@@ -6774,7 +6835,9 @@
     "title": "Moho House",
     "url": "https://simpsonswiki.com/wiki/Moho_House",
     "originalAirDate": "May 7, 2017",
-    "productionCode": "WABF14"
+    "productionCode": "WABF14",
+    "synopsis": "Homer and Marge attempt to work on their marriage, not knowing that Mr. Burns and Nigel have a bet on whether Nigel can break them apart. With the successful, albeit unconventional, help of Moe, the couple gets back their mojo",
+    "imageUrl": "https://static.simpsonswiki.com/images/d/df/Moho_House_promo_2.png"
   },
   {
     "season": 28,
@@ -6783,7 +6846,9 @@
     "title": "Dogtown",
     "url": "https://simpsonswiki.com/wiki/Dogtown",
     "originalAirDate": "May 21, 2017",
-    "productionCode": "WABF15"
+    "productionCode": "WABF15",
+    "synopsis": "When Homer's court case determines that a dog's life is more valuable than a human's is, the status of man's best friend rises in Springfield. When the dogs recognize their new position of power, they assert their dominance over the humans",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/13/Dogtown_promo_2.png"
   },
   {
     "season": 29,
@@ -6792,7 +6857,9 @@
     "title": "The Serfsons",
     "url": "https://simpsonswiki.com/wiki/The_Serfsons",
     "originalAirDate": "October 1, 2017",
-    "productionCode": "WABF17"
+    "productionCode": "WABF17",
+    "synopsis": "In a magical medieval world, Marge's mother is turned into an Ice Walker and the only way for Homer to afford the cure is to force Lisa to use illegal magic. When the King discovers this, he kidnaps Lisa, and Homer must lead a feudal uprising to save her",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9c/The_Serfsons_promo_1.png"
   },
   {
     "season": 29,
@@ -6801,7 +6868,9 @@
     "title": "Springfield Splendor",
     "url": "https://simpsonswiki.com/wiki/Springfield_Splendor",
     "originalAirDate": "October 8, 2017",
-    "productionCode": "WABF22"
+    "productionCode": "WABF22",
+    "synopsis": "Marge and Lisa turn Lisa's sad experience into a successful graphic novel-turned-Broadway show, but they struggle with creative differences and ego",
+    "imageUrl": "https://static.simpsonswiki.com/images/e/ef/Springfield_Splendor_promo_1.png"
   },
   {
     "season": 29,
@@ -6810,7 +6879,9 @@
     "title": "Whistler's Father",
     "url": "https://simpsonswiki.com/wiki/Whistler%27s_Father",
     "originalAirDate": "October 15, 2017",
-    "productionCode": "WABF16"
+    "productionCode": "WABF16",
+    "synopsis": "Homer discovers that Maggie is a whistling savant and launches her baby-celebrity career. Meanwhile, Marge impresses Fat Tony with her interior design taste, and he hires her to style his brothel",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/2f/Whistler%27s_Father_promo_2.png"
   },
   {
     "season": 29,
@@ -6819,7 +6890,9 @@
     "title": "Treehouse of Horror XXVIII",
     "url": "https://simpsonswiki.com/wiki/Treehouse_of_Horror_XXVIII",
     "originalAirDate": "October 22, 2017",
-    "productionCode": "WABF18"
+    "productionCode": "WABF18",
+    "synopsis": "1. The Exor-Sis: Maggie becomes possessed by an ancient demon. 2. Coralisa: Lisa discovers a creepy/perfect version of her family in an alternate universe. 3. MMM... Homer: Homer cannibalizes himself",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/ba/Treehouse_of_Horror_XXVIII_promo_3.png"
   },
   {
     "season": 29,
@@ -6828,7 +6901,9 @@
     "title": "Grampy Can Ya Hear Me",
     "url": "https://simpsonswiki.com/wiki/Grampy_Can_Ya_Hear_Me",
     "originalAirDate": "November 5, 2017",
-    "productionCode": "WABF19"
+    "productionCode": "WABF19",
+    "synopsis": "Grampa gets a hearing aid and finally hears what everyone has been saying about him. Meanwhile, Principal Skinner discovers that his mother has kept the ultimate secret from him",
+    "imageUrl": "https://static.simpsonswiki.com/images/6/62/Grampy_Can_Ya_Hear_Me_promo_1.png"
   },
   {
     "season": 29,
@@ -6837,7 +6912,9 @@
     "title": "The Old Blue Mayor She Ain't What She Used to Be",
     "url": "https://simpsonswiki.com/wiki/The_Old_Blue_Mayor_She_Ain%27t_What_She_Used_to_Be",
     "originalAirDate": "November 12, 2017",
-    "productionCode": "WABF20"
+    "productionCode": "WABF20",
+    "synopsis": "Frustrated with the local government, Marge decides to run for Mayor. To win public support, she begins making Homer the butt of her jokes",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/56/The_Old_Blue_Mayor_She_Ain%27t_What_She_Used_to_Be_promo_1.png"
   },
   {
     "season": 29,
@@ -6846,7 +6923,9 @@
     "title": "Singin' in the Lane",
     "url": "https://simpsonswiki.com/wiki/Singin%27_in_the_Lane",
     "originalAirDate": "November 19, 2017",
-    "productionCode": "WABF21"
+    "productionCode": "WABF21",
+    "synopsis": "Homer and the guys reunite their old bowling team to cheer up Moe, only to end up in fierce competition with a team of arrogant millionaires. Meanwhile, Lisa and Marge try to teach Bart that money isn't everything",
+    "imageUrl": "https://static.simpsonswiki.com/images/8/80/Singin%27_in_the_Lane_promo_1.png"
   },
   {
     "season": 29,
@@ -6855,7 +6934,9 @@
     "title": "Mr. Lisa's Opus",
     "url": "https://simpsonswiki.com/wiki/Mr._Lisa%27s_Opus",
     "originalAirDate": "December 3, 2017",
-    "productionCode": "XABF01"
+    "productionCode": "XABF01",
+    "synopsis": "Lisa's version of \"Barthood\". Homer discovers how smart she is, she'll go to college, and being scared out of Springfield. Ned will try to cure Homer of his alcohol problem. As future Lisa writes her college application essay for Harvard, she recalls past disappointing birthdays that helped shape her",
+    "imageUrl": "https://static.simpsonswiki.com/images/a/a3/Mr._Lisa%27s_Opus_promo_1.png"
   },
   {
     "season": 29,
@@ -6864,7 +6945,9 @@
     "title": "Gone Boy",
     "url": "https://simpsonswiki.com/wiki/Gone_Boy",
     "originalAirDate": "December 10, 2017",
-    "productionCode": "XABF02"
+    "productionCode": "XABF02",
+    "synopsis": "When Bart goes missing, the town puts together a search party to find him. After most give up hope, Sideshow Bob manipulates Milhouse into revealing where Bart is hiding",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/30/Gone_Boy_promo_1.png"
   },
   {
     "season": 29,
@@ -6873,7 +6956,9 @@
     "title": "Haw-Haw Land",
     "url": "https://simpsonswiki.com/wiki/Haw-Haw_Land",
     "originalAirDate": "January 7, 2018",
-    "productionCode": "XABF03"
+    "productionCode": "XABF03",
+    "synopsis": "When the Simpsons go to a STEM Conference, Lisa falls for a crooning jazz pianist named Brendan. Meanwhile, Bart discovers that he has an affinity for chemistry",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9b/Haw-Haw_Land_promo_1.png"
   },
   {
     "season": 29,
@@ -6882,7 +6967,9 @@
     "title": "Frink Gets Testy",
     "url": "https://simpsonswiki.com/wiki/Frink_Gets_Testy",
     "originalAirDate": "January 14, 2018",
-    "productionCode": "XABF04"
+    "productionCode": "XABF04",
+    "synopsis": "Fearing that the end of the world is near, Mr. Burns tasks Dr. Frink with testing all of Springfield to determine who is worth saving. The results shake the Simpson family to their core",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5b/Frink_Gets_Testy_promo_1.png"
   },
   {
     "season": 29,
@@ -6891,7 +6978,9 @@
     "title": "Homer Is Where the Art Isn't",
     "url": "https://simpsonswiki.com/wiki/Homer_Is_Where_the_Art_Isn%27t",
     "originalAirDate": "March 18, 2018",
-    "productionCode": "XABF05"
+    "productionCode": "XABF05",
+    "synopsis": "When Homer is accused of stealing a million-dollar painting, only a detective from the 1970s can clear his name, or send him to jail. It's a classic impossible mystery",
+    "imageUrl": "https://static.simpsonswiki.com/images/5/5d/Homer_Is_Where_the_Art_Isn%27t_promo_1.png"
   },
   {
     "season": 29,
@@ -6900,7 +6989,9 @@
     "title": "3 Scenes Plus a Tag from a Marriage",
     "url": "https://simpsonswiki.com/wiki/3_Scenes_Plus_a_Tag_from_a_Marriage",
     "originalAirDate": "March 25, 2018",
-    "productionCode": "XABF06"
+    "productionCode": "XABF06",
+    "synopsis": "Homer and Marge recount the story of their transition from loving their life without kids to being miserable parents",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/23/3_Scenes_Plus_a_Tag_from_a_Marriage_promo_1.png"
   },
   {
     "season": 29,
@@ -6909,7 +7000,9 @@
     "title": "Fears of a Clown",
     "url": "https://simpsonswiki.com/wiki/Fears_of_a_Clown",
     "originalAirDate": "April 1, 2018",
-    "productionCode": "XABF08"
+    "productionCode": "XABF08",
+    "synopsis": "Bart goes to prankster rehab after a clown-mask prank terrifies the town and destroys Krusty's career. A tortured Krusty then tries his hand at serious drama with a regional theater company",
+    "imageUrl": "https://static.simpsonswiki.com/images/9/9d/Fears_of_a_Clown_promo_1.png"
   },
   {
     "season": 29,
@@ -6918,7 +7011,9 @@
     "title": "No Good Read Goes Unpunished",
     "url": "https://simpsonswiki.com/wiki/No_Good_Read_Goes_Unpunished",
     "originalAirDate": "April 8, 2018",
-    "productionCode": "XABF07"
+    "productionCode": "XABF07",
+    "synopsis": "In an attempt to bring the family together, Marge forces everyone to hand in their electronics and take a trip to a book store",
+    "imageUrl": "https://static.simpsonswiki.com/images/b/b6/No_Good_Read_Goes_Unpunished_promo_1.png"
   },
   {
     "season": 29,
@@ -6927,7 +7022,9 @@
     "title": "King Leer",
     "url": "https://simpsonswiki.com/wiki/King_Leer",
     "originalAirDate": "April 15, 2018",
-    "productionCode": "XABF10"
+    "productionCode": "XABF10",
+    "synopsis": "Homer and Marge follow Moe after the bar closes early and discover him and his father fighting. The Simpsons, after finding out that Moe has been excommunicated from his family for years, attempt to bring them back together",
+    "imageUrl": "https://static.simpsonswiki.com/images/1/16/King_Leer.png"
   },
   {
     "season": 29,
@@ -6936,7 +7033,9 @@
     "title": "Lisa Gets the Blues",
     "url": "https://simpsonswiki.com/wiki/Lisa_Gets_the_Blues",
     "originalAirDate": "April 22, 2018",
-    "productionCode": "XABF11"
+    "productionCode": "XABF11",
+    "synopsis": "When the Simpsons' flight to Gainesville gets re-routed to New Orleans, Lisa is forced to face her failures, and regain her confidence as a jazz musician. Meanwhile, Bart is intrigued by the voodoo in Louisiana, and Homer is intrigued by the drinking",
+    "imageUrl": "https://static.simpsonswiki.com/images/3/3c/Lisa_Gets_the_Blues_promo_3.png"
   },
   {
     "season": 29,
@@ -6945,7 +7044,9 @@
     "title": "Forgive and Regret",
     "url": "https://simpsonswiki.com/wiki/Forgive_and_Regret",
     "originalAirDate": "April 29, 2018",
-    "productionCode": "XABF09"
+    "productionCode": "XABF09",
+    "synopsis": "Grampa makes a confession to Homer while on his deathbed. After his recovery, he comes to realize that this issue will not be easy to reconcile",
+    "imageUrl": "https://static.simpsonswiki.com/images/4/4c/Forgive_and_Regret_promo_1.png"
   },
   {
     "season": 29,
@@ -6954,7 +7055,9 @@
     "title": "Left Behind",
     "url": "https://simpsonswiki.com/wiki/Left_Behind",
     "originalAirDate": "May 6, 2018",
-    "productionCode": "XABF12"
+    "productionCode": "XABF12",
+    "synopsis": "Homer gets Flanders a job at the plant, and he soon learns that no good deed goes unpunished when Flanders starts to insist on carpools and demands more from Homer's work performance. Meanwhile, Marge feels as though their marriage has lost its spark",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/ff/Left_Behind_promo_1.png"
   },
   {
     "season": 29,
@@ -6963,7 +7066,9 @@
     "title": "Throw Grampa from the Dane",
     "url": "https://simpsonswiki.com/wiki/Throw_Grampa_from_the_Dane",
     "originalAirDate": "May 13, 2018",
-    "productionCode": "XABF13"
+    "productionCode": "XABF13",
+    "synopsis": "After receiving an insurance payout, the Simpsons go to Denmark, so Grampa can benefit from the country's free healthcare",
+    "imageUrl": "https://static.simpsonswiki.com/images/f/f7/Throw_Grampa_from_the_Dane_promo_1.png"
   },
   {
     "season": 29,
@@ -6972,7 +7077,9 @@
     "title": "Flanders' Ladder",
     "url": "https://simpsonswiki.com/wiki/Flanders%27_Ladder",
     "originalAirDate": "May 20, 2018",
-    "productionCode": "XABF14"
+    "productionCode": "XABF14",
+    "synopsis": "After getting struck by lightning, Bart receives visits from ghosts, who want closure only he can provide",
+    "imageUrl": "https://static.simpsonswiki.com/images/2/2f/Flanders%27_Ladder_promo_1.png"
   },
   {
     "season": 30,
